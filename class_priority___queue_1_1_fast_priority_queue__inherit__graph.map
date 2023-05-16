@@ -1,0 +1,4 @@
+<map id="Priority_Queue.FastPriorityQueue&lt; T &gt;" name="Priority_Queue.FastPriorityQueue&lt; T &gt;">
+<area shape="rect" id="node1" title="An implementation of a min&#45;Priority Queue using a heap. Has O(1) .Contains()! See https://github...." alt="" coords="5,167,191,584"/>
+<area shape="rect" id="node2" href="$interface_priority___queue_1_1_i_fixed_size_priority_queue.html" title=" " alt="" coords="17,5,179,119"/>
+</map>

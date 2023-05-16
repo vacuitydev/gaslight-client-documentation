@@ -1,0 +1,5 @@
+<map id="Priority_Queue.FastPriorityQueue.OnNodeUpdated" name="Priority_Queue.FastPriorityQueue.OnNodeUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="232,39,410,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_fast_priority_queue.html#ac4b7f14c5114cc676537d80168679698" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,5,184,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_fast_priority_queue.html#a5bdd9435bfdfb35dd838aae5e3cec198" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,72,184,115"/>
+</map>

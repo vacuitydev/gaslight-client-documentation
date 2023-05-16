@@ -1,0 +1,4 @@
+<map id="Priority_Queue.SimplePriorityQueue.Enqueue" name="Priority_Queue.SimplePriorityQueue.Enqueue">
+<area shape="rect" id="node1" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="5,5,198,48"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_simple_priority_queue.html#ae66d689775a82902be63f5ef8a21c1be" title="Enqueue the item with the given priority, without calling lock(_queue) or AddToNodeCache(node)" alt="" coords="246,5,455,48"/>
+</map>

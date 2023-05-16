@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Level.isAnyCharacterOnTile" name="Gaslight.Scripts.Level.Level.isAnyCharacterOnTile">
+<area shape="rect" id="node1" title="Check if there is a character on tile index." alt="" coords="5,5,200,48"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6fd0770581790229d8c8a5634f3e8d5c" title="Get the character on a provided tile index." alt="" coords="248,5,432,48"/>
+</map>

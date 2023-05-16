@@ -1,0 +1,12 @@
+<map id="Gaslight.Scripts.Descriptors.LevelDescriptorEditor.OnInspectorGUI" name="Gaslight.Scripts.Descriptors.LevelDescriptorEditor.OnInspectorGUI">
+<area shape="rect" id="node1" title=" " alt="" coords="5,117,245,160"/>
+<area shape="rect" id="node2" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_put_request.html#af481cbd087b8d44bfe9c767bad9260c6" title=" " alt="" coords="588,113,836,172"/>
+<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#ae1e2a4acf50fd6f7ff4491d1ee24fa78" title=" " alt="" coords="313,176,520,235"/>
+<area shape="rect" id="node9" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a01acd0a58e9bf4a15ab739249d1aa223" title=" " alt="" coords="293,39,540,97"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a91c69c73a5e2c4e778eed42d9b8f65f2" title=" " alt="" coords="884,5,1104,64"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3b080a34b221775e07c0917076ad6ccc" title=" " alt="" coords="893,88,1095,131"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3f44d00cdb3e0d97c9dadeacd4f6a536" title=" " alt="" coords="1152,131,1340,173"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ac6bc47b6cbc5c70079bdb9333eea2e96" title=" " alt="" coords="1152,197,1340,240"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html#ab3384273b9efd1e8d1bbe797cd9a2651" title=" " alt="" coords="1152,64,1340,107"/>
+<area shape="rect" id="node10" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_check_request.html#a840c15e5a3ddd1d49d2ba9e7cd6f096e" title=" " alt="" coords="606,31,819,89"/>
+</map>

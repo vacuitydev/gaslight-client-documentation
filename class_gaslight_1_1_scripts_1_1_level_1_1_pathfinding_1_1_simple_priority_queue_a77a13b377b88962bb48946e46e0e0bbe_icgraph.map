@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.GetExistingNode" name="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.GetExistingNode">
+<area shape="rect" id="node1" title="Given an item of type T, returns the existing SimpleNode in the queue." alt="" coords="298,139,540,181"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#ab7a996d98717c20427731ec9baffc1e1" title="Returns the priority of the given item. Calling this method on a item not in the queue will throw an ..." alt="" coords="18,5,237,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#ab7e036d2db1040346f7ba8a49b1ee57e" title=" " alt="" coords="17,72,238,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#aa7ef782d41cd436e7090748e48504dec" title="Attempt to get the priority of the given item. Useful for multi&#45;threading, where the queue may become..." alt="" coords="15,139,240,181"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#ad6b4b6ce7f0de2945a0b49114ab4f078" title="Call this method to change the priority of an item. Useful for multi&#45;threading, where the queue may b..." alt="" coords="5,205,250,248"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a05798ab71b91679829e75c39b2b8c8b2" title="Call this method to change the priority of an item. Calling this method on a item not in the queue wi..." alt="" coords="14,272,241,315"/>
+</map>

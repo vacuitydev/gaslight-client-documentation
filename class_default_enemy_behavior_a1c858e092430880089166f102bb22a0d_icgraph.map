@@ -1,0 +1,5 @@
+<map id="DefaultEnemyBehavior.ChaseThreshold" name="DefaultEnemyBehavior.ChaseThreshold">
+<area shape="rect" id="node1" title=" " alt="" coords="490,5,682,48"/>
+<area shape="rect" id="node2" href="$class_default_enemy_behavior.html#a7c62abc440ae9ce3eed113806a10651f" title="Sets up detection struct for other character detected. Performs Chase start and Detection start inter..." alt="" coords="249,5,442,48"/>
+<area shape="rect" id="node3" href="$class_default_enemy_behavior.html#abae4a112b7e67f8f751fa576e487f6eb" title=" " alt="" coords="5,5,201,48"/>
+</map>

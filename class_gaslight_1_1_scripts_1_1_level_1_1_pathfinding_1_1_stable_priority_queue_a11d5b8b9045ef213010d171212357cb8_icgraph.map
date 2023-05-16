@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue.IsValidQueue" name="Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue.IsValidQueue">
+<area shape="rect" id="node1" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="273,5,492,48"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ab6cbb1aedfe0e2e6b241da9c27181f6a" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,5,225,48"/>
+</map>

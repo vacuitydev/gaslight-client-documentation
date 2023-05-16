@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.OnNodeUpdated" name="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.OnNodeUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,250,107"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#af3e543751af77a2d8ee09e643cb9c9c6" title=" " alt="" coords="298,5,530,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a7e8200ce1a34679e36b645e461072753" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="578,64,828,107"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a1a85d579c454a51404698eb8ab112d7d" title=" " alt="" coords="304,123,524,165"/>
+</map>

@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.Remove" name="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.Remove">
+<area shape="rect" id="node1" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,39,225,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#ad4d2db0b2a316b42173038b00c96a436" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="285,5,505,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a343e8a1cab9863927a499caddec1f2ca" title=" " alt="" coords="273,72,517,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#af3e543751af77a2d8ee09e643cb9c9c6" title=" " alt="" coords="565,13,797,56"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a7e8200ce1a34679e36b645e461072753" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="845,72,1096,115"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a1a85d579c454a51404698eb8ab112d7d" title=" " alt="" coords="572,131,791,173"/>
+</map>

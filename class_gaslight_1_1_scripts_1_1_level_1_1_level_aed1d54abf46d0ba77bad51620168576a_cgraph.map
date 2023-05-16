@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Level.DeselectCharacter" name="Gaslight.Scripts.Level.Level.DeselectCharacter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,190,48"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html#ac8e76d9fa477f871ab5da23ff0d10d28" title="Modifies visual effects to present unselected state." alt="" coords="238,5,416,48"/>
+</map>

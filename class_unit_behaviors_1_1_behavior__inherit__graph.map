@@ -1,0 +1,7 @@
+<map id="UnitBehaviors.Behavior" name="UnitBehaviors.Behavior">
+<area shape="rect" id="node1" title=" " alt="" coords="235,135,437,296"/>
+<area shape="rect" id="node3" href="$class_default_enemy_behavior.html" title="Handles most functionality required by an enemy combatant in a turn based game. Can integrate the fol..." alt="" coords="5,344,211,1177"/>
+<area shape="rect" id="node4" href="$class_passive_behavior.html" title=" " alt="" coords="235,704,437,817"/>
+<area shape="rect" id="node5" href="$class_pathfinding_test_behavior.html" title=" " alt="" coords="461,680,662,841"/>
+<area shape="rect" id="node2" title=" " alt="" coords="281,5,391,87"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="Priority_Queue.GenericPriorityQueue.OnNodeUpdated" name="Priority_Queue.GenericPriorityQueue.OnNodeUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="251,39,448,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_generic_priority_queue.html#a5ab03a019c63c94774203392b6b906f7" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,5,203,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_generic_priority_queue.html#af584bb9cdbdc7e2b1ab02769147a3117" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,72,203,115"/>
+</map>

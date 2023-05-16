@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue.CascadeUp" name="Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue.CascadeUp">
+<area shape="rect" id="node1" title=" " alt="" coords="546,39,765,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a24ffc3b8514f17de2a090eb9ea5c9c67" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken arbitrarily...." alt="" coords="276,5,495,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#ac507498532e2da510c5c650360f4b50a" title=" " alt="" coords="273,72,498,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#af2d2d8702e5f2c068e42a25cba3e2fd3" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,39,225,81"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a9c59cb67dbfd403ee8de872e0d5b2a4f" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,105,225,148"/>
+</map>

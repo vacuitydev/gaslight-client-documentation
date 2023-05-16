@@ -1,0 +1,5 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.EnqueueNoLockOrCache" name="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.EnqueueNoLockOrCache">
+<area shape="rect" id="node1" title="Enqueue the item with the given priority, without calling lock(_queue) or AddToNodeCache(node)" alt="" coords="355,39,645,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a397da0921da3a30ed41b1ab4a0dad2f4" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="46,5,266,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#abacbe1b7fb2d9e855d9417e61435c306" title="Enqueue a node to the priority queue if it doesn&#39;t already exist. Lower values are placed in front...." alt="" coords="5,72,307,115"/>
+</map>

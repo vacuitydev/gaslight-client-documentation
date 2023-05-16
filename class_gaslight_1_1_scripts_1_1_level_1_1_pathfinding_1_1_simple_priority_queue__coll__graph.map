@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;" name="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;">
+<area shape="rect" id="node1" title="A simplified priority queue implementation. Is stable, auto&#45;resizes, and thread&#45;safe,..." alt="" coords="194,695,413,1304"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html" title=" " alt="" coords="5,5,204,631"/>
+<area shape="rect" id="node3" href="$interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html" title=" " alt="" coords="228,221,379,415"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html" title=" " alt="" coords="403,69,689,567"/>
+</map>

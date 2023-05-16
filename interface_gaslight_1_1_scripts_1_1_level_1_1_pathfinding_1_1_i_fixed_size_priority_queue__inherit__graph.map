@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.IFixedSizePriorityQueue&lt; TItem, in TPriority &gt;" name="Gaslight.Scripts.Level.Pathfinding.IFixedSizePriorityQueue&lt; TItem, in TPriority &gt;">
+<area shape="rect" id="node1" title="A helper&#45;interface only needed to make writing unit tests a bit easier (hence the &#39;internal&#39; access m..." alt="" coords="5,247,225,376"/>
+<area shape="rect" id="node2" href="$interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html" title=" " alt="" coords="39,5,191,199"/>
+</map>

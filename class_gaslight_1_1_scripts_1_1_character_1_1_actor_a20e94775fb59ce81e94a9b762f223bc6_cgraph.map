@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Character.Actor.TraversePath" name="Gaslight.Scripts.Character.Actor.TraversePath">
+<area shape="rect" id="node1" title=" " alt="" coords="5,55,184,97"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#abff785b810e83a833d4330d60eecca1a" title="Move along a path." alt="" coords="232,47,493,105"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#a7b07bd140e76597786975935949ef40c" title=" " alt="" coords="541,47,802,105"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#a3ae006da35cac0045193b74d26e688ac" title=" " alt="" coords="866,5,1127,64"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#abee00a09f4cd87d6c933eff1fe8b958b" title=" " alt="" coords="850,88,1143,147"/>
+</map>

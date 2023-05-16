@@ -1,0 +1,5 @@
+<map id="Priority_Queue.SimplePriorityQueue.RemoveFromNodeCache" name="Priority_Queue.SimplePriorityQueue.RemoveFromNodeCache">
+<area shape="rect" id="node1" title="Removes an item to the Node&#45;cache to allow for many methods to be O(1) or O(log n) (assuming no dupli..." alt="" coords="246,39,452,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_simple_priority_queue.html#a57855b116d544ed2049f295d06c3567f" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,5,198,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_simple_priority_queue.html#a1c568133955a627db3801325b1c34108" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,72,198,115"/>
+</map>

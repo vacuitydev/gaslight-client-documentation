@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Level.Level.ResetTileDisplayColor" name="Gaslight.Scripts.Level.Level.ResetTileDisplayColor">
+<area shape="rect" id="node1" title=" " alt="" coords="273,72,457,115"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a15ae3ab3fd35d38299138fedf78d947e" title=" " alt="" coords="25,5,205,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a15d56dcce686e97cb052681009c9b061" title=" " alt="" coords="23,72,207,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#acbe7f60e020fe58c037e5e54980a68d1" title=" " alt="" coords="5,139,225,181"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Priority_Queue.StablePriorityQueue.Contains" name="Priority_Queue.StablePriorityQueue.Contains">
+<area shape="rect" id="node1" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="243,105,432,148"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#aa939f3ec7e371367dd2ed3e08148e9ff" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="5,5,195,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#ad5e8db85c93f4ccf45f11a1d63afa89e" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,72,195,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_stable_priority_queue.html#a22180fd54c0a5c3e985bce21fd6d49b5" title="By default, nodes that have been previously added to one queue cannot be added to another queue...." alt="" coords="5,139,195,181"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_stable_priority_queue.html#a59f3f52a679b865da66f6e505f6b2ff4" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,205,195,248"/>
+</map>

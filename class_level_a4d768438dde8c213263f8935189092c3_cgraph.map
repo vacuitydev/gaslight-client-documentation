@@ -1,0 +1,6 @@
+<map id="Level.InitCharacters" name="Level.InitCharacters">
+<area shape="rect" id="node1" title=" " alt="" coords="5,72,140,99"/>
+<area shape="rect" id="node2" href="$class_behavior_registry.html#acd55b77086ca2afb0cee419625765663" title=" " alt="" coords="194,5,386,48"/>
+<area shape="rect" id="node3" href="$class_unit_behaviors_1_1_behavior.html#a7ba6770db2c2372ff5cbd1a1599ca26b" title=" " alt="" coords="188,72,392,99"/>
+<area shape="rect" id="node4" href="$class_behavior_registry.html#a7fa99a887c1dafea5adb9341e60f4ac5" title=" " alt="" coords="199,123,381,149"/>
+</map>

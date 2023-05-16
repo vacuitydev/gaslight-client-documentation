@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Character.Animation_Managers.AnimatedAttackComponent" name="Gaslight.Scripts.Character.Animation_Managers.AnimatedAttackComponent">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1217,246,1395"/>
+<area shape="rect" id="node2" title=" " alt="" coords="304,5,414,87"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="259,136,459,1097"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="472,1225,673,1387"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="270,1161,448,1451"/>
+</map>

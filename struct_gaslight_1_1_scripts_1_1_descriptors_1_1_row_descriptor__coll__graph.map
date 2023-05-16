@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Descriptors.RowDescriptor" name="Gaslight.Scripts.Descriptors.RowDescriptor">
+<area shape="rect" id="node1" title=" " alt="" coords="111,344,299,441"/>
+<area shape="rect" id="node2" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html" title=" " alt="" coords="111,183,299,280"/>
+<area shape="rect" id="node3" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_descriptor.html" title=" " alt="" coords="5,5,194,119"/>
+<area shape="rect" id="node4" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_decoration_descriptor.html" title=" " alt="" coords="217,5,406,119"/>
+</map>

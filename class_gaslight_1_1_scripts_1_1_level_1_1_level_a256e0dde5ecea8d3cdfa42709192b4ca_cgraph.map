@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Level.Level.SpawnExtras" name="Gaslight.Scripts.Level.Level.SpawnExtras">
+<area shape="rect" id="node1" title=" " alt="" coords="5,72,190,115"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a124c129be5d6e5b7613284f69a42b9dc" title=" " alt="" coords="240,5,424,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a2781aef6ffebfd575647a1c5683b0b68" title=" " alt="" coords="240,72,424,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html#ae6209d32c04d34844d21fb19219e5e8b" title=" " alt="" coords="238,139,426,181"/>
+</map>

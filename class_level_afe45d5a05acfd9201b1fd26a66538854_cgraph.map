@@ -1,0 +1,6 @@
+<map id="Level.SpawnExtras" name="Level.SpawnExtras">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,137,83"/>
+<area shape="rect" id="node2" href="$class_level.html#ab6e1509eb80fc6c7365dc61f7af749d0" title=" " alt="" coords="200,5,336,32"/>
+<area shape="rect" id="node3" href="$class_level.html#a42da98b39c8644b17d3b6230bbfd9f68" title=" " alt="" coords="199,56,337,83"/>
+<area shape="rect" id="node4" href="$class_extra_tile_d_b.html#aabab6170159f17457ddff7cc7f035676" title=" " alt="" coords="185,107,351,133"/>
+</map>

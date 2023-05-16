@@ -1,0 +1,4 @@
+<map id="Priority_Queue.FastPriorityQueue.IsValidQueue" name="Priority_Queue.FastPriorityQueue.IsValidQueue">
+<area shape="rect" id="node1" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="232,5,410,48"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_fast_priority_queue.html#ac1b1d19f0769e01956cdcb1fbd5f08ac" title="Removes the head of the queue and returns it. If queue is empty, result is undefined O(log n)" alt="" coords="5,5,184,48"/>
+</map>

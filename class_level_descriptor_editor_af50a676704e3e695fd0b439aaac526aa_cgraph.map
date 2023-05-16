@@ -1,0 +1,12 @@
+<map id="LevelDescriptorEditor.OnInspectorGUI" name="LevelDescriptorEditor.OnInspectorGUI">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,170,157"/>
+<area shape="rect" id="node2" href="$struct_level_descriptor_editor_1_1_level_put_request.html#ac6afc3a0ace59838a468ecd2ee909c70" title=" " alt="" coords="463,117,674,160"/>
+<area shape="rect" id="node8" href="$class_level_descriptor_editor.html#aacd79abf1fe5ad44b1e966355c97becf" title=" " alt="" coords="228,173,396,216"/>
+<area shape="rect" id="node9" href="$class_level_descriptor_editor.html#a5535174923361943b6e7b6d8055344c7" title=" " alt="" coords="218,55,406,97"/>
+<area shape="rect" id="node3" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#aacf006774a6e01df09d82e3eadab10e4" title=" " alt="" coords="730,5,950,64"/>
+<area shape="rect" id="node4" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a78e2581c076575955f1364c5175e349f" title=" " alt="" coords="737,88,943,131"/>
+<area shape="rect" id="node6" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a7bc9e9689156445249b884241f9a9a36" title=" " alt="" coords="998,131,1203,173"/>
+<area shape="rect" id="node7" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a895a375270f5c9206bb85a25744cd898" title=" " alt="" coords="998,197,1203,240"/>
+<area shape="rect" id="node5" href="$class_base_tile_d_b.html#a9925e32fc89440c53e3ac4623bc29c51" title=" " alt="" coords="1018,80,1183,107"/>
+<area shape="rect" id="node10" href="$struct_level_descriptor_editor_1_1_level_check_request.html#ac076f0ecc53a2ea35deee38524d2d952" title=" " alt="" coords="454,51,682,93"/>
+</map>

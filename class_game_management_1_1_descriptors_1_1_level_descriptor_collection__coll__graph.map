@@ -1,0 +1,9 @@
+<map id="GameManagement.Descriptors.LevelDescriptorCollection" name="GameManagement.Descriptors.LevelDescriptorCollection">
+<area shape="rect" id="node1" title=" " alt="" coords="187,572,393,669"/>
+<area shape="rect" id="node2" title=" " alt="" coords="259,5,377,87"/>
+<area shape="rect" id="node3" href="$class_level_creation_1_1_character_asset_d_b.html" title=" " alt="" coords="32,395,242,508"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_characters_1_1_descriptors_1_1_archetypes.html" title=" " alt="" coords="106,136,317,233"/>
+<area shape="rect" id="node5" href="$class_base_tile_d_b.html" title=" " alt="" coords="221,257,356,371"/>
+<area shape="rect" id="node6" href="$class_deco_tile_d_b.html" title=" " alt="" coords="364,257,499,371"/>
+<area shape="rect" id="node7" href="$class_extra_tile_d_b.html" title=" " alt="" coords="536,395,671,508"/>
+</map>

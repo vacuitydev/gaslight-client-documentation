@@ -1,0 +1,5 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.RemoveFromNodeCache" name="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.RemoveFromNodeCache">
+<area shape="rect" id="node1" title="Removes an item to the Node&#45;cache to allow for many methods to be O(1) or O(log n) (assuming no dupli..." alt="" coords="273,39,560,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a52bfa0a878ec6a4862f1eee652d9a5ef" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,5,225,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a37240c9da208860b4565673b1477455e" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,72,225,115"/>
+</map>

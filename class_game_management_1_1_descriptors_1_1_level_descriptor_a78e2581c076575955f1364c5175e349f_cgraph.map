@@ -1,0 +1,6 @@
+<map id="GameManagement.Descriptors.LevelDescriptor.GetTraversibles" name="GameManagement.Descriptors.LevelDescriptor.GetTraversibles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,56,211,99"/>
+<area shape="rect" id="node2" href="$class_base_tile_d_b.html#a9925e32fc89440c53e3ac4623bc29c51" title=" " alt="" coords="279,5,444,32"/>
+<area shape="rect" id="node3" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a7bc9e9689156445249b884241f9a9a36" title=" " alt="" coords="259,56,464,99"/>
+<area shape="rect" id="node4" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a895a375270f5c9206bb85a25744cd898" title=" " alt="" coords="259,123,464,165"/>
+</map>

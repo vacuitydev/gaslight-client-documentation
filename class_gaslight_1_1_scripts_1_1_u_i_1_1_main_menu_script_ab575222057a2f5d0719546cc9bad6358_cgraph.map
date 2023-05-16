@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.UI.MainMenuScript.Awake" name="Gaslight.Scripts.UI.MainMenuScript.Awake">
+<area shape="rect" id="node1" title=" " alt="" coords="5,72,168,115"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a7bb6a6776dd42fc125f811fd7880b1e6" title=" " alt="" coords="238,5,400,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a4157cd23229d6560234f2448da5a075f" title=" " alt="" coords="238,72,400,115"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a28f5c9e3c92c54d9afdcc0d3c7d2878e" title=" " alt="" coords="216,139,422,181"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a4aa56300101868a29e0e7c63027169cb" title=" " alt="" coords="470,72,640,115"/>
+</map>

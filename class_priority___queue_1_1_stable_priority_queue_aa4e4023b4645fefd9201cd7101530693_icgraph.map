@@ -1,0 +1,7 @@
+<map id="Priority_Queue.StablePriorityQueue.CascadeUp" name="Priority_Queue.StablePriorityQueue.CascadeUp">
+<area shape="rect" id="node1" title=" " alt="" coords="480,39,669,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#aa939f3ec7e371367dd2ed3e08148e9ff" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="243,5,432,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#a324b1331fa3256b6c0ae4da0225ac71e" title=" " alt="" coords="243,72,432,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_stable_priority_queue.html#ad5e8db85c93f4ccf45f11a1d63afa89e" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,39,195,81"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_stable_priority_queue.html#a59f3f52a679b865da66f6e505f6b2ff4" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,105,195,148"/>
+</map>

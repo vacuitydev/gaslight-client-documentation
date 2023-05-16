@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Character.Logic.Behaviors.Behavior" name="Gaslight.Scripts.Character.Logic.Behaviors.Behavior">
+<area shape="rect" id="node1" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="280,135,481,312"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html" title="Handles most functionality required by an enemy combatant in a turn based game. Can integrate the fol..." alt="" coords="5,360,252,1161"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_passive_behavior.html" title=" " alt="" coords="275,696,486,825"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_pathfinding_test_behavior.html" title=" " alt="" coords="510,664,715,857"/>
+<area shape="rect" id="node2" title=" " alt="" coords="326,5,435,87"/>
+</map>

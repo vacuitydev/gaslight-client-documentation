@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue.Enqueue" name="Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue.Enqueue">
+<area shape="rect" id="node1" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="5,39,225,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a7c5cc134149ddb1c6b6ca8ea1c8c33be" title=" " alt="" coords="273,5,492,48"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a9d96fab0a99e95708509ffbe281d6690" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="273,72,492,115"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ae8971be5abfc4d7a444bf100d5504d3a" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="540,5,782,48"/>
+</map>

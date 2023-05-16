@@ -1,0 +1,11 @@
+<map id="GameManagement.PlayerController" name="GameManagement.PlayerController">
+<area shape="rect" id="node1" title=" " alt="" coords="422,1128,650,1561"/>
+<area shape="rect" id="node2" href="$class_select_under_mouse.html" title=" " alt="" coords="5,455,195,792"/>
+<area shape="rect" id="node3" title=" " alt="" coords="84,21,193,103"/>
+<area shape="rect" id="node8" href="$class_camera_controller.html" title=" " alt="" coords="219,183,416,1064"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive_manager.html" title=" " alt="" coords="440,551,632,696"/>
+<area shape="rect" id="node5" title=" " alt="" coords="581,21,699,103"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive_icon_manager.html" title=" " alt="" coords="656,575,832,672"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive_factory.html" title=" " alt="" coords="856,559,1032,688"/>
+<area shape="rect" id="node9" href="$struct_camera_controller_1_1_defaults.html" title=" " alt="" coords="231,5,404,119"/>
+</map>

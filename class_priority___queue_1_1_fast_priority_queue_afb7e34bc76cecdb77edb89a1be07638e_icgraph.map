@@ -1,0 +1,9 @@
+<map id="Priority_Queue.FastPriorityQueue.HasHigherPriority" name="Priority_Queue.FastPriorityQueue.HasHigherPriority">
+<area shape="rect" id="node1" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="684,72,863,115"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_fast_priority_queue.html#ab67b5ebe45e26e8b141efdd589da77f2" title=" " alt="" coords="458,72,636,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_fast_priority_queue.html#a9d5fcd24382b47b936b97af84488aaac" title=" " alt="" coords="232,101,410,144"/>
+<area shape="rect" id="node7" href="$class_priority___queue_1_1_fast_priority_queue.html#ae0ac5139a5b545e75808a4173a8777d6" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="458,5,636,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_fast_priority_queue.html#ac1b1d19f0769e01956cdcb1fbd5f08ac" title="Removes the head of the queue and returns it. If queue is empty, result is undefined O(log n)" alt="" coords="232,20,410,63"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_fast_priority_queue.html#ac4b7f14c5114cc676537d80168679698" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,68,184,111"/>
+<area shape="rect" id="node6" href="$class_priority___queue_1_1_fast_priority_queue.html#a5bdd9435bfdfb35dd838aae5e3cec198" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,135,184,177"/>
+</map>

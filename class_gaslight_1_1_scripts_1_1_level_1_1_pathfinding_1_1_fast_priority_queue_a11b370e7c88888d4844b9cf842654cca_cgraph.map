@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue.IsValidQueue" name="Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue.IsValidQueue">
+<area shape="rect" id="node1" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="5,5,225,48"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a6dd90bfdfc97ed9b59391ebafccd1d92" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="273,5,504,48"/>
+</map>

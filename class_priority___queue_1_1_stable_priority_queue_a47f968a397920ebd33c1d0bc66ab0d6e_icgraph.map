@@ -1,0 +1,11 @@
+<map id="Priority_Queue.StablePriorityQueue.HasHigherPriority" name="Priority_Queue.StablePriorityQueue.HasHigherPriority">
+<area shape="rect" id="node1" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="717,101,907,144"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#a5ea54c98763a0b0d277090d20e7bfa1d" title=" " alt="" coords="480,72,669,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_stable_priority_queue.html#a324b1331fa3256b6c0ae4da0225ac71e" title=" " alt="" coords="243,127,432,169"/>
+<area shape="rect" id="node7" href="$class_priority___queue_1_1_stable_priority_queue.html#aa4e4023b4645fefd9201cd7101530693" title=" " alt="" coords="480,189,669,232"/>
+<area shape="rect" id="node9" href="$class_priority___queue_1_1_stable_priority_queue.html#a7150d71b4634057c7b52c87dd8affcbc" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="480,5,669,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#a037bed26e0345255dec5156ab14c02fd" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="243,33,432,76"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_stable_priority_queue.html#ad5e8db85c93f4ccf45f11a1d63afa89e" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,93,195,136"/>
+<area shape="rect" id="node6" href="$class_priority___queue_1_1_stable_priority_queue.html#a59f3f52a679b865da66f6e505f6b2ff4" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,160,195,203"/>
+<area shape="rect" id="node8" href="$class_priority___queue_1_1_stable_priority_queue.html#aa939f3ec7e371367dd2ed3e08148e9ff" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="243,193,432,236"/>
+</map>

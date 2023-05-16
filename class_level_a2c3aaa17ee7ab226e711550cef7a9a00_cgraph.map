@@ -1,0 +1,30 @@
+<map id="Level.Awake" name="Level.Awake">
+<area shape="rect" id="node1" title=" " alt="" coords="5,325,99,352"/>
+<area shape="rect" id="node2" href="$class_level.html#a9f9331f53de38888b258e4662960d8fb" title=" " alt="" coords="147,325,268,352"/>
+<area shape="rect" id="node3" href="$class_level.html#ab2d82063664e242e0031269e79dcab5a" title=" " alt="" coords="346,5,498,32"/>
+<area shape="rect" id="node4" href="$class_level.html#a19e0be7234ac3f129371aa9b54a9ae98" title=" " alt="" coords="334,56,510,83"/>
+<area shape="rect" id="node5" href="$class_level.html#a567b633c8830d053043dad4ed845213f" title=" " alt="" coords="349,107,495,133"/>
+<area shape="rect" id="node7" href="$class_level.html#ae62d6639d3f389d6440ecbbaebd78f08" title=" " alt="" coords="343,208,502,251"/>
+<area shape="rect" id="node10" href="$class_level.html#ac59a07770d0fdc151a89a45f307a3bfc" title=" " alt="" coords="373,427,472,453"/>
+<area shape="rect" id="node11" href="$class_level.html#ad821cfd58ad73dca78eca610fe4abbc8" title=" " alt="" coords="316,477,528,504"/>
+<area shape="rect" id="node12" href="$class_level.html#a2eb0a0c00d8354f42d826eaef6b22f85" title=" " alt="" coords="333,528,511,555"/>
+<area shape="rect" id="node14" href="$class_level.html#affc51b66bca75d8326192d3be6d562bc" title=" " alt="" coords="363,325,481,352"/>
+<area shape="rect" id="node19" href="$class_level.html#ae455569a799dad8979841519562364c3" title=" " alt="" coords="323,376,522,403"/>
+<area shape="rect" id="node24" href="$class_level.html#a9e18ecb0fa27798d26dcc6da95a750a9" title=" " alt="" coords="352,579,492,605"/>
+<area shape="rect" id="node25" href="$class_level.html#afe45d5a05acfd9201b1fd26a66538854" title=" " alt="" coords="357,157,488,184"/>
+<area shape="rect" id="node27" href="$class_level.html#a007e36e47c60ebda585792a20d1a6227" title=" " alt="" coords="338,275,507,301"/>
+<area shape="rect" id="node28" href="$class_level.html#aefcf2073f0f45745bde0310e556339e7" title=" " alt="" coords="342,629,502,656"/>
+<area shape="rect" id="node6" href="$class_level.html#a42da98b39c8644b17d3b6230bbfd9f68" title=" " alt="" coords="604,68,741,95"/>
+<area shape="rect" id="node8" href="$class_base_tile_d_b.html#a9925e32fc89440c53e3ac4623bc29c51" title=" " alt="" coords="590,220,755,247"/>
+<area shape="rect" id="node9" href="$class_base_tile_d_b.html#a40abf8bd6db80210785d08b373d559a7" title=" " alt="" coords="579,169,766,196"/>
+<area shape="rect" id="node13" href="$class_level_registry.html#a1bbd19eae482aae1494f59c2794ced1d" title=" " alt="" coords="578,692,767,719"/>
+<area shape="rect" id="node15" href="$class_level.html#ab6e1509eb80fc6c7365dc61f7af749d0" title=" " alt="" coords="604,271,741,297"/>
+<area shape="rect" id="node16" href="$class_deco_tile_d_b.html#a05169d3d4076499889482b082636db61" title=" " alt="" coords="590,321,755,348"/>
+<area shape="rect" id="node17" href="$class_level.html#acae04ae15ef052f59a1c13a3b7df6604" title=" " alt="" coords="604,372,741,399"/>
+<area shape="rect" id="node18" href="$class_level.html#a4d8e57cec8e6e6822671c66e90f4bf7b" title=" " alt="" coords="604,423,741,449"/>
+<area shape="rect" id="node20" href="$class_level_creation_1_1_character_asset_d_b.html#a3ac355a0361386e770aebbe963fc5e40" title=" " alt="" coords="576,625,769,668"/>
+<area shape="rect" id="node21" href="$class_character_icon_d_b.html#a146e2a735c7f7e6cff3fe47c5e30455b" title=" " alt="" coords="588,473,757,500"/>
+<area shape="rect" id="node22" href="$class_level.html#a57d570c3bf97c46269d41a93cda7c575" title=" " alt="" coords="601,524,744,551"/>
+<area shape="rect" id="node23" href="$class_level.html#a370cfb4a433efbdb78e821b596f300e8" title=" " alt="" coords="596,575,749,601"/>
+<area shape="rect" id="node26" href="$class_extra_tile_d_b.html#aabab6170159f17457ddff7cc7f035676" title=" " alt="" coords="589,119,756,145"/>
+</map>

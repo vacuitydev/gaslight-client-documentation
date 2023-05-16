@@ -1,0 +1,6 @@
+<map id="Priority_Queue.StablePriorityQueue.OnNodeUpdated" name="Priority_Queue.StablePriorityQueue.OnNodeUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,195,107"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#a5ea54c98763a0b0d277090d20e7bfa1d" title=" " alt="" coords="243,5,432,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#a47f968a397920ebd33c1d0bc66ab0d6e" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="480,64,669,107"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_stable_priority_queue.html#aa4e4023b4645fefd9201cd7101530693" title=" " alt="" coords="243,123,432,165"/>
+</map>

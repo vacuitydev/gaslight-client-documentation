@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Level.Level.SetAndSpawnCharacters" name="Gaslight.Scripts.Level.Level.SetAndSpawnCharacters">
+<area shape="rect" id="node1" title=" " alt="" coords="5,155,190,197"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a124c129be5d6e5b7613284f69a42b9dc" title=" " alt="" coords="265,5,449,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset_d_b.html#a69e60af805b0ea551f762ac9ef969ba6" title=" " alt="" coords="245,72,469,131"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_icon_d_b.html#a9eed275936470cf7a10de4a4b828fdad" title=" " alt="" coords="238,155,476,197"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a37673516beefe3b5b02a553e57c0c82c" title=" " alt="" coords="260,221,454,264"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a4de06ed7b0857d817ffa547d09ebfb61" title=" " alt="" coords="265,288,449,331"/>
+</map>

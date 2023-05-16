@@ -1,0 +1,8 @@
+<map id="Priority_Queue.StablePriorityQueue.Remove" name="Priority_Queue.StablePriorityQueue.Remove">
+<area shape="rect" id="node1" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,39,195,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#af1ffc010f33161f744a79dd7f50a04e2" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="243,5,432,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#a324b1331fa3256b6c0ae4da0225ac71e" title=" " alt="" coords="243,72,432,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_stable_priority_queue.html#a5ea54c98763a0b0d277090d20e7bfa1d" title=" " alt="" coords="480,13,669,56"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_stable_priority_queue.html#a47f968a397920ebd33c1d0bc66ab0d6e" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="717,72,907,115"/>
+<area shape="rect" id="node6" href="$class_priority___queue_1_1_stable_priority_queue.html#aa4e4023b4645fefd9201cd7101530693" title=" " alt="" coords="480,131,669,173"/>
+</map>

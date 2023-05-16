@@ -1,0 +1,4 @@
+<map id="Priority_Queue.SimplePriorityQueue.Dequeue" name="Priority_Queue.SimplePriorityQueue.Dequeue">
+<area shape="rect" id="node1" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,5,198,48"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_simple_priority_queue.html#ad04073895181ce256ec831be9eda44df" title="Removes an item to the Node&#45;cache to allow for many methods to be O(1) or O(log n) (assuming no dupli..." alt="" coords="246,5,452,48"/>
+</map>

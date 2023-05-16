@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior.HandleCharacterTileChange" name="Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior.HandleCharacterTileChange">
+<area shape="rect" id="node1" title="Handle characters changing tile from the invoker&#39;s perspective Caution: Do not make a character chang..." alt="" coords="5,129,256,188"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a0a8861cbb67af727f7e810f371f0b2d2" title="Sets up detection struct for other character detected. Performs Chase start and Detection start inter..." alt="" coords="304,129,554,188"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a1b896a9ad64012ea41eb8c1786c8283b" title=" " alt="" coords="602,5,852,64"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#abf08649a188eee5014aa8f6afac5200b" title="Safely get current turn number." alt="" coords="602,88,852,147"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#af5735440f8d214e506d1cd9b0b590c4f" title=" " alt="" coords="602,171,852,229"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#ada8737412a4154df19df68f71c940336" title=" " alt="" coords="602,253,852,312"/>
+</map>

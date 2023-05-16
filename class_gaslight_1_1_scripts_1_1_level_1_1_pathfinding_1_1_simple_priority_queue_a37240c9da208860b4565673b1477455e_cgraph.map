@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.TryDequeue" name="Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue.TryDequeue">
+<area shape="rect" id="node1" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,5,225,48"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a93d6c4d3d442e24dd56e01b20d8f9455" title="Removes an item to the Node&#45;cache to allow for many methods to be O(1) or O(log n) (assuming no dupli..." alt="" coords="273,5,560,48"/>
+</map>

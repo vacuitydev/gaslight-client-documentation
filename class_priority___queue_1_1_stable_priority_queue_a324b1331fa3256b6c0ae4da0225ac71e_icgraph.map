@@ -1,0 +1,5 @@
+<map id="Priority_Queue.StablePriorityQueue.OnNodeUpdated" name="Priority_Queue.StablePriorityQueue.OnNodeUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="243,39,432,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#ad5e8db85c93f4ccf45f11a1d63afa89e" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,5,195,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#a59f3f52a679b865da66f6e505f6b2ff4" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,72,195,115"/>
+</map>

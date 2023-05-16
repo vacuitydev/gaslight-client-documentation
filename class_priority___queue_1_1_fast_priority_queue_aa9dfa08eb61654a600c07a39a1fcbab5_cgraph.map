@@ -1,0 +1,4 @@
+<map id="Priority_Queue.FastPriorityQueue.CascadeUp" name="Priority_Queue.FastPriorityQueue.CascadeUp">
+<area shape="rect" id="node1" title=" " alt="" coords="5,5,184,48"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_fast_priority_queue.html#a78e46c2648c8a31ed868fe96076639c6" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="232,5,443,48"/>
+</map>

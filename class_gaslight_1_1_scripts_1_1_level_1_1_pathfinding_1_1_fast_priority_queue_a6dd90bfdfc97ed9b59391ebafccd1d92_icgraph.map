@@ -1,0 +1,9 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue.HasHigherPriority" name="Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue.HasHigherPriority">
+<area shape="rect" id="node1" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="813,72,1045,115"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a04bedcf0fa2c1b98a9a90cd3d900d972" title=" " alt="" coords="546,72,765,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#ac507498532e2da510c5c650360f4b50a" title=" " alt="" coords="273,101,498,144"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a11b370e7c88888d4844b9cf842654cca" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="546,5,765,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a45fcaeeec5a1d944d1e1b6a372bb5221" title="Removes the head of the queue and returns it. If queue is empty, result is undefined O(log n)" alt="" coords="276,20,495,63"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#af2d2d8702e5f2c068e42a25cba3e2fd3" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,68,225,111"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a9c59cb67dbfd403ee8de872e0d5b2a4f" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,135,225,177"/>
+</map>

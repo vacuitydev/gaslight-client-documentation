@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.Contains" name="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.Contains">
+<area shape="rect" id="node1" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="285,105,504,148"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#ab9604896e94bcce390dadbce29beade1" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="11,5,231,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a1b62f71bf6a1e996f93be9833f575fcc" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="11,72,231,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a53ba0a462530d00bf24b8c91620853f9" title="By default, nodes that have been previously added to one queue cannot be added to another queue...." alt="" coords="11,139,231,181"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a029085a1202b12b45798f25a48a32bb2" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,205,237,248"/>
+</map>

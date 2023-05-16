@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Character.Logic.ForegoDirective" name="Gaslight.Scripts.Character.Logic.ForegoDirective">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1500,184,1725"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="29,1169,160,1443"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="239,136,438,1097"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="184,1161,362,1451"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="386,1225,587,1387"/>
+<area shape="rect" id="node4" title=" " alt="" coords="412,5,521,87"/>
+</map>

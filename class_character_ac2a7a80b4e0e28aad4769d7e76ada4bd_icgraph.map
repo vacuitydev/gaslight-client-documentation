@@ -1,0 +1,5 @@
+<map id="Character.OnTileSelected" name="Character.OnTileSelected">
+<area shape="rect" id="node1" title=" " alt="" coords="197,31,366,57"/>
+<area shape="rect" id="node2" href="$class_character.html#a4b94b509f20b3916112479cdfdcbcd01" title=" " alt="" coords="17,5,137,32"/>
+<area shape="rect" id="node3" href="$class_character.html#aa163cc2682773e61d0ce21d3701e4a1e" title=" " alt="" coords="5,56,149,83"/>
+</map>

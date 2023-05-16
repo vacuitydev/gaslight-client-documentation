@@ -1,0 +1,4 @@
+<map id="Priority_Queue.SimplePriorityQueue.UpdatePriority" name="Priority_Queue.SimplePriorityQueue.UpdatePriority">
+<area shape="rect" id="node1" title="Call this method to change the priority of an item. Calling this method on a item not in the queue wi..." alt="" coords="5,5,198,48"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_simple_priority_queue.html#ad240a09a3580259cc3a11eb24e463626" title="Given an item of type T, returns the existing SimpleNode in the queue." alt="" coords="246,5,438,48"/>
+</map>

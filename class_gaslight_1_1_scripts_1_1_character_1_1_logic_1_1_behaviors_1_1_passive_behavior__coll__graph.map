@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Character.Logic.Behaviors.PassiveBehavior" name="Gaslight.Scripts.Character.Logic.Behaviors.PassiveBehavior">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1500,216,1629"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="10,1233,211,1379"/>
+<area shape="rect" id="node3" title=" " alt="" coords="269,5,379,87"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="224,136,424,1097"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="437,1225,638,1387"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="235,1161,413,1451"/>
+</map>

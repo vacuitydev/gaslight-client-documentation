@@ -1,0 +1,10 @@
+<map id="Gaslight.Scripts.Character.Actor" name="Gaslight.Scripts.Character.Actor">
+<area shape="rect" id="node1" title=" " alt="" coords="243,2701,429,3071"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="132,1707,332,2652"/>
+<area shape="rect" id="node3" title=" " alt="" coords="431,5,540,87"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="187,136,386,1097"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="255,1321,457,1483"/>
+<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_movement_component.html" title="A movement component deals completely with the overall movement aspect of a character It must play an..." alt="" coords="556,544,703,689"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="54,1257,232,1547"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html" title=" " alt="" coords="481,1161,743,1643"/>
+</map>

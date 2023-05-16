@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.Dequeue" name="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue.Dequeue">
+<area shape="rect" id="node1" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,39,225,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#af3e543751af77a2d8ee09e643cb9c9c6" title=" " alt="" coords="273,5,505,48"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a17e941bf99cc79f86d198aef2b467d69" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="276,72,502,115"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a7e8200ce1a34679e36b645e461072753" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="553,39,803,81"/>
+</map>

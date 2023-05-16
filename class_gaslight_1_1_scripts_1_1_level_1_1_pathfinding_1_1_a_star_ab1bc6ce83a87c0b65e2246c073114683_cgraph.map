@@ -1,0 +1,5 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.AStar.ColorTiles" name="Gaslight.Scripts.Level.Pathfinding.AStar.ColorTiles">
+<area shape="rect" id="node1" title=" " alt="" coords="5,51,225,93"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a564782b0934e6b960d6f47b496b0076d" title=" " alt="" coords="273,5,488,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adddfbe88e67a0a13f5a89431efdccb7f" title=" " alt="" coords="288,96,473,139"/>
+</map>

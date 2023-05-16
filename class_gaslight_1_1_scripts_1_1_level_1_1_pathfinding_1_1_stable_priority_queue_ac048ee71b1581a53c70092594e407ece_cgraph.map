@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue.UpdatePriority" name="Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue.UpdatePriority">
+<area shape="rect" id="node1" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,39,229,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a9d96fab0a99e95708509ffbe281d6690" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="285,5,505,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ab8bf6c54ab5f343544164137d6c46e76" title=" " alt="" coords="277,72,513,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ad99f80d6f81cbbdb11f099ae328f834b" title=" " alt="" coords="561,13,785,56"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ae8971be5abfc4d7a444bf100d5504d3a" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="833,72,1076,115"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a7c5cc134149ddb1c6b6ca8ea1c8c33be" title=" " alt="" coords="564,131,783,173"/>
+</map>

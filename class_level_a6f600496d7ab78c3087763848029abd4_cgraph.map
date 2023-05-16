@@ -1,0 +1,5 @@
+<map id="Level.SelectCharacter" name="Level.SelectCharacter">
+<area shape="rect" id="node1" title=" " alt="" coords="5,31,153,57"/>
+<area shape="rect" id="node2" href="$class_level.html#a14220d0c3189e8f557e54b7d305de696" title=" " alt="" coords="201,5,369,32"/>
+<area shape="rect" id="node3" href="$class_character.html#a91246d2736d21d78f7da4744cbe7bb6f" title=" " alt="" coords="226,56,344,83"/>
+</map>

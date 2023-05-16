@@ -1,0 +1,4 @@
+<map id="Priority_Queue.FastPriorityQueue.ResetNode" name="Priority_Queue.FastPriorityQueue.ResetNode">
+<area shape="rect" id="node1" title="By default, nodes that have been previously added to one queue cannot be added to another queue...." alt="" coords="5,5,184,48"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_fast_priority_queue.html#ac7ed1c55afc22b9f492576675d0651c7" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="232,5,410,48"/>
+</map>

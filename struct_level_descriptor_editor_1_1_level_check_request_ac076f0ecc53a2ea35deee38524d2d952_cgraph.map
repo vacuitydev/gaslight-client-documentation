@@ -1,0 +1,8 @@
+<map id="LevelDescriptorEditor.LevelCheckRequest.FromLevelDescriptor" name="LevelDescriptorEditor.LevelCheckRequest.FromLevelDescriptor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,51,234,93"/>
+<area shape="rect" id="node2" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#aacf006774a6e01df09d82e3eadab10e4" title=" " alt="" coords="282,5,501,64"/>
+<area shape="rect" id="node3" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a78e2581c076575955f1364c5175e349f" title=" " alt="" coords="289,88,494,131"/>
+<area shape="rect" id="node4" href="$class_base_tile_d_b.html#a9925e32fc89440c53e3ac4623bc29c51" title=" " alt="" coords="569,37,734,64"/>
+<area shape="rect" id="node5" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a7bc9e9689156445249b884241f9a9a36" title=" " alt="" coords="549,88,754,131"/>
+<area shape="rect" id="node6" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html#a895a375270f5c9206bb85a25744cd898" title=" " alt="" coords="549,155,754,197"/>
+</map>

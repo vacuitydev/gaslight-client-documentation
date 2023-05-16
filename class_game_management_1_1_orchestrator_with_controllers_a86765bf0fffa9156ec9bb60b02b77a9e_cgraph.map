@@ -1,0 +1,10 @@
+<map id="GameManagement.OrchestratorWithControllers.EnemyTurn" name="GameManagement.OrchestratorWithControllers.EnemyTurn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,123,213,165"/>
+<area shape="rect" id="node2" href="$class_game_management_1_1_enemy_controller.html#af69d431861666f5a7328cb410656242e" title=" " alt="" coords="261,56,496,99"/>
+<area shape="rect" id="node7" href="$class_game_management_1_1_orchestrator_with_controllers.html#aa9adaa28c708e03e6e96af609c18d05d" title=" " alt="" coords="269,123,488,165"/>
+<area shape="rect" id="node8" href="$class_game_management_1_1_orchestrator_with_controllers.html#ac03d15ff81bc1a40ec58c850c9f596c1" title=" " alt="" coords="266,189,491,232"/>
+<area shape="rect" id="node3" href="$class_game_management_1_1_enemy_controller.html#a130a37df5c60b2808846bca0a95fe478" title=" " alt="" coords="544,27,779,69"/>
+<area shape="rect" id="node6" href="$class_level.html#ab50bcd102f859dd64b21bb1093546885" title=" " alt="" coords="565,93,759,120"/>
+<area shape="rect" id="node4" href="$class_camera_controller.html#a4f436c41308789ae5cbbbc01b461b277" title=" " alt="" coords="827,5,1028,32"/>
+<area shape="rect" id="node5" href="$class_camera_controller.html#ac42534fb58998aa2ed05c860e03fb382" title=" " alt="" coords="837,56,1018,99"/>
+</map>

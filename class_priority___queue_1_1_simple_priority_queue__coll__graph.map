@@ -1,0 +1,6 @@
+<map id="Priority_Queue.SimplePriorityQueue&lt; TItem &gt;" name="Priority_Queue.SimplePriorityQueue&lt; TItem &gt;">
+<area shape="rect" id="node1" title="A simplified priority queue implementation. Is stable, auto&#45;resizes, and thread&#45;safe,..." alt="" coords="204,695,402,1304"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_simple_priority_queue.html" title=" " alt="" coords="5,5,204,631"/>
+<area shape="rect" id="node3" href="$interface_priority___queue_1_1_i_priority_queue.html" title=" " alt="" coords="228,221,379,415"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_generic_priority_queue.html" title=" " alt="" coords="403,77,646,559"/>
+</map>

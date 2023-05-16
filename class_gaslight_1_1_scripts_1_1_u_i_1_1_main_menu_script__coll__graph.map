@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.UI.MainMenuScript" name="Gaslight.Scripts.UI.MainMenuScript">
+<area shape="rect" id="node1" title=" " alt="" coords="5,328,233,713"/>
+<area shape="rect" id="node2" title=" " alt="" coords="43,175,152,256"/>
+<area shape="rect" id="node3" href="$struct_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_1_1_levels_schema.html" title=" " alt="" coords="177,167,352,264"/>
+<area shape="rect" id="node4" href="$struct_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_1_1_levels_prev.html" title=" " alt="" coords="183,5,346,103"/>
+</map>

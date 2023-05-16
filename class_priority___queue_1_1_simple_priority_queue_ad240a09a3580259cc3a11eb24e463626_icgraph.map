@@ -1,0 +1,8 @@
+<map id="Priority_Queue.SimplePriorityQueue.GetExistingNode" name="Priority_Queue.SimplePriorityQueue.GetExistingNode">
+<area shape="rect" id="node1" title="Given an item of type T, returns the existing SimpleNode in the queue." alt="" coords="246,139,438,181"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_simple_priority_queue.html#a355330548a73909a2105b7e47032ed46" title="Returns the priority of the given item. Calling this method on a item not in the queue will throw an ..." alt="" coords="5,5,198,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_simple_priority_queue.html#a1e4b563f91a87bf0e909ea859f4dd703" title=" " alt="" coords="5,72,198,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_simple_priority_queue.html#a3ac9ea2d2dd6a6e9c74d71e5ef248285" title="Attempt to get the priority of the given item. Useful for multi&#45;threading, where the queue may become..." alt="" coords="5,139,198,181"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_simple_priority_queue.html#ac2b2c0dff5bf69e3a19da0a34beb7b5d" title="Call this method to change the priority of an item. Useful for multi&#45;threading, where the queue may b..." alt="" coords="5,205,198,248"/>
+<area shape="rect" id="node6" href="$class_priority___queue_1_1_simple_priority_queue.html#a325c3e2a58be06024a5ffbae9d390e89" title="Call this method to change the priority of an item. Calling this method on a item not in the queue wi..." alt="" coords="5,272,198,315"/>
+</map>

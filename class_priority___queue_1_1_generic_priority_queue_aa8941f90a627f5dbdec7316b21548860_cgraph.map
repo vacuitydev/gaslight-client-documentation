@@ -1,0 +1,6 @@
+<map id="Priority_Queue.GenericPriorityQueue.Enqueue" name="Priority_Queue.GenericPriorityQueue.Enqueue">
+<area shape="rect" id="node1" title="Enqueue a node to the priority queue. Lower values are placed in front. Ties are broken by first&#45;in&#45;f..." alt="" coords="5,39,203,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_generic_priority_queue.html#abe77a129f96081e9890b269f6ad3811a" title=" " alt="" coords="251,5,448,48"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_generic_priority_queue.html#ae291df07831389fc1b6684866e826305" title="Returns (in O(1)!) whether the given node is in the queue. If node is or has been previously added to..." alt="" coords="251,72,448,115"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_generic_priority_queue.html#af4744c186756b2e5ec51bd5ad447a3f5" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="496,5,693,48"/>
+</map>

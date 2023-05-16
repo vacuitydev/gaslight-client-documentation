@@ -1,0 +1,10 @@
+<map id="Level.ChangeTileBase" name="Level.ChangeTileBase">
+<area shape="rect" id="node1" title=" " alt="" coords="5,81,154,108"/>
+<area shape="rect" id="node2" href="$class_tile_display.html#a030500f77103104416ea64fa0b495166" title=" " alt="" coords="202,56,377,83"/>
+<area shape="rect" id="node3" href="$class_level.html#affc51b66bca75d8326192d3be6d562bc" title=" " alt="" coords="230,107,349,133"/>
+<area shape="rect" id="node4" href="$class_level.html#ab6e1509eb80fc6c7365dc61f7af749d0" title=" " alt="" coords="440,5,576,32"/>
+<area shape="rect" id="node5" href="$class_base_tile_d_b.html#a9925e32fc89440c53e3ac4623bc29c51" title=" " alt="" coords="425,56,590,83"/>
+<area shape="rect" id="node6" href="$class_deco_tile_d_b.html#a05169d3d4076499889482b082636db61" title=" " alt="" coords="425,107,590,133"/>
+<area shape="rect" id="node7" href="$class_level.html#acae04ae15ef052f59a1c13a3b7df6604" title=" " alt="" coords="440,157,576,184"/>
+<area shape="rect" id="node8" href="$class_level.html#a4d8e57cec8e6e6822671c66e90f4bf7b" title=" " alt="" coords="440,208,576,235"/>
+</map>

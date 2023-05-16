@@ -1,0 +1,7 @@
+<map id="Priority_Queue.GenericPriorityQueue.CascadeDown" name="Priority_Queue.GenericPriorityQueue.CascadeDown">
+<area shape="rect" id="node1" title=" " alt="" coords="496,39,693,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_generic_priority_queue.html#ae324611c90b666f5a5c31a90fd472aee" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="251,5,448,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_generic_priority_queue.html#aa2d386e01e35201b4803080e05c12118" title=" " alt="" coords="251,72,448,115"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_generic_priority_queue.html#a5ab03a019c63c94774203392b6b906f7" title="Removes a node from the queue. The node does not need to be the head of the queue...." alt="" coords="5,39,203,81"/>
+<area shape="rect" id="node5" href="$class_priority___queue_1_1_generic_priority_queue.html#af584bb9cdbdc7e2b1ab02769147a3117" title="This method must be called on a node every time its priority changes while it is in the queue...." alt="" coords="5,105,203,148"/>
+</map>

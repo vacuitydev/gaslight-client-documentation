@@ -1,0 +1,6 @@
+<map id="Priority_Queue.StablePriorityQueue.Dequeue" name="Priority_Queue.StablePriorityQueue.Dequeue">
+<area shape="rect" id="node1" title="Removes the head of the queue (node with minimum priority; ties are broken by order of insertion),..." alt="" coords="5,39,195,81"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_stable_priority_queue.html#a5ea54c98763a0b0d277090d20e7bfa1d" title=" " alt="" coords="243,5,432,48"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_stable_priority_queue.html#a7150d71b4634057c7b52c87dd8affcbc" title="Should not be called in production code. Checks to make sure the queue is still in a valid state...." alt="" coords="243,72,432,115"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_stable_priority_queue.html#a47f968a397920ebd33c1d0bc66ab0d6e" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="480,39,669,81"/>
+</map>

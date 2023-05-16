@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Character.Descriptors.ArchetypeDescriptor" name="Gaslight.Scripts.Character.Descriptors.ArchetypeDescriptor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,1265,215,1379"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="293,136,492,1097"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="238,1177,417,1467"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="440,1241,641,1403"/>
+<area shape="rect" id="node3" title=" " alt="" coords="466,5,575,87"/>
+</map>

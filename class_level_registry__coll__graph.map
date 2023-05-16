@@ -1,0 +1,10 @@
+<map id="LevelRegistry" name="LevelRegistry">
+<area shape="rect" id="node1" title=" " alt="" coords="5,733,152,943"/>
+<area shape="rect" id="node2" title=" " alt="" coords="243,5,360,87"/>
+<area shape="rect" id="node3" href="$class_game_management_1_1_descriptors_1_1_level_descriptor_collection.html" title=" " alt="" coords="227,572,432,669"/>
+<area shape="rect" id="node4" href="$class_level_creation_1_1_character_asset_d_b.html" title=" " alt="" coords="145,395,356,508"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_characters_1_1_descriptors_1_1_archetypes.html" title=" " alt="" coords="196,136,406,233"/>
+<area shape="rect" id="node6" href="$class_base_tile_d_b.html" title=" " alt="" coords="335,257,470,371"/>
+<area shape="rect" id="node7" href="$class_deco_tile_d_b.html" title=" " alt="" coords="478,257,613,371"/>
+<area shape="rect" id="node8" href="$class_extra_tile_d_b.html" title=" " alt="" coords="650,395,785,508"/>
+</map>

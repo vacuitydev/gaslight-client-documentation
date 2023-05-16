@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Descriptors.LevelDescriptor.GetInsightEnabledCharacters" name="Gaslight.Scripts.Descriptors.LevelDescriptor.GetInsightEnabledCharacters">
+<area shape="rect" id="node1" title=" " alt="" coords="850,47,1070,105"/>
+<area shape="rect" id="node2" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_check_request.html#a840c15e5a3ddd1d49d2ba9e7cd6f096e" title=" " alt="" coords="589,9,802,68"/>
+<area shape="rect" id="node5" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_put_request.html#af481cbd087b8d44bfe9c767bad9260c6" title=" " alt="" coords="293,88,541,147"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a01acd0a58e9bf4a15ab739249d1aa223" title=" " alt="" coords="293,5,541,64"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a64ba8c2c12ec55f41b27aa9e801c9cbc" title=" " alt="" coords="5,55,245,97"/>
+</map>

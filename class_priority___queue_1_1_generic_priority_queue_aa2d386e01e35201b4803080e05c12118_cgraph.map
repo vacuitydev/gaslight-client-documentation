@@ -1,0 +1,6 @@
+<map id="Priority_Queue.GenericPriorityQueue.OnNodeUpdated" name="Priority_Queue.GenericPriorityQueue.OnNodeUpdated">
+<area shape="rect" id="node1" title=" " alt="" coords="5,64,203,107"/>
+<area shape="rect" id="node2" href="$class_priority___queue_1_1_generic_priority_queue.html#ab27479a675d18367fbc65b5e20aada10" title=" " alt="" coords="251,5,448,48"/>
+<area shape="rect" id="node3" href="$class_priority___queue_1_1_generic_priority_queue.html#af4744c186756b2e5ec51bd5ad447a3f5" title="Returns true if &#39;higher&#39; has higher priority than &#39;lower&#39;, false otherwise. Note that calling HasHigh..." alt="" coords="496,64,693,107"/>
+<area shape="rect" id="node4" href="$class_priority___queue_1_1_generic_priority_queue.html#abe77a129f96081e9890b269f6ad3811a" title=" " alt="" coords="251,123,448,165"/>
+</map>

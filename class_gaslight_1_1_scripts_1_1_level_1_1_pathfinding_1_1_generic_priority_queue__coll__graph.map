@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;" name="Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;">
+<area shape="rect" id="node1" title="A copy of StablePriorityQueue which also has generic priority&#45;type." alt="" coords="5,167,225,648"/>
+<area shape="rect" id="node2" href="$interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_fixed_size_priority_queue.html" title=" " alt="" coords="34,5,196,119"/>
+</map>

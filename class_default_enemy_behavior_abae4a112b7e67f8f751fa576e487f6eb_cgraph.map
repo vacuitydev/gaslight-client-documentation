@@ -1,0 +1,10 @@
+<map id="DefaultEnemyBehavior.HandleCharacterTileChange" name="DefaultEnemyBehavior.HandleCharacterTileChange">
+<area shape="rect" id="node1" title=" " alt="" coords="5,172,201,215"/>
+<area shape="rect" id="node2" href="$class_default_enemy_behavior.html#a7c62abc440ae9ce3eed113806a10651f" title="Sets up detection struct for other character detected. Performs Chase start and Detection start inter..." alt="" coords="249,172,442,215"/>
+<area shape="rect" id="node3" href="$class_default_enemy_behavior.html#a1c858e092430880089166f102bb22a0d" title=" " alt="" coords="502,5,694,48"/>
+<area shape="rect" id="node4" href="$class_default_enemy_behavior.html#add42d033e41689276908ac78edf8d41a" title="Safely get current turn number." alt="" coords="501,72,695,115"/>
+<area shape="rect" id="node5" href="$class_default_enemy_behavior.html#a99b70228ad3e1f1cfe5ed0d61b77a808" title=" " alt="" coords="501,139,696,181"/>
+<area shape="rect" id="node6" href="$class_default_enemy_behavior.html#abfd33d50773c0ac780efa0826ad6774a" title=" " alt="" coords="501,205,696,248"/>
+<area shape="rect" id="node7" href="$class_default_enemy_behavior.html#a4b834716e5dcbe7a8cf8b163030ea880" title=" " alt="" coords="490,272,706,315"/>
+<area shape="rect" id="node8" href="$class_level.html#a6b8c9ec03a7fe982842ba4ae8166edce" title=" " alt="" coords="515,339,681,365"/>
+</map>

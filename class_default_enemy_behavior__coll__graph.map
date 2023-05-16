@@ -1,0 +1,44 @@
+<map id="DefaultEnemyBehavior" name="DefaultEnemyBehavior">
+<area shape="rect" id="node1" title="Handles most functionality required by an enemy combatant in a turn based game. Can integrate the fol..." alt="" coords="1209,2144,1415,2945"/>
+<area shape="rect" id="node2" href="$class_unit_behaviors_1_1_behavior.html" title=" " alt="" coords="1431,1613,1633,1759"/>
+<area shape="rect" id="node3" title=" " alt="" coords="2192,152,2301,233"/>
+<area shape="rect" id="node4" href="$class_character.html" title=" " alt="" coords="1807,395,1993,1324"/>
+<area shape="rect" id="node5" href="$class_level.html" title=" " alt="" coords="1737,3009,1954,5123"/>
+<area shape="rect" id="node6" href="$class_game_management_1_1_orchestrator_with_controllers.html" title=" " alt="" coords="2623,2312,2831,2777"/>
+<area shape="rect" id="node7" href="$class_camera_controller.html" title=" " alt="" coords="2931,419,3128,1300"/>
+<area shape="rect" id="node9" href="$class_select_under_mouse.html" title=" " alt="" coords="2501,691,2691,1028"/>
+<area shape="rect" id="node16" href="$class_tile_display.html" title=" " alt="" coords="2117,1927,2267,2120"/>
+<area shape="rect" id="node40" href="$class_unit_behaviors_1_1_behavior.html" title=" " alt="" coords="1855,1613,2057,1759"/>
+<area shape="rect" id="node42" href="$class_characters_1_1_movement_component.html" title=" " alt="" coords="1090,811,1236,908"/>
+<area shape="rect" id="node32" href="$struct_character_level_descriptor.html" title=" " alt="" coords="1826,5187,2004,5412"/>
+<area shape="rect" id="node39" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive.html" title=" " alt="" coords="1656,1541,1832,1831"/>
+<area shape="rect" id="node41" href="$class_animated_movement_component.html" title=" " alt="" coords="1062,1477,1263,1895"/>
+<area shape="rect" id="node10" href="$class_game_management_1_1_player_controller.html" title=" " alt="" coords="3100,1469,3327,1903"/>
+<area shape="rect" id="node15" href="$class_game_management_1_1_enemy_controller.html" title=" " alt="" coords="2844,1621,3076,1751"/>
+<area shape="rect" id="node8" href="$struct_camera_controller_1_1_defaults.html" title=" " alt="" coords="2943,136,3116,249"/>
+<area shape="rect" id="node11" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive_manager.html" title=" " alt="" coords="2715,787,2907,932"/>
+<area shape="rect" id="node12" title=" " alt="" coords="669,5,787,87"/>
+<area shape="rect" id="node13" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive_icon_manager.html" title=" " alt="" coords="3352,811,3528,908"/>
+<area shape="rect" id="node17" href="$class_level_registry.html" title=" " alt="" coords="532,2440,679,2649"/>
+<area shape="rect" id="node18" href="$class_game_management_1_1_descriptors_1_1_level_descriptor_collection.html" title=" " alt="" coords="244,1637,449,1735"/>
+<area shape="rect" id="node19" href="$class_level_creation_1_1_character_asset_d_b.html" title=" " alt="" coords="50,803,260,916"/>
+<area shape="rect" id="node20" href="$class_gaslight_1_1_characters_1_1_descriptors_1_1_archetypes.html" title=" " alt="" coords="94,144,304,241"/>
+<area shape="rect" id="node21" href="$class_base_tile_d_b.html" title=" " alt="" coords="500,803,636,916"/>
+<area shape="rect" id="node22" href="$class_deco_tile_d_b.html" title=" " alt="" coords="660,803,796,916"/>
+<area shape="rect" id="node23" href="$class_extra_tile_d_b.html" title=" " alt="" coords="340,803,476,916"/>
+<area shape="rect" id="node24" href="$class_game_management_1_1_descriptors_1_1_level_descriptor.html" title=" " alt="" coords="1524,5799,1735,6072"/>
+<area shape="rect" id="node25" href="$class_layout_descriptor.html" title=" " alt="" coords="1850,5637,1969,5719"/>
+<area shape="rect" id="node35" href="$class_behavior_registry.html" title=" " alt="" coords="810,1348,958,1445"/>
+<area shape="rect" id="node36" href="$class_character_icon_d_b.html" title=" " alt="" coords="911,273,1031,371"/>
+<area shape="rect" id="node14" href="$class_gaslight_1_1_characters_1_1_logic_1_1_directive_factory.html" title=" " alt="" coords="3152,795,3328,924"/>
+<area shape="rect" id="node26" href="$struct_level_layout.html" title=" " alt="" coords="1978,5476,2067,5557"/>
+<area shape="rect" id="node27" href="$struct_row_descriptor.html" title=" " alt="" coords="2027,5259,2133,5340"/>
+<area shape="rect" id="node28" href="$struct_tile_descriptor.html" title=" " alt="" coords="2877,4025,2977,4107"/>
+<area shape="rect" id="node29" href="$struct_base_tile_descriptor.html" title=" " alt="" coords="3022,2496,3152,2593"/>
+<area shape="rect" id="node30" href="$struct_decoration_descriptor.html" title=" " alt="" coords="2856,2496,2998,2593"/>
+<area shape="rect" id="node31" href="$struct_extra_descriptor.html" title=" " alt="" coords="2156,5251,2268,5348"/>
+<area shape="rect" id="node33" href="$struct_behavior_target.html" title=" " alt="" coords="1607,4017,1713,4115"/>
+<area shape="rect" id="node34" href="$class_level_sync_status.html" title=" " alt="" coords="1993,5621,2162,5735"/>
+<area shape="rect" id="node37" href="$class_a_star.html" title=" " alt="" coords="2182,2368,2325,2721"/>
+<area shape="rect" id="node38" title=" " alt="" coords="2284,1645,2391,1727"/>
+</map>
