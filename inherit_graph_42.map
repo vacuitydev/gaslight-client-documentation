@@ -1,6 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html" title=" " alt="" coords="10,17,229,60"/>
-<area shape="rect" id="node2" href="$interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_fixed_size_priority_queue.html" title="A helper&#45;interface only needed to make writing unit tests a bit easier (hence the &#39;internal&#39; access m..." alt="" coords="282,5,501,64"/>
-<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html" title="A simplified priority queue implementation. Is stable, auto&#45;resizes, and thread&#45;safe,..." alt="" coords="282,88,501,131"/>
-<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html" title=" " alt="" coords="5,88,234,131"/>
+<area shape="rect" id="node1" href="$interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_fixed_size_priority_queue.html" title=" " alt="" coords="5,39,230,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html" title="An implementation of a min&#45;Priority Queue using a heap. Has O(1) .Contains()! See https://github...." alt="" coords="278,5,497,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html" title="A copy of FastPriorityQueue which is also stable &#45; that is, when two nodes are enqueued with the same..." alt="" coords="278,72,497,115"/>
 </map>

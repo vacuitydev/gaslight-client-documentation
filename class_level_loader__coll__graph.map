@@ -1,0 +1,13 @@
+<map id="LevelLoader" name="LevelLoader">
+<area shape="rect" id="node1" title=" " alt="" coords="162,1055,305,1280"/>
+<area shape="rect" id="node2" title=" " alt="" coords="5,837,115,919"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html" title=" " alt="" coords="139,765,328,991"/>
+<area shape="rect" id="node4" title=" " alt="" coords="360,5,477,87"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_collection.html" title=" " alt="" coords="342,604,530,701"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset_d_b.html" title=" " alt="" coords="263,411,462,540"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_archetypes.html" title=" " alt="" coords="314,136,523,233"/>
+<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html" title=" " alt="" coords="425,257,613,387"/>
+<area shape="rect" id="node9" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_d_b.html" title=" " alt="" coords="619,257,808,387"/>
+<area shape="rect" id="node10" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html" title=" " alt="" coords="757,411,945,540"/>
+<area shape="rect" id="node11" title=" " alt="" coords="352,837,443,919"/>
+</map>

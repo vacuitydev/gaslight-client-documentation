@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Descriptors</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html">LayoutDescriptorInspector</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -95,22 +111,20 @@ Collaboration diagram for Gaslight.Scripts.Descriptors.LayoutDescriptorInspector
 <div class="dyncontent">
 <div class="center"><img src="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector__coll__graph.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_layout_descriptor_inspector_coll__map" alt="Collaboration graph"/></div>
 <map name="a_gaslight_8_scripts_8_descriptors_8_layout_descriptor_inspector_coll__map" id="a_gaslight_8_scripts_8_descriptors_8_layout_descriptor_inspector_coll__map">
-<area shape="rect" title=" " alt="" coords="76,1900,264,2013"/>
-<area shape="rect" title=" " alt="" coords="121,1747,177,1828"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor.html" title=" " alt="" coords="200,1739,388,1836"/>
-<area shape="rect" title=" " alt="" coords="181,1585,298,1667"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html" title=" " alt="" coords="323,1577,511,1675"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_row_descriptor.html" title=" " alt="" coords="111,1320,299,1417"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html" title=" " alt="" coords="111,615,299,712"/>
+<area shape="rect" title=" " alt="" coords="76,1020,264,1133"/>
+<area shape="rect" title=" " alt="" coords="121,867,177,948"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor.html" title=" " alt="" coords="200,859,388,956"/>
+<area shape="rect" title=" " alt="" coords="181,697,298,779"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html" title=" " alt="" coords="323,681,511,795"/>
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_row_descriptor.html" title=" " alt="" coords="111,448,299,545"/>
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html" title=" " alt="" coords="111,191,299,288"/>
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_descriptor.html" title=" " alt="" coords="5,5,194,119"/>
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_decoration_descriptor.html" title=" " alt="" coords="217,5,406,119"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_descriptor.html" title=" " alt="" coords="323,1312,511,1425"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html" title=" " alt="" coords="535,1240,723,1497"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html" title=" " alt="" coords="495,607,683,720"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="905,183,1105,1144"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="810,1224,989,1513"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="1036,1288,1238,1449"/>
-<area shape="rect" title=" " alt="" coords="1100,21,1209,103"/>
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_descriptor.html" title=" " alt="" coords="323,440,511,553"/>
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html" title=" " alt="" coords="535,376,723,617"/>
+<area shape="rect" title=" " alt="" coords="460,199,510,280"/>
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html" title=" " alt="" coords="535,183,723,296"/>
+<area shape="rect" title=" " alt="" coords="747,199,831,280"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -130,7 +144,7 @@ Public Attributes</h2></td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
-<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00112">112</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00119">119</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
 <a id="a9bf239b1975990543f375ccdccc4479d" name="a9bf239b1975990543f375ccdccc4479d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9bf239b1975990543f375ccdccc4479d">&#9670;&#160;</a></span>OnEnable()</h2>
@@ -147,10 +161,10 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00118">118</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  119</span>        {</div>
-<div class="line"><span class="lineno">  120</span>            this.layoutDescriptor = (LayoutDescriptor)target;</div>
-<div class="line"><span class="lineno">  121</span>        }</div>
+<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00125">125</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  126</span>        {</div>
+<div class="line"><span class="lineno">  127</span>            this.layoutDescriptor = (LayoutDescriptor)target;</div>
+<div class="line"><span class="lineno">  128</span>        }</div>
 </div><!-- fragment -->
 </div>
 </div>
@@ -169,37 +183,52 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00123">123</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
-<div class="fragment"><div class="line"><span class="lineno">  124</span>        {</div>
-<div class="line"><span class="lineno">  125</span>            serializedObject.Update();</div>
-<div class="line"><span class="lineno">  126</span>            DrawDefaultInspector();</div>
-<div class="line"><span class="lineno">  127</span>            EditorGUILayout.BeginHorizontal();</div>
-<div class="line"><span class="lineno">  128</span>            <span class="keywordflow">if</span> (GUILayout.Button(<span class="stringliteral">&quot;To JSON&quot;</span>))</div>
-<div class="line"><span class="lineno">  129</span>            {</div>
-<div class="line"><span class="lineno">  130</span>                this.levelString = JsonUtility.ToJson(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#acfdf4e11f796b18482949b3e8c252f50">layoutDescriptor</a>);</div>
-<div class="line"><span class="lineno">  131</span>            }</div>
-<div class="line"><span class="lineno">  132</span>            <span class="keywordflow">if</span> (GUILayout.Button(<span class="stringliteral">&quot;From JSON&quot;</span>))</div>
-<div class="line"><span class="lineno">  133</span>            {</div>
-<div class="line"><span class="lineno">  134</span>                <span class="keywordflow">try</span></div>
-<div class="line"><span class="lineno">  135</span>                {</div>
-<div class="line"><span class="lineno">  136</span>                    LevelLayout temp = JsonUtility.FromJson&lt;LevelLayout&gt;(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">levelString</a>);</div>
-<div class="line"><span class="lineno">  137</span>                    layoutDescriptor.levelLayout = temp;</div>
-<div class="line"><span class="lineno">  138</span>                }</div>
-<div class="line"><span class="lineno">  139</span>                <span class="keywordflow">catch</span> (Exception e)</div>
-<div class="line"><span class="lineno">  140</span>                {</div>
-<div class="line"><span class="lineno">  141</span>                    <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Log(<span class="stringliteral">&quot;Exception occurred while reading from string &quot;</span>+ e);    </div>
-<div class="line"><span class="lineno">  142</span>                }</div>
-<div class="line"><span class="lineno">  143</span>            </div>
-<div class="line"><span class="lineno">  144</span>            }</div>
-<div class="line"><span class="lineno">  145</span>            EditorGUILayout.EndHorizontal();</div>
-<div class="line"><span class="lineno">  146</span>            EditorGUILayout.LabelField(<span class="stringliteral">&quot;JSON:&quot;</span>);</div>
-<div class="line"><span class="lineno">  147</span>            <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">levelString</a> = EditorGUILayout.TextArea(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">levelString</a>);</div>
-<div class="line"><span class="lineno">  148</span>            serializedObject.ApplyModifiedProperties();</div>
-<div class="line"><span class="lineno">  149</span>        }</div>
-<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00006">Directive.cs:6</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_html_a9863e7b0e4f2ae90859170c4c7c4e658"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">Gaslight.Scripts.Descriptors.LayoutDescriptorInspector.levelString</a></div><div class="ttdeci">string levelString</div><div class="ttdef"><b>Definition:</b> <a href="_layout_descriptor_8cs_source.html#l00114">LayoutDescriptor.cs:114</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_html_acfdf4e11f796b18482949b3e8c252f50"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#acfdf4e11f796b18482949b3e8c252f50">Gaslight.Scripts.Descriptors.LayoutDescriptorInspector.layoutDescriptor</a></div><div class="ttdeci">LayoutDescriptor layoutDescriptor</div><div class="ttdef"><b>Definition:</b> <a href="_layout_descriptor_8cs_source.html#l00116">LayoutDescriptor.cs:116</a></div></div>
-</div><!-- fragment -->
+<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00130">130</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
+<div class="fragment"><div class="line"><span class="lineno">  131</span>        {</div>
+<div class="line"><span class="lineno">  132</span>            serializedObject.Update();</div>
+<div class="line"><span class="lineno">  133</span>            DrawDefaultInspector();</div>
+<div class="line"><span class="lineno">  134</span>            EditorGUILayout.BeginHorizontal();</div>
+<div class="line"><span class="lineno">  135</span>            <span class="keywordflow">if</span> (GUILayout.Button(<span class="stringliteral">&quot;To JSON&quot;</span>))</div>
+<div class="line"><span class="lineno">  136</span>            {</div>
+<div class="line"><span class="lineno">  137</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#acfdf4e11f796b18482949b3e8c252f50">layoutDescriptor</a>.<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor.html#a1794afec162a3eef7104eeacda83a98f">levelLayout</a>.<a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#aa78e2aa3c6fa6ab981c7b6b5b16cd334">CalculateDimensions</a>();</div>
+<div class="line"><span class="lineno">  138</span>                this.levelString = JsonUtility.ToJson(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#acfdf4e11f796b18482949b3e8c252f50">layoutDescriptor</a>.<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor.html#a1794afec162a3eef7104eeacda83a98f">levelLayout</a>);</div>
+<div class="line"><span class="lineno">  139</span>            }</div>
+<div class="line"><span class="lineno">  140</span>            <span class="keywordflow">if</span> (GUILayout.Button(<span class="stringliteral">&quot;From JSON&quot;</span>))</div>
+<div class="line"><span class="lineno">  141</span>            {</div>
+<div class="line"><span class="lineno">  142</span>                <span class="keywordflow">try</span></div>
+<div class="line"><span class="lineno">  143</span>                {</div>
+<div class="line"><span class="lineno">  144</span>                    LevelLayout temp = JsonUtility.FromJson&lt;LevelLayout&gt;(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">levelString</a>);</div>
+<div class="line"><span class="lineno">  145</span>                    layoutDescriptor.levelLayout = temp;</div>
+<div class="line"><span class="lineno">  146</span>                }</div>
+<div class="line"><span class="lineno">  147</span>                <span class="keywordflow">catch</span> (Exception e)</div>
+<div class="line"><span class="lineno">  148</span>                {</div>
+<div class="line"><span class="lineno">  149</span>                    <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Log(<span class="stringliteral">&quot;Exception occurred while reading from string &quot;</span>+ e);    </div>
+<div class="line"><span class="lineno">  150</span>                }</div>
+<div class="line"><span class="lineno">  151</span>            </div>
+<div class="line"><span class="lineno">  152</span>            }</div>
+<div class="line"><span class="lineno">  153</span>            EditorGUILayout.EndHorizontal();</div>
+<div class="line"><span class="lineno">  154</span>            EditorGUILayout.LabelField(<span class="stringliteral">&quot;JSON:&quot;</span>);</div>
+<div class="line"><span class="lineno">  155</span>            <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">levelString</a> = EditorGUILayout.TextArea(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">levelString</a>);</div>
+<div class="line"><span class="lineno">  156</span>            <span class="comment">// EditorUtility.SetDirty; </span></div>
+<div class="line"><span class="lineno">  157</span>            EditorUtility.SetDirty(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#acfdf4e11f796b18482949b3e8c252f50">layoutDescriptor</a>);</div>
+<div class="line"><span class="lineno">  158</span>            serializedObject.ApplyModifiedProperties();</div>
+<div class="line"><span class="lineno">  159</span> </div>
+<div class="line"><span class="lineno">  160</span>        }</div>
+<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00007">Directive.cs:7</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_html_a1794afec162a3eef7104eeacda83a98f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor.html#a1794afec162a3eef7104eeacda83a98f">Gaslight.Scripts.Descriptors.LayoutDescriptor.levelLayout</a></div><div class="ttdeci">LevelLayout levelLayout</div><div class="ttdef"><b>Definition:</b> <a href="_layout_descriptor_8cs_source.html#l00114">LayoutDescriptor.cs:114</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_html_a9863e7b0e4f2ae90859170c4c7c4e658"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#a9863e7b0e4f2ae90859170c4c7c4e658">Gaslight.Scripts.Descriptors.LayoutDescriptorInspector.levelString</a></div><div class="ttdeci">string levelString</div><div class="ttdef"><b>Definition:</b> <a href="_layout_descriptor_8cs_source.html#l00121">LayoutDescriptor.cs:121</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_html_acfdf4e11f796b18482949b3e8c252f50"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html#acfdf4e11f796b18482949b3e8c252f50">Gaslight.Scripts.Descriptors.LayoutDescriptorInspector.layoutDescriptor</a></div><div class="ttdeci">LayoutDescriptor layoutDescriptor</div><div class="ttdef"><b>Definition:</b> <a href="_layout_descriptor_8cs_source.html#l00123">LayoutDescriptor.cs:123</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout_html_aa78e2aa3c6fa6ab981c7b6b5b16cd334"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#aa78e2aa3c6fa6ab981c7b6b5b16cd334">Gaslight.Scripts.Descriptors.LevelLayout.CalculateDimensions</a></div><div class="ttdeci">void CalculateDimensions()</div><div class="ttdef"><b>Definition:</b> <a href="_layout_descriptor_8cs_source.html#l00104">LayoutDescriptor.cs:104</a></div></div>
+</div><!-- fragment --><div class="dynheader">
+Here is the call graph for this function:</div>
+<div class="dyncontent">
+<div class="center"><img src="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_a4191dae16686a84e0101ba0a871165ff_cgraph.png" border="0" usemap="#aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_a4191dae16686a84e0101ba0a871165ff_cgraph" alt=""/></div>
+<map name="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_a4191dae16686a84e0101ba0a871165ff_cgraph" id="aclass_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector_a4191dae16686a84e0101ba0a871165ff_cgraph">
+<area shape="rect" title=" " alt="" coords="5,5,274,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#aa78e2aa3c6fa6ab981c7b6b5b16cd334" title=" " alt="" coords="322,5,537,48"/>
+</map>
+</div>
+
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
@@ -215,7 +244,7 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00116">116</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00123">123</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
 
 </div>
 </div>
@@ -231,17 +260,21 @@ Public Attributes</h2></td></tr>
       </table>
 </div><div class="memdoc">
 
-<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00114">114</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
+<p class="definition">Definition at line <a class="el" href="_layout_descriptor_8cs_source.html#l00121">121</a> of file <a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a>.</p>
 
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Descriptors/<a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a></li>
+<li>E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Descriptors/<a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Descriptors</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_layout_descriptor_inspector.html">LayoutDescriptorInspector</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Descriptors</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">LevelDescriptor</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">Gaslight.Scripts.Descriptors.LevelDescriptor Member List</div></div>
 </div><!--header-->
@@ -81,25 +97,36 @@ $(function() {
 <p>This is the complete list of members for <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a>, including all inherited members.</p>
 <table class="directory">
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#af69fdd7e1bcc46e4cb61c8cd442d943e">_LevelDescriptorCollection</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ad38e55f0b9a4039874e430a3a2d3ff98">ApplyInsights</a>(InsightResponse insights)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a67d731472382dcd15fb9d576ba90e0e3">characters</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abcbc65451b870bc01a9aa393f4faf4b0">extras</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a86b98a83e600391b6dd8c5a42451ea4f">FromJSON</a>(string JSON)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abdb5fca468d77b3dd72f4af52f5f1dfd">gateway</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a91c69c73a5e2c4e778eed42d9b8f65f2">GetInsightEnabledCharacters</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3b080a34b221775e07c0917076ad6ccc">GetTraversibles</a>(BaseTileDB baseTileDB, ExtraTileDB extraTileDB)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ac31b5254ab915fe0d076b6eec95d5f33">_RecentInsight</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ad38e55f0b9a4039874e430a3a2d3ff98">ApplyInsights</a>(InsightResponse insights)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a67d731472382dcd15fb9d576ba90e0e3">characters</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#acd37c1b9d05a0bebaa229091fcc59b1d">CheckStatus</a>(Action&lt; float &gt; progressCallback=null)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a53b136f5325c7b7cafdd16ed4805ee33">communicating</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abcbc65451b870bc01a9aa393f4faf4b0">extras</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a86b98a83e600391b6dd8c5a42451ea4f">FromJSON</a>(string JSON)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"><span class="mlabel">static</span></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abdb5fca468d77b3dd72f4af52f5f1dfd">gateway</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a91c69c73a5e2c4e778eed42d9b8f65f2">GetInsightEnabledCharacters</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#aa1fcc13b74ae392de98616ad6a1e0649">GetInsightOnLevelPromise</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a825c17b014490147a28f093691d78f27">GetInsights</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a1260be7d2493a4c1e6feabe925882730">GetInsightsPromise</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a559769543d279ff30aa2d2d1cc12505f">GetTraversibles</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3f44d00cdb3e0d97c9dadeacd4f6a536">Height</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abfb4c68274a127aca0d3bc1e04b1e0bc">icon</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a0b8c977990479cf612a8de641894ebc7">layoutDescriptor</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a093403090a7a0899eff3223b674b3616">levelName</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ab2ac7cab7f42bcc0528464efbb505182">rows</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a78c9f62f07f8fea09b484fc5e89ae1fa">PutToServer</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ab2ac7cab7f42bcc0528464efbb505182">rows</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#addcaab938bbed05d664074c3a29e8fac">StatusPromise</a>(Action&lt; float &gt; progressCallback=null)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a68ee38424809c718bc5593b42e477f06">SyncStatus</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ae62cbd0f2cce42341d87c044cc0ff82a">toJSON</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ac6bc47b6cbc5c70079bdb9333eea2e96">Width</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html">Gaslight.Scripts.Descriptors.LevelDescriptor</a></td><td class="entry"></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

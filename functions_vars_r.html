@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_vars_r.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -73,23 +93,27 @@ $(function() {
 &#160;
 
 <h3><a id="index_r" name="index_r"></a>- r -</h3><ul>
-<li>RegularMovementCurve&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#ad897c0f2d5b823a74a77296c0d4c5d44">Gaslight.Scripts.Character.Animation_Managers.AnimatedMovementComponent</a></li>
+<li>recompile&#160;:&#160;<a class="el" href="class_current_turn_follower.html#a79948a1fdda9ca548bb2d75eeb3ed0a9">CurrentTurnFollower</a></li>
+<li>RegularMovementCurve&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a4249a6b1dc06a5c6c9969aceac3aa42a">Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent</a></li>
 <li>request&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#aac89f4dcf96c4ff53e22fc1bec8cb6ae">Gaslight.Scripts.Descriptors.LevelDescriptorEditor</a></li>
 <li>requestPlayerChange&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a643c76327e3a1d016b20bd25ea0ce7bf">Gaslight.Scripts.Admin.PlayerController</a></li>
 <li>response&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#acd507ec1e2018b6874411269acd63799">Gaslight.Scripts.Descriptors.LevelDescriptorEditor</a></li>
 <li>RimColorDefault&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html#a54fc4b9d3c23623c1dc9883581fa6cce">Gaslight.Scripts.Level.TileDisplay</a></li>
 <li>RimColorHighlighted&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html#a2248acc8e19ca4ec1ece48808be5e9f7">Gaslight.Scripts.Level.TileDisplay</a></li>
 <li>RimColorSelected&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html#a3c8c6a95469141f8f0636a0e7b967be5">Gaslight.Scripts.Level.TileDisplay</a></li>
-<li>role&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_role_directive.html#ae2f5cd2502b5c012ab157a505df7db81">Gaslight.Scripts.Character.Descriptors.RoleDirective</a></li>
-<li>RoleDirectives&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_manager.html#a7b580180785b69763b25e4c0189cac41">Gaslight.Scripts.Character.Descriptors.DirectiveManager</a></li>
-<li>roles&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a25148fe2d3a6545d093e79c066e287e2">Gaslight.Scripts.Character.Character</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_archetype_descriptor.html#ab5260dac66833a76580bd425c9dd01ce">Gaslight.Scripts.Character.Descriptors.ArchetypeDescriptor</a></li>
+<li>role&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_role_directive.html#a21812722a225215717e01675c815d434">Gaslight.Scripts.Characters.Descriptors.RoleDirective</a></li>
+<li>RoleDirectives&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_manager.html#a99b7abd387b913993ac17d29347cbe70">Gaslight.Scripts.Characters.Descriptors.DirectiveManager</a></li>
+<li>roles&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#ab937d12d520be3e1bc0578ccb30271d3">Gaslight.Scripts.Characters.Character</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_archetype_descriptor.html#a11896d0c75aa2d69c7b4e218fa4c18c7">Gaslight.Scripts.Characters.Descriptors.ArchetypeDescriptor</a></li>
 <li>root&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor_array.html#ad8ebcc6b4a7933eff7e5aeb85f529cdb">Gaslight.Scripts.Descriptors.CharacterLevelDescriptorArray</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_1_1_levels_schema.html#aa406b9484bba6fc6b57dcb8291718890">Gaslight.Scripts.UI.MainMenuScript.LevelsSchema</a></li>
-<li>rows&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#a662f380de2e38f2413bbdab8284e6262">Gaslight.Scripts.Descriptors.LevelLayout</a></li>
+<li>rows&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#a662f380de2e38f2413bbdab8284e6262">Gaslight.Scripts.Descriptors.LevelLayout</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

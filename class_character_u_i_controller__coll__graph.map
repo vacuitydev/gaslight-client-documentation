@@ -1,0 +1,8 @@
+<map id="CharacterUIController" name="CharacterUIController">
+<area shape="rect" id="node1" title=" " alt="" coords="509,1192,736,1609"/>
+<area shape="rect" id="node2" title=" " alt="" coords="276,5,385,87"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_character.html" title=" " alt="" coords="231,167,430,1128"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="74,1320,275,1481"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html" title=" " alt="" coords="299,1256,485,1545"/>
+<area shape="rect" id="node4" title=" " alt="" coords="5,5,56,87"/>
+</map>

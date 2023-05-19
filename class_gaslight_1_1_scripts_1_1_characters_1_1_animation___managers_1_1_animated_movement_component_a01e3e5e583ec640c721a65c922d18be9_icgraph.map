@@ -1,0 +1,5 @@
+<map id="Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent.StartMoving" name="Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent.StartMoving">
+<area shape="rect" id="node1" title="Move along a path." alt="" coords="239,31,500,89"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,5,191,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a4485d34257791022d7b07143b4a9c3d3" title=" " alt="" coords="5,72,191,115"/>
+</map>

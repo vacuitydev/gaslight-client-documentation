@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html">MainMenuScript</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
@@ -343,7 +359,7 @@ Here is the call graph for this function:</div>
 <div class="line"><span class="lineno">  106</span>                }</div>
 <div class="line"><span class="lineno">  107</span>            };     </div>
 <div class="line"><span class="lineno">  108</span>        }</div>
-<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00006">Directive.cs:6</a></div></div>
+<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00007">Directive.cs:7</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_html_a915ed4a1b005bc2dac5833952e68d508"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a915ed4a1b005bc2dac5833952e68d508">Gaslight.Scripts.UI.MainMenuScript.newGameCommunityLevelLabel</a></div><div class="ttdeci">VisualTreeAsset newGameCommunityLevelLabel</div><div class="ttdef"><b>Definition:</b> <a href="_main_menu_script_8cs_source.html#l00023">MainMenuScript.cs:23</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_html_ab1ddf146593afbc62b18223b4144eb60"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#ab1ddf146593afbc62b18223b4144eb60">Gaslight.Scripts.UI.MainMenuScript.curLevels</a></div><div class="ttdeci">LevelsSchema curLevels</div><div class="ttdef"><b>Definition:</b> <a href="_main_menu_script_8cs_source.html#l00079">MainMenuScript.cs:79</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_html_ae82b315a65973af3e8ce7175f5cb1deb"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#ae82b315a65973af3e8ce7175f5cb1deb">Gaslight.Scripts.UI.MainMenuScript.levelsURL</a></div><div class="ttdeci">string levelsURL</div><div class="ttdef"><b>Definition:</b> <a href="_main_menu_script_8cs_source.html#l00078">MainMenuScript.cs:78</a></div></div>
@@ -857,12 +873,16 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>E:/UnityProjects/Base1/Assets/Gaslight/Scripts/UI/<a class="el" href="_main_menu_script_8cs_source.html">MainMenuScript.cs</a></li>
+<li>E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/UI/<a class="el" href="_main_menu_script_8cs_source.html">MainMenuScript.cs</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_u_i.html">UI</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html">MainMenuScript</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

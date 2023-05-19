@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Admin.PlayerController.PerformMove" name="Gaslight.Scripts.Admin.PlayerController.PerformMove">
+<area shape="rect" id="node1" title=" " alt="" coords="5,39,202,81"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive_factory.html#ac5305316de484c9449d14d0486045ba7" title=" " alt="" coords="250,5,473,48"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a49e0357ac71bd3cac78ad033f5739b6e" title=" " alt="" coords="263,72,460,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a7fd33c22a109664eafb4e4c9a5ea29ab" title=" " alt="" coords="521,39,732,81"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a40f7cac0157f2a987277ec153cf84447" title=" " alt="" coords="529,105,725,148"/>
+</map>

@@ -5,10 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Project Gaslight client: E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Level/LevelInspector.cs Source File</title>
+<title>Project Gaslight client: E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Level/LevelInspector.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_level_inspector_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_325fa66e10368cd8400e070e16ef4b2c.html">Base1</a></li><li class="navelem"><a class="el" href="dir_bfab4cead1a831ecdc5711fea90ca339.html">Assets</a></li><li class="navelem"><a class="el" href="dir_ba3ca6dc24625fd2ddbb82a1e2b64efc.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_de7fda6d1572a00500e78c7851f26c63.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_48c1932c7c797741bfde19984474baf0.html">Level</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">LevelInspector.cs</div></div>
 </div><!--header-->
@@ -126,7 +142,7 @@ $(function() {
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            }</div>
 <div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            </div>
 <div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#aebbecfa792bb6b2cc67f4276e468069d">traversible_color</a> = EditorGUILayout.ColorField(<span class="stringliteral">&quot;Traversible Color&quot;</span>, <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#aebbecfa792bb6b2cc67f4276e468069d">traversible_color</a>);</div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a235007e94ea9cf99163adb529872f6f7">nontraversible_color</a> = EditorGUILayout.ColorField(<span class="stringliteral">&quot;Traversible Color&quot;</span>, <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a235007e94ea9cf99163adb529872f6f7">nontraversible_color</a>);</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a235007e94ea9cf99163adb529872f6f7">nontraversible_color</a> = EditorGUILayout.ColorField(<span class="stringliteral">&quot;Nontraversible Color&quot;</span>, <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a235007e94ea9cf99163adb529872f6f7">nontraversible_color</a>);</div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            <span class="keywordflow">if</span> (GUILayout.Button(<span class="stringliteral">&quot;Show traversibles&quot;</span>))</div>
 <div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            {</div>
 <div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>                level.<a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a039c2c8bf2692fa5572fd8f386180519">TurnOnAllDisplays</a>();</div>
@@ -137,26 +153,30 @@ $(function() {
 <div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>        }</div>
 <div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>    }</div>
 <div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>}</div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html">Gaslight.Scripts.Level.Level</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00038">Level.cs:39</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a039c2c8bf2692fa5572fd8f386180519"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a039c2c8bf2692fa5572fd8f386180519">Gaslight.Scripts.Level.Level.TurnOnAllDisplays</a></div><div class="ttdeci">void TurnOnAllDisplays()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01022">Level.cs:1022</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a22195ad582429a3f4fd2fe3ddd3d7bf6"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a22195ad582429a3f4fd2fe3ddd3d7bf6">Gaslight.Scripts.Level.Level.CreateLevel</a></div><div class="ttdeci">async Task CreateLevel()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00661">Level.cs:661</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a256e0dde5ecea8d3cdfa42709192b4ca"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a256e0dde5ecea8d3cdfa42709192b4ca">Gaslight.Scripts.Level.Level.SpawnExtras</a></div><div class="ttdeci">async Task SpawnExtras()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00753">Level.cs:753</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a45c4ee4b60fcac9d881e80b09ddfcadc"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a45c4ee4b60fcac9d881e80b09ddfcadc">Gaslight.Scripts.Level.Level.LoadFromDescriptors</a></div><div class="ttdeci">async void LoadFromDescriptors()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00260">Level.cs:260</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a45cfb5b847fc48ffa45b58a7ea7ac632"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a45cfb5b847fc48ffa45b58a7ea7ac632">Gaslight.Scripts.Level.Level.ToggleExtras</a></div><div class="ttdeci">void ToggleExtras()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01007">Level.cs:1007</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a4ba189a2c36e60e464522ddb22a49a2d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a4ba189a2c36e60e464522ddb22a49a2d">Gaslight.Scripts.Level.Level.tileTraversible</a></div><div class="ttdeci">bool[] tileTraversible</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00070">Level.cs:70</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a7023ad9cfc01a104109c3343d2b5e3c7"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a7023ad9cfc01a104109c3343d2b5e3c7">Gaslight.Scripts.Level.Level.ResetTileDisplayColor</a></div><div class="ttdeci">void ResetTileDisplayColor()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01099">Level.cs:1099</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a90daab61fd86d8b45cd8d01a68c58683"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a90daab61fd86d8b45cd8d01a68c58683">Gaslight.Scripts.Level.Level.ToggleDisplays</a></div><div class="ttdeci">void ToggleDisplays()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01015">Level.cs:1015</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_accec43249d726d0243d1517cfc54b7d4"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#accec43249d726d0243d1517cfc54b7d4">Gaslight.Scripts.Level.Level.ToggleBases</a></div><div class="ttdeci">void ToggleBases()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00999">Level.cs:999</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_adddfbe88e67a0a13f5a89431efdccb7f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adddfbe88e67a0a13f5a89431efdccb7f">Gaslight.Scripts.Level.Level.ChangeTileDisplayColor</a></div><div class="ttdeci">void ChangeTileDisplayColor(int[] locations, Color newColor)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01066">Level.cs:1066</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html">Gaslight.Scripts.Level.Level</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00039">Level.cs:40</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a039c2c8bf2692fa5572fd8f386180519"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a039c2c8bf2692fa5572fd8f386180519">Gaslight.Scripts.Level.Level.TurnOnAllDisplays</a></div><div class="ttdeci">void TurnOnAllDisplays()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01059">Level.cs:1059</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a22195ad582429a3f4fd2fe3ddd3d7bf6"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a22195ad582429a3f4fd2fe3ddd3d7bf6">Gaslight.Scripts.Level.Level.CreateLevel</a></div><div class="ttdeci">async Task CreateLevel()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00680">Level.cs:680</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a256e0dde5ecea8d3cdfa42709192b4ca"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a256e0dde5ecea8d3cdfa42709192b4ca">Gaslight.Scripts.Level.Level.SpawnExtras</a></div><div class="ttdeci">async Task SpawnExtras()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00790">Level.cs:790</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a45c4ee4b60fcac9d881e80b09ddfcadc"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a45c4ee4b60fcac9d881e80b09ddfcadc">Gaslight.Scripts.Level.Level.LoadFromDescriptors</a></div><div class="ttdeci">async void LoadFromDescriptors()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00277">Level.cs:277</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a45cfb5b847fc48ffa45b58a7ea7ac632"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a45cfb5b847fc48ffa45b58a7ea7ac632">Gaslight.Scripts.Level.Level.ToggleExtras</a></div><div class="ttdeci">void ToggleExtras()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01044">Level.cs:1044</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a4ba189a2c36e60e464522ddb22a49a2d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a4ba189a2c36e60e464522ddb22a49a2d">Gaslight.Scripts.Level.Level.tileTraversible</a></div><div class="ttdeci">bool[] tileTraversible</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00074">Level.cs:74</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a7023ad9cfc01a104109c3343d2b5e3c7"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a7023ad9cfc01a104109c3343d2b5e3c7">Gaslight.Scripts.Level.Level.ResetTileDisplayColor</a></div><div class="ttdeci">void ResetTileDisplayColor()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01136">Level.cs:1136</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a90daab61fd86d8b45cd8d01a68c58683"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a90daab61fd86d8b45cd8d01a68c58683">Gaslight.Scripts.Level.Level.ToggleDisplays</a></div><div class="ttdeci">void ToggleDisplays()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01052">Level.cs:1052</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_accec43249d726d0243d1517cfc54b7d4"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#accec43249d726d0243d1517cfc54b7d4">Gaslight.Scripts.Level.Level.ToggleBases</a></div><div class="ttdeci">void ToggleBases()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01036">Level.cs:1036</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_adddfbe88e67a0a13f5a89431efdccb7f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adddfbe88e67a0a13f5a89431efdccb7f">Gaslight.Scripts.Level.Level.ChangeTileDisplayColor</a></div><div class="ttdeci">void ChangeTileDisplayColor(int[] locations, Color newColor)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01103">Level.cs:1103</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_inspector_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html">Gaslight.Scripts.Level.LevelInspector</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_inspector_8cs_source.html#l00007">LevelInspector.cs:8</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_inspector_html_a15ae3ab3fd35d38299138fedf78d947e"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a15ae3ab3fd35d38299138fedf78d947e">Gaslight.Scripts.Level.LevelInspector.OnInspectorGUI</a></div><div class="ttdeci">override void OnInspectorGUI()</div><div class="ttdef"><b>Definition:</b> <a href="_level_inspector_8cs_source.html#l00011">LevelInspector.cs:11</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_inspector_html_a235007e94ea9cf99163adb529872f6f7"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a235007e94ea9cf99163adb529872f6f7">Gaslight.Scripts.Level.LevelInspector.nontraversible_color</a></div><div class="ttdeci">Color nontraversible_color</div><div class="ttdef"><b>Definition:</b> <a href="_level_inspector_8cs_source.html#l00010">LevelInspector.cs:10</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_inspector_html_aebbecfa792bb6b2cc67f4276e468069d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#aebbecfa792bb6b2cc67f4276e468069d">Gaslight.Scripts.Level.LevelInspector.traversible_color</a></div><div class="ttdeci">Color traversible_color</div><div class="ttdef"><b>Definition:</b> <a href="_level_inspector_8cs_source.html#l00009">LevelInspector.cs:9</a></div></div>
-<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_level_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_level.html">Gaslight.Scripts.Level</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00022">Level.cs:23</a></div></div>
+<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_level_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_level.html">Gaslight.Scripts.Level</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00023">Level.cs:24</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_99a507484538e03c86c178d22aac377d.html">Project Gaslight</a></li><li class="navelem"><a class="el" href="dir_a3bfe71b69d2bd7581bb3d797d376742.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a7926aa14f900de934600ccac0b17245.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_50e1f117bdc07c8e8a101912bcc269da.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_0142efb425e47239f48ca0e852a9fd02.html">Level</a></li><li class="navelem"><a class="el" href="_level_inspector_8cs.html">LevelInspector.cs</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

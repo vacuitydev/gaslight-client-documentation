@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_vars_a.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -74,20 +94,27 @@ $(function() {
 
 <h3><a id="index_a" name="index_a"></a>- a -</h3><ul>
 <li>acceptInput&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#ae74fa3ba6d224bfca40c4621108d508f">Gaslight.Scripts.Admin.PlayerController</a></li>
-<li>actionPoints&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#aac2806b36214fc00341d3dab15c76ed1">Gaslight.Scripts.Character.Character</a></li>
-<li>ActionPointsChanged&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a718cb24b479a67d88544c0b2d20ab98c">Gaslight.Scripts.Character.Character</a></li>
-<li>archetype&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset.html#a3360204d59b9dccc98bf01774036bba8">Gaslight.Scripts.Character.Descriptors.CharacterAsset</a></li>
-<li>archetypes&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_archetypes.html#a97bfe5b9998d25fe1172285ae419f7f9">Gaslight.Scripts.Character.Descriptors.Archetypes</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset_d_b.html#a828f25518441292178da7b797a9520c5">Gaslight.Scripts.Character.Descriptors.CharacterAssetDB</a></li>
+<li>actionPoints&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#ac4316e4c073c5aa30ed020ae163d4d5e">Gaslight.Scripts.Characters.Character</a></li>
+<li>ActionPointsChanged&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a82e2605531d97eb73a01945174f2641f">Gaslight.Scripts.Characters.Character</a></li>
+<li>ap&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#aba6616c474355d01251947213a4176b7">CharacterUIController</a></li>
+<li>archetype&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset.html#a534eccd251fd7c2c2deff5519fb78272">Gaslight.Scripts.Characters.Descriptors.CharacterAsset</a></li>
+<li>archetypes&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_archetypes.html#a605d7b7b5e816cecc6901227a0a5f69b">Gaslight.Scripts.Characters.Descriptors.Archetypes</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset_d_b.html#a23786f56ae7a3c93efb3cda47138c885">Gaslight.Scripts.Characters.Descriptors.CharacterAssetDB</a></li>
 <li>Asset&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_asset.html#a1e4e9be3201c8b001d1467bc308f8e81">Gaslight.Scripts.Descriptors.BaseTileAsset</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_asset.html#af1b59281128d439035290f6dcd3ccef1">Gaslight.Scripts.Descriptors.DecoTileAsset</a></li>
-<li>attackLocation&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#a7efb38c4866a7179234cffa921ee2ae7">Gaslight.Scripts.Character.Logic.AttackDirective</a></li>
-<li>attackLocationSet&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#a0c47ba5ef27425f4279f2a9fc8ca6078">Gaslight.Scripts.Character.Logic.AttackDirective</a></li>
-<li>attackTarget&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#affcdbdf08c8f37eeba69688b96fbc842">Gaslight.Scripts.Character.Logic.AttackDirective</a></li>
-<li>attackTargetSet&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#ad6ca420d80c758fed7121fba563807db">Gaslight.Scripts.Character.Logic.AttackDirective</a></li>
+<li>attackLocation&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#a5007cd1a468abd887861645db0822b84">Gaslight.Scripts.Characters.Logic.AttackDirective</a></li>
+<li>attackLocationSet&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#af7020e1a47f7d69819f133b950c08725">Gaslight.Scripts.Characters.Logic.AttackDirective</a></li>
+<li>attackTarget&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#ac950a1fd4c1651b4055664ccf993e228">Gaslight.Scripts.Characters.Logic.AttackDirective</a></li>
+<li>attackTargetSet&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#a84e54ef5aee631a624bdbe25de797da8">Gaslight.Scripts.Characters.Logic.AttackDirective</a></li>
+<li>audioManager&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#abddcdb51827f68d7356f206088323d68">Gaslight.Scripts.Level.Level</a></li>
+<li>audioManagerExists&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a35e373851e0c51ec9b48db5f2b3d7d32">Gaslight.Scripts.Level.Level</a></li>
+<li>ayo&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#aecb3d85ca48d68789678881dc826b1b3">CharacterUIController</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

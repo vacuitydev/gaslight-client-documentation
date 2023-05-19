@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_v.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,14 +95,18 @@ $(function() {
 <h3><a id="index_v" name="index_v"></a>- v -</h3><ul>
 <li>ValidateState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry_inspector.html#a8a987361c096061450dba7c684e37789">Gaslight.Scripts.Descriptors.LevelRegistryInspector</a></li>
 <li>ValidCandidates()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html#a4ffb3a9653514a60dc179760d706be9f">Gaslight.Scripts.Descriptors.BaseTileDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_d_b.html#ae8c07ab22773738faa1e733b42b12d01">Gaslight.Scripts.Descriptors.DecoTileDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html#aa8f2de5b7bd82e6d83921edf59117274">Gaslight.Scripts.Descriptors.ExtraTileDB</a></li>
-<li>validMoveTemplate&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#aa1423c8ed6fe6b0537a080a02d114afb">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>value&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_float_trait.html#ab3602c7cc62ced9f21fed37ff46c6ae9">Gaslight.Scripts.Character.Character.NamedFloatTrait</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_string_trait.html#a8afb4be59f98c688747887edf7ae88a6">Gaslight.Scripts.Character.Character.NamedStringTrait</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive_target.html#a7a1c097dcef6f02e615b90aacd40b29a">Gaslight.Scripts.Character.Logic.DirectiveTarget</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html#adcd7c4292fe594078b6cf21cd21cbdb9">Gaslight.Scripts.Descriptors.BehaviorTarget</a></li>
-<li>Visualize()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#a0c4f59bbcbd8e08f2b0efcf8d2d9f46f">Gaslight.Scripts.Character.Logic.AttackDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html#a77e2ad8d8398c342bd1647e9a8678b7e">Gaslight.Scripts.Character.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_forego_directive.html#a554317c8e4c75c23c48d8464c53c6407">Gaslight.Scripts.Character.Logic.ForegoDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_try_move_directive.html#afda6f2816ca77670d6b6a1133622401b">Gaslight.Scripts.Character.Logic.TryMoveDirective</a></li>
+<li>validMoveTemplate&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a491dc2240161b8f141f25494b756c839">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>value&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_float_trait.html#abef0f34cac61dd8f880ce759d2809512">Gaslight.Scripts.Characters.Character.NamedFloatTrait</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_string_trait.html#abb7dd531ce7eb838151682cd94a0d4bd">Gaslight.Scripts.Characters.Character.NamedStringTrait</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive_target.html#a9e204ef767720ba522f21c4aaea5da7b">Gaslight.Scripts.Characters.Logic.DirectiveTarget</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html#adcd7c4292fe594078b6cf21cd21cbdb9">Gaslight.Scripts.Descriptors.BehaviorTarget</a></li>
+<li>Visualize()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#a5b6a1f06d339ecb7d843c77738935307">Gaslight.Scripts.Characters.Logic.AttackDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html#a78196ee75c0feafe2c021bf8562dc6e8">Gaslight.Scripts.Characters.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_forego_directive.html#a1fe285fe0edab2cd8b0f7ae0134017bc">Gaslight.Scripts.Characters.Logic.ForegoDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_try_move_directive.html#ad13750b717f272049411a4d9a2e60720">Gaslight.Scripts.Characters.Logic.TryMoveDirective</a></li>
+<li>volume&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_audio_1_1_sound_descriptor.html#a7d62be8ddc782cf2079cc93bbd3f0da2">Gaslight.Scripts.Admin.Audio.SoundDescriptor</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

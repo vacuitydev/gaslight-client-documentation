@@ -1,0 +1,10 @@
+<map id="Gaslight.Scripts.Admin.SelectUnderCursor.CheckMouseOverUI" name="Gaslight.Scripts.Admin.SelectUnderCursor.CheckMouseOverUI">
+<area shape="rect" id="node1" title=" " alt="" coords="1588,63,1800,105"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a49e0357ac71bd3cac78ad033f5739b6e" title=" " alt="" coords="1344,29,1540,72"/>
+<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#af8133c666974ce61827f218964c0820b" title=" " alt="" coords="1344,96,1540,139"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a09d5047c33b4a6530540364a644f87d8" title=" " alt="" coords="1100,29,1296,72"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a5d5e057d2c39ba15f7fd22f096b07670" title=" " alt="" coords="855,29,1052,72"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#aa6171858e9c4615e39da4e197498e302" title=" " alt="" coords="572,29,807,72"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#ab25200ad32b26c262996ad56d5859192" title=" " alt="" coords="289,29,524,72"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#ab711fc5fdf20124903d7a5bd7b431aee" title=" " alt="" coords="5,29,241,72"/>
+</map>

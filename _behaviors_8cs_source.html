@@ -5,10 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Project Gaslight client: E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Character/Logic/Behaviors/Behaviors.cs Source File</title>
+<title>Project Gaslight client: E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Character/Logic/Behaviors/Behaviors.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_behaviors_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_325fa66e10368cd8400e070e16ef4b2c.html">Base1</a></li><li class="navelem"><a class="el" href="dir_bfab4cead1a831ecdc5711fea90ca339.html">Assets</a></li><li class="navelem"><a class="el" href="dir_ba3ca6dc24625fd2ddbb82a1e2b64efc.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_de7fda6d1572a00500e78c7851f26c63.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_a3da3c26946f541c7a9742e83929500a.html">Character</a></li><li class="navelem"><a class="el" href="dir_6573b5982b99865f9043c91dca646459.html">Logic</a></li><li class="navelem"><a class="el" href="dir_3301e0fd77c98beb0097a4fef5034ed8.html">Behaviors</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">Behaviors.cs</div></div>
 </div><!--header-->
@@ -83,54 +99,59 @@ $(function() {
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span><span class="keyword">using </span><a class="code hl_namespace" href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Gaslight.Scripts.Descriptors</a>;</div>
 <div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">using </span>UnityEngine;</div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span> </div>
-<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="namespace_gaslight_1_1_scripts_1_1_character_1_1_logic.html">    7</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors.html">Gaslight.Scripts.Character.Logic.Behaviors</a></div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno"><a class="line" href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_logic.html">    7</a></span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors.html">Gaslight.Scripts.Characters.Logic.Behaviors</a></div>
 <div class="line"><a id="l00008" name="l00008"></a><span class="lineno">    8</span>{</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html">   14</a></span>    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html">Behavior</a> : MonoBehaviour</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html">   14</a></span>    <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keyword">class </span><a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html">Behavior</a> : MonoBehaviour</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
-<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab6d79221f2305bb180a55df4e056aa10">   22</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab6d79221f2305bb180a55df4e056aa10">HandleCharacterTileChange</a>(<span class="keywordtype">int</span> location, <a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html">Character</a> otherObject);</div>
-<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a759ff8647fe3d14a56c294768df33c76">   26</a></span>        <span class="keyword">public</span> List&lt;BehaviorTarget&gt; <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a759ff8647fe3d14a56c294768df33c76">targets</a>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a33657e39b7645d4b9a0b17ee4cd60f08">   22</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a33657e39b7645d4b9a0b17ee4cd60f08">HandleCharacterTileChange</a>(<span class="keywordtype">int</span> location, <a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html">Character</a> otherObject);</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a6d5f5030d5c00dca8cbbbf60d0b69a40">   26</a></span>        <span class="keyword">public</span> List&lt;BehaviorTarget&gt; <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a6d5f5030d5c00dca8cbbbf60d0b69a40">targets</a>;</div>
 <div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        <span class="comment">// [HideInInspector]protected BehaviorTree bt;</span></div>
-<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab13352eae76d172892c5e18980e9d7ab">   28</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html">Character</a> <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab13352eae76d172892c5e18980e9d7ab">Invoker</a>;</div>
-<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a0a983cdd16b2cfe79818f184cff2dd2a">   29</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a0a983cdd16b2cfe79818f184cff2dd2a">Tick</a>();</div>
-<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#aeff4d6415b5f67d0f3221924e2fde6e3">   30</a></span>        <span class="keyword">public</span> String <a class="code hl_property" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#aeff4d6415b5f67d0f3221924e2fde6e3">Name</a> =&gt; <span class="stringliteral">&quot;Base&quot;</span>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a24e0b3d6092b4c35997384c4b872631b">   28</a></span>        <span class="keyword">public</span> <a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html">Character</a> <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a24e0b3d6092b4c35997384c4b872631b">Invoker</a>;</div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a1bea4e4064ff512a7d4f74837e6d6680">   29</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a1bea4e4064ff512a7d4f74837e6d6680">Tick</a>();</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a841f4af422edc82c45caf3394e53e456">   30</a></span>        <span class="keyword">public</span> String <a class="code hl_property" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a841f4af422edc82c45caf3394e53e456">Name</a> =&gt; <span class="stringliteral">&quot;Base&quot;</span>;</div>
 <div class="line"><a id="l00031" name="l00031"></a><span class="lineno">   31</span>        <span class="comment">// Don&#39;t need this constructor</span></div>
 <div class="line"><a id="l00032" name="l00032"></a><span class="lineno">   32</span>        <span class="comment">//TODO: Remove</span></div>
 <div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span> </div>
-<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a80737040f8a3e1af02c428422bb75146">   34</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a80737040f8a3e1af02c428422bb75146">Initialize</a>();</div>
-<div class="line"><a id="l00035" name="l00035"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ace00f6db14f1155225e46b235e846036">   35</a></span>        <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ace00f6db14f1155225e46b235e846036">IfExistsOtherwise</a>(<span class="keywordtype">string</span> key, <span class="keywordtype">string</span> otherwise)</div>
-<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span>        {</div>
-<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a759ff8647fe3d14a56c294768df33c76">targets</a>.Any(BT =&gt; BT.key == key))</div>
-<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            {</div>
-<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a759ff8647fe3d14a56c294768df33c76">targets</a>.Find(BT =&gt; BT.key == key).value;</div>
-<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>            }</div>
-<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span> </div>
-<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>            <span class="keywordflow">return</span> otherwise;</div>
-<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        }</div>
-<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>    }</div>
-<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span> </div>
-<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>    </div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a5a772e17609c490d21b7218218369865">   34</a></span>        <span class="keyword">public</span> <span class="keyword">abstract</span> <span class="keywordtype">void</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a5a772e17609c490d21b7218218369865">Initialize</a>();</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>        <span class="comment">// public abstract void Befor();</span></div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#ae805159b753d169ddcc43e0a63e9205b">   36</a></span>        <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#ae805159b753d169ddcc43e0a63e9205b">IfExistsOtherwise</a>(<span class="keywordtype">string</span> key, <span class="keywordtype">string</span> otherwise)</div>
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno">   37</span>        {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>            <span class="keywordflow">if</span> (<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a6d5f5030d5c00dca8cbbbf60d0b69a40">targets</a>.Any(BT =&gt; BT.key == key))</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>            {</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>                <span class="keywordflow">return</span> <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a6d5f5030d5c00dca8cbbbf60d0b69a40">targets</a>.Find(BT =&gt; BT.key == key).value;</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>            }</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span> </div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>            <span class="keywordflow">return</span> otherwise;</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        }</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>    }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span> </div>
 <div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>    </div>
-<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span> </div>
-<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>    </div>
-<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span> </div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    </div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>    </div>
 <div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span> </div>
-<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>    </div>
-<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>}</div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_character_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html">Gaslight.Scripts.Character.Character</a></div><div class="ttdef"><b>Definition:</b> <a href="_character_8cs_source.html#l00026">Character.cs:27</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html">Gaslight.Scripts.Character.Logic.Behaviors.Behavior</a></div><div class="ttdoc">Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character....</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00014">Behaviors.cs:15</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_a0a983cdd16b2cfe79818f184cff2dd2a"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a0a983cdd16b2cfe79818f184cff2dd2a">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.Tick</a></div><div class="ttdeci">abstract void Tick()</div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_a759ff8647fe3d14a56c294768df33c76"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a759ff8647fe3d14a56c294768df33c76">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.targets</a></div><div class="ttdeci">List&lt; BehaviorTarget &gt; targets</div><div class="ttdoc">Dictionary to support variable parameters in behaviors.</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00026">Behaviors.cs:26</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_a80737040f8a3e1af02c428422bb75146"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#a80737040f8a3e1af02c428422bb75146">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.Initialize</a></div><div class="ttdeci">abstract void Initialize()</div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_ab13352eae76d172892c5e18980e9d7ab"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab13352eae76d172892c5e18980e9d7ab">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.Invoker</a></div><div class="ttdeci">Character Invoker</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00028">Behaviors.cs:28</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_ab6d79221f2305bb180a55df4e056aa10"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab6d79221f2305bb180a55df4e056aa10">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.HandleCharacterTileChange</a></div><div class="ttdeci">abstract void HandleCharacterTileChange(int location, Character otherObject)</div><div class="ttdoc">Handle characters changing tile from the invoker's perspective Caution: Do not make a character chang...</div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_ace00f6db14f1155225e46b235e846036"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ace00f6db14f1155225e46b235e846036">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.IfExistsOtherwise</a></div><div class="ttdeci">string IfExistsOtherwise(string key, string otherwise)</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00035">Behaviors.cs:35</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior_html_aeff4d6415b5f67d0f3221924e2fde6e3"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#aeff4d6415b5f67d0f3221924e2fde6e3">Gaslight.Scripts.Character.Logic.Behaviors.Behavior.Name</a></div><div class="ttdeci">String Name</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00030">Behaviors.cs:30</a></div></div>
-<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors.html">Gaslight.Scripts.Character.Logic.Behaviors</a></div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00007">Behaviors.cs:8</a></div></div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span> </div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>    </div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>}</div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_character_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html">Gaslight.Scripts.Characters.Character</a></div><div class="ttdef"><b>Definition:</b> <a href="_character_8cs_source.html#l00027">Character.cs:28</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior</a></div><div class="ttdoc">Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character....</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00014">Behaviors.cs:15</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_a1bea4e4064ff512a7d4f74837e6d6680"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a1bea4e4064ff512a7d4f74837e6d6680">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.Tick</a></div><div class="ttdeci">abstract void Tick()</div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_a24e0b3d6092b4c35997384c4b872631b"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a24e0b3d6092b4c35997384c4b872631b">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.Invoker</a></div><div class="ttdeci">Character Invoker</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00028">Behaviors.cs:28</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_a33657e39b7645d4b9a0b17ee4cd60f08"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a33657e39b7645d4b9a0b17ee4cd60f08">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.HandleCharacterTileChange</a></div><div class="ttdeci">abstract void HandleCharacterTileChange(int location, Character otherObject)</div><div class="ttdoc">Handle characters changing tile from the invoker's perspective Caution: Do not make a character chang...</div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_a5a772e17609c490d21b7218218369865"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a5a772e17609c490d21b7218218369865">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.Initialize</a></div><div class="ttdeci">abstract void Initialize()</div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_a6d5f5030d5c00dca8cbbbf60d0b69a40"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a6d5f5030d5c00dca8cbbbf60d0b69a40">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.targets</a></div><div class="ttdeci">List&lt; BehaviorTarget &gt; targets</div><div class="ttdoc">Dictionary to support variable parameters in behaviors.</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00026">Behaviors.cs:26</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_a841f4af422edc82c45caf3394e53e456"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a841f4af422edc82c45caf3394e53e456">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.Name</a></div><div class="ttdeci">String Name</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00030">Behaviors.cs:30</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior_html_ae805159b753d169ddcc43e0a63e9205b"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#ae805159b753d169ddcc43e0a63e9205b">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior.IfExistsOtherwise</a></div><div class="ttdeci">string IfExistsOtherwise(string key, string otherwise)</div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00036">Behaviors.cs:36</a></div></div>
+<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors.html">Gaslight.Scripts.Characters.Logic.Behaviors</a></div><div class="ttdef"><b>Definition:</b> <a href="_behaviors_8cs_source.html#l00007">Behaviors.cs:8</a></div></div>
 <div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_descriptors_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Gaslight.Scripts.Descriptors</a></div><div class="ttdef"><b>Definition:</b> <a href="_base_tile_d_b_8cs_source.html#l00006">BaseTileDB.cs:7</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_99a507484538e03c86c178d22aac377d.html">Project Gaslight</a></li><li class="navelem"><a class="el" href="dir_a3bfe71b69d2bd7581bb3d797d376742.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a7926aa14f900de934600ccac0b17245.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_50e1f117bdc07c8e8a101912bcc269da.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_127947e3453e010d225e0154283822ea.html">Character</a></li><li class="navelem"><a class="el" href="dir_1db6b1ddaa86c70092f201294d686bec.html">Logic</a></li><li class="navelem"><a class="el" href="dir_4f44089a8bed2703c9952949cae0dea3.html">Behaviors</a></li><li class="navelem"><a class="el" href="_behaviors_8cs.html">Behaviors.cs</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -1,7 +1,7 @@
 <map id="Gaslight.Scripts.Admin.PlayerController.HandlePlayerCharacterChangeButtonState" name="Gaslight.Scripts.Admin.PlayerController.HandlePlayerCharacterChangeButtonState">
-<area shape="rect" id="node1" title=" " alt="" coords="1088,21,1301,80"/>
-<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a5d5e057d2c39ba15f7fd22f096b07670" title=" " alt="" coords="843,29,1040,72"/>
-<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a466fd4ef2199d2a031ade62362ac59c8" title=" " alt="" coords="564,29,795,72"/>
-<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#afa70032140ab053e7a14f04f10473511" title=" " alt="" coords="285,29,516,72"/>
-<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a7e4923a41d4ae6ac2c5b206ba63cb9ac" title=" " alt="" coords="5,29,237,72"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1100,21,1313,80"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a5d5e057d2c39ba15f7fd22f096b07670" title=" " alt="" coords="855,29,1052,72"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#aa6171858e9c4615e39da4e197498e302" title=" " alt="" coords="572,29,807,72"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#ab25200ad32b26c262996ad56d5859192" title=" " alt="" coords="289,29,524,72"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#ab711fc5fdf20124903d7a5bd7b431aee" title=" " alt="" coords="5,29,241,72"/>
 </map>

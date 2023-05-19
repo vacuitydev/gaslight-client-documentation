@@ -1,0 +1,7 @@
+<map id="Gaslight.Scripts.Characters.Actor.TraversePath" name="Gaslight.Scripts.Characters.Actor.TraversePath">
+<area shape="rect" id="node1" title=" " alt="" coords="5,55,191,97"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a01e3e5e583ec640c721a65c922d18be9" title="Move along a path." alt="" coords="239,47,500,105"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a30aa76e615915e52e9c50e4764fe92d2" title=" " alt="" coords="548,47,809,105"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a4b6cf3778471f0a5928491bc127e00f2" title=" " alt="" coords="873,5,1134,64"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a9f6533134bd8fc675402d3f39f4908b5" title="From start tile, face end tile, rotate smoothly." alt="" coords="857,88,1150,147"/>
+</map>

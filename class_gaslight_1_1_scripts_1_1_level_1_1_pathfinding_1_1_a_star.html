@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_level.html">Level</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_level_1_1_pathfinding.html">Pathfinding</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html">AStar</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -167,7 +183,7 @@ Private Attributes</h2></td></tr>
 <div class="line"><span class="lineno">   81</span>            <a class="code hl_property" href="_level_registry_8cs.html#a463505fa4a63093f915b9ff7342401ba">Level</a>.instance.ChangeTileDisplayColor(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#af2307ec6ae56f922a9debe991c1dba82">OpenLocations</a>.ToArray(), <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a4af9b061d7597b7c2658affb6e3c613d">_OpenColor</a>);</div>
 <div class="line"><span class="lineno">   82</span>            <a class="code hl_property" href="_level_registry_8cs.html#a463505fa4a63093f915b9ff7342401ba">Level</a>.instance.ChangeTileDisplayColor(<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a83182936158b1de00aeb1b396801c11e">Closed</a>.ToArray(), <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a50d3634248ab23c21004e4bb1061b25d">_ClosedColor</a>);</div>
 <div class="line"><span class="lineno">   83</span>        }</div>
-<div class="ttc" id="a_level_registry_8cs_html_a463505fa4a63093f915b9ff7342401ba"><div class="ttname"><a href="_level_registry_8cs.html#a463505fa4a63093f915b9ff7342401ba">Level</a></div><div class="ttdeci">$ Level</div><div class="ttdef"><b>Definition:</b> <a href="_level_registry_8cs_source.html#l00098">LevelRegistry.cs:98</a></div></div>
+<div class="ttc" id="a_level_registry_8cs_html_a463505fa4a63093f915b9ff7342401ba"><div class="ttname"><a href="_level_registry_8cs.html#a463505fa4a63093f915b9ff7342401ba">Level</a></div><div class="ttdeci">$ Level</div><div class="ttdef"><b>Definition:</b> <a href="_level_registry_8cs_source.html#l00099">LevelRegistry.cs:99</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a4af9b061d7597b7c2658affb6e3c613d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a4af9b061d7597b7c2658affb6e3c613d">Gaslight.Scripts.Level.Pathfinding.AStar._OpenColor</a></div><div class="ttdeci">Color _OpenColor</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00018">AStar.cs:18</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a50d3634248ab23c21004e4bb1061b25d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a50d3634248ab23c21004e4bb1061b25d">Gaslight.Scripts.Level.Pathfinding.AStar._ClosedColor</a></div><div class="ttdeci">Color _ClosedColor</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00019">AStar.cs:19</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a83182936158b1de00aeb1b396801c11e"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a83182936158b1de00aeb1b396801c11e">Gaslight.Scripts.Level.Pathfinding.AStar.Closed</a></div><div class="ttdeci">List&lt; int &gt; Closed</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00025">AStar.cs:25</a></div></div>
@@ -187,13 +203,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ab1bc6ce83a87c0b65e2246c073114683_icgraph.png" border="0" usemap="#aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ab1bc6ce83a87c0b65e2246c073114683_icgraph" alt=""/></div>
 <map name="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ab1bc6ce83a87c0b65e2246c073114683_icgraph" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ab1bc6ce83a87c0b65e2246c073114683_icgraph">
-<area shape="rect" title=" " alt="" coords="964,72,1183,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="696,72,916,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="464,72,648,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="232,5,416,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="232,72,416,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a81f1c2c2637f91e12af197d579e10159" title=" " alt="" coords="235,139,413,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a9932e1e6db9f0b04648d2e3cf6f3a553" title=" " alt="" coords="5,139,184,181"/>
+<area shape="rect" title=" " alt="" coords="972,72,1191,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="704,72,924,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="472,72,656,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="239,5,424,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="239,72,424,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad" title=" " alt="" coords="239,139,424,181"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,139,191,181"/>
 </map>
 </div>
 
@@ -295,7 +311,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   71</span>            }</div>
 <div class="line"><span class="lineno">   72</span>            <span class="keywordflow">return</span> (<a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a106df656f1a738aedad68b2b85c53365">PathFound</a>, <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a7da9cf90d0328f00612939072ee52584">PathLocs</a>.ToArray());</div>
 <div class="line"><span class="lineno">   73</span>        }</div>
-<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00006">Directive.cs:6</a></div></div>
+<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00007">Directive.cs:7</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a106df656f1a738aedad68b2b85c53365"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a106df656f1a738aedad68b2b85c53365">Gaslight.Scripts.Level.Pathfinding.AStar.PathFound</a></div><div class="ttdeci">bool PathFound</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00029">AStar.cs:29</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a2eec8599ff737983603c56ebe70e683f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a2eec8599ff737983603c56ebe70e683f">Gaslight.Scripts.Level.Pathfinding.AStar.IterationsPerFrame</a></div><div class="ttdeci">int IterationsPerFrame</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00031">AStar.cs:31</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a4ac9aea04796f772f79e15f7b7f79786"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a4ac9aea04796f772f79e15f7b7f79786">Gaslight.Scripts.Level.Pathfinding.AStar.Progress</a></div><div class="ttdeci">bool Progress(Func&lt; Node, int,(bool, float)&gt; evaluator, bool debug=false)</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00105">AStar.cs:105</a></div></div>
@@ -329,12 +345,12 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a083f967e98a14b9b827050589639a11e_icgraph.png" border="0" usemap="#aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a083f967e98a14b9b827050589639a11e_icgraph" alt=""/></div>
 <map name="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a083f967e98a14b9b827050589639a11e_icgraph" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a083f967e98a14b9b827050589639a11e_icgraph">
-<area shape="rect" title=" " alt="" coords="696,72,916,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="464,72,648,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="232,5,416,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="232,72,416,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a81f1c2c2637f91e12af197d579e10159" title=" " alt="" coords="235,139,413,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a9932e1e6db9f0b04648d2e3cf6f3a553" title=" " alt="" coords="5,139,184,181"/>
+<area shape="rect" title=" " alt="" coords="704,72,924,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="472,72,656,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="239,5,424,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="239,72,424,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad" title=" " alt="" coords="239,139,424,181"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,139,191,181"/>
 </map>
 </div>
 
@@ -360,20 +376,20 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">   88</span>            <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Log(<a class="code hl_variable" href="_actor_8cs.html#a58859d93c30e635814dc980ed86e3f84">$</a><span class="stringliteral">&quot;Open locations {OpenLocations.Aggregate(&quot;</span><span class="stringliteral">&quot;, ((s, i) =&gt; s+TileCoordinate.IndexToCoord(i).ToString()+&quot;</span>,<span class="stringliteral">&quot;))}&quot;</span>);</div>
 <div class="line"><span class="lineno">   89</span>            <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Log(<a class="code hl_variable" href="_actor_8cs.html#a58859d93c30e635814dc980ed86e3f84">$</a><span class="stringliteral">&quot;Closed locations {Closed.Aggregate(&quot;</span><span class="stringliteral">&quot;, ((s, i) =&gt; s+TileCoordinate.IndexToCoord(i).ToString()+&quot;</span>,<span class="stringliteral">&quot;))}&quot;</span>);</div>
 <div class="line"><span class="lineno">   90</span>        }</div>
-<div class="ttc" id="a_actor_8cs_html_a58859d93c30e635814dc980ed86e3f84"><div class="ttname"><a href="_actor_8cs.html#a58859d93c30e635814dc980ed86e3f84">$</a></div><div class="ttdeci">$</div><div class="ttdef"><b>Definition:</b> <a href="_actor_8cs_source.html#l00081">Actor.cs:81</a></div></div>
+<div class="ttc" id="a_actor_8cs_html_a58859d93c30e635814dc980ed86e3f84"><div class="ttname"><a href="_actor_8cs.html#a58859d93c30e635814dc980ed86e3f84">$</a></div><div class="ttdeci">$</div><div class="ttdef"><b>Definition:</b> <a href="_actor_8cs_source.html#l00093">Actor.cs:93</a></div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ada541a14cb7d6d352fe9cf76b4df4dbc_icgraph.png" border="0" usemap="#aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ada541a14cb7d6d352fe9cf76b4df4dbc_icgraph" alt=""/></div>
 <map name="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ada541a14cb7d6d352fe9cf76b4df4dbc_icgraph" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_ada541a14cb7d6d352fe9cf76b4df4dbc_icgraph">
-<area shape="rect" title=" " alt="" coords="1231,72,1450,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a4ac9aea04796f772f79e15f7b7f79786" title=" " alt="" coords="964,72,1183,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="696,72,916,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="464,72,648,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="232,5,416,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="232,72,416,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a81f1c2c2637f91e12af197d579e10159" title=" " alt="" coords="235,139,413,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a9932e1e6db9f0b04648d2e3cf6f3a553" title=" " alt="" coords="5,139,184,181"/>
+<area shape="rect" title=" " alt="" coords="1239,72,1458,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a4ac9aea04796f772f79e15f7b7f79786" title=" " alt="" coords="972,72,1191,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="704,72,924,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="472,72,656,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="239,5,424,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="239,72,424,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad" title=" " alt="" coords="239,139,424,181"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,139,191,181"/>
 </map>
 </div>
 
@@ -438,7 +454,7 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  135</span>            <span class="comment">//Under construction</span></div>
 <div class="line"><span class="lineno">  136</span>            <span class="keywordflow">if</span>(debug)</div>
 <div class="line"><span class="lineno">  137</span>                <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Log(<span class="stringliteral">&quot;Analyzing &quot;</span>+ CurrentNode.Tile.tileKey);</div>
-<div class="line"><span class="lineno">  138</span>            <a class="code hl_enumvalue" href="namespace_gaslight_1_1_scripts_1_1_character_1_1_logic.html#a1f0965d519c3d765a6e71e565734ea96ac5457c5f3cfb4da8638ce7190f8e5152">Tile</a> curTl = CurrentNode.Tile;</div>
+<div class="line"><span class="lineno">  138</span>            <a class="code hl_enumvalue" href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_logic.html#a10eaed7afea7597c651a1e3fef912e78ac5457c5f3cfb4da8638ce7190f8e5152">Tile</a> curTl = CurrentNode.Tile;</div>
 <div class="line"><span class="lineno">  139</span>            <span class="keywordflow">foreach</span> (<a class="code hl_property" href="_level_registry_8cs.html#a463505fa4a63093f915b9ff7342401ba">Level</a>.ELevelDirection direction in Enum.GetValues(typeof(<a class="code hl_property" href="_level_registry_8cs.html#a463505fa4a63093f915b9ff7342401ba">Level</a>.ELevelDirection)))</div>
 <div class="line"><span class="lineno">  140</span>            {</div>
 <div class="line"><span class="lineno">  141</span>                <span class="comment">//Adds neighbors of current node to open list</span></div>
@@ -509,14 +525,14 @@ Here is the caller graph for this function:</div>
 <div class="line"><span class="lineno">  206</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a106df656f1a738aedad68b2b85c53365">PathFound</a> = <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  207</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a7da9cf90d0328f00612939072ee52584">PathLocs</a>.Reverse();</div>
 <div class="line"><span class="lineno">  208</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a0391bb569d6ea17e8edb6582e4233a25">Path</a>.Reverse();</div>
-<div class="line"><span class="lineno">  209</span>                <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Break();</div>
+<div class="line"><span class="lineno">  209</span>                <span class="comment">// Debug.Break();</span></div>
 <div class="line"><span class="lineno">  210</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><span class="lineno">  211</span>            }</div>
 <div class="line"><span class="lineno">  212</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
 <div class="line"><span class="lineno">  213</span>        }</div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a0391bb569d6ea17e8edb6582e4233a25"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a0391bb569d6ea17e8edb6582e4233a25">Gaslight.Scripts.Level.Pathfinding.AStar.Path</a></div><div class="ttdeci">List&lt; Node &gt; Path</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00030">AStar.cs:30</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_ada541a14cb7d6d352fe9cf76b4df4dbc"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#ada541a14cb7d6d352fe9cf76b4df4dbc">Gaslight.Scripts.Level.Pathfinding.AStar.PrintQueues</a></div><div class="ttdeci">void PrintQueues()</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00086">AStar.cs:86</a></div></div>
-<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_character_1_1_logic_html_a1f0965d519c3d765a6e71e565734ea96ac5457c5f3cfb4da8638ce7190f8e5152"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_character_1_1_logic.html#a1f0965d519c3d765a6e71e565734ea96ac5457c5f3cfb4da8638ce7190f8e5152">Gaslight.Scripts.Character.Logic.DirectiveRequirement.Tile</a></div><div class="ttdeci">@ Tile</div></div>
+<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_characters_1_1_logic_html_a10eaed7afea7597c651a1e3fef912e78ac5457c5f3cfb4da8638ce7190f8e5152"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_logic.html#a10eaed7afea7597c651a1e3fef912e78ac5457c5f3cfb4da8638ce7190f8e5152">Gaslight.Scripts.Characters.Logic.DirectiveRequirement.Tile</a></div><div class="ttdeci">@ Tile</div></div>
 </div><!-- fragment --><div class="dynheader">
 Here is the call graph for this function:</div>
 <div class="dyncontent">
@@ -535,13 +551,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a4ac9aea04796f772f79e15f7b7f79786_icgraph.png" border="0" usemap="#aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a4ac9aea04796f772f79e15f7b7f79786_icgraph" alt=""/></div>
 <map name="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a4ac9aea04796f772f79e15f7b7f79786_icgraph" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a4ac9aea04796f772f79e15f7b7f79786_icgraph">
-<area shape="rect" title=" " alt="" coords="964,72,1183,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="696,72,916,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="464,72,648,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="232,5,416,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="232,72,416,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a81f1c2c2637f91e12af197d579e10159" title=" " alt="" coords="235,139,413,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a9932e1e6db9f0b04648d2e3cf6f3a553" title=" " alt="" coords="5,139,184,181"/>
+<area shape="rect" title=" " alt="" coords="972,72,1191,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="704,72,924,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="472,72,656,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="239,5,424,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="239,72,424,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad" title=" " alt="" coords="239,139,424,181"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,139,191,181"/>
 </map>
 </div>
 
@@ -578,13 +594,13 @@ Here is the caller graph for this function:</div>
 <div class="dyncontent">
 <div class="center"><img src="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a84d9a500850c96aa4af4aaa6209ce0fb_icgraph.png" border="0" usemap="#aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a84d9a500850c96aa4af4aaa6209ce0fb_icgraph" alt=""/></div>
 <map name="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a84d9a500850c96aa4af4aaa6209ce0fb_icgraph" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_a84d9a500850c96aa4af4aaa6209ce0fb_icgraph">
-<area shape="rect" title=" " alt="" coords="964,72,1183,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="696,72,916,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="464,72,648,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="232,5,416,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="232,72,416,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a81f1c2c2637f91e12af197d579e10159" title=" " alt="" coords="235,139,413,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a9932e1e6db9f0b04648d2e3cf6f3a553" title=" " alt="" coords="5,139,184,181"/>
+<area shape="rect" title=" " alt="" coords="972,72,1191,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e" title=" " alt="" coords="704,72,924,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6b9ec7b9b0f78d2b63a77b430cfda6ac" title=" " alt="" coords="472,72,656,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea" title=" " alt="" coords="239,5,424,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73" title=" " alt="" coords="239,72,424,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad" title=" " alt="" coords="239,139,424,181"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,139,191,181"/>
 </map>
 </div>
 
@@ -839,12 +855,16 @@ Here is the call graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Level/Pathfinding/<a class="el" href="_a_star_8cs_source.html">AStar.cs</a></li>
+<li>E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Level/Pathfinding/<a class="el" href="_a_star_8cs_source.html">AStar.cs</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_level.html">Level</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_level_1_1_pathfinding.html">Pathfinding</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html">AStar</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

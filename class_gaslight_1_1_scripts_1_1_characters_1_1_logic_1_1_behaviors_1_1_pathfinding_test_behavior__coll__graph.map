@@ -1,0 +1,9 @@
+<map id="Gaslight.Scripts.Characters.Logic.Behaviors.PathfindingTestBehavior" name="Gaslight.Scripts.Characters.Logic.Behaviors.PathfindingTestBehavior">
+<area shape="rect" id="node1" title=" " alt="" coords="520,1531,725,1724"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="522,1264,723,1409"/>
+<area shape="rect" id="node3" title=" " alt="" coords="276,5,385,87"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_character.html" title=" " alt="" coords="231,167,430,1128"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="87,1256,289,1417"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html" title=" " alt="" coords="313,1192,498,1481"/>
+<area shape="rect" id="node5" title=" " alt="" coords="5,5,56,87"/>
+</map>

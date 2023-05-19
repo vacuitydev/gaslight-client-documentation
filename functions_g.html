@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_g.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -73,56 +93,65 @@ $(function() {
 <div class="textblock">Here is a list of all class members with links to the classes they belong to:</div>
 
 <h3><a id="index_g" name="index_g"></a>- g -</h3><ul>
-<li>gameLevel&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a181b739aa07bf55a15c1aef48f47bcf7">Gaslight.Scripts.Character.Character</a></li>
-<li>gateway&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abdb5fca468d77b3dd72f4af52f5f1dfd">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
-<li>GDType&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html#a183fc9ae4e96307922d5bbf846f4d819">Gaslight.Scripts.Character.Logic.Directive</a></li>
-<li>GeneratePatrolRoutesFromTargets()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#aef33cf0365d3653ea3d09f7b17c7c68b">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>gameLevel&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#abb188963940d64b46b6a9e05a9fa3943">Gaslight.Scripts.Characters.Character</a></li>
+<li>gateway&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abdb5fca468d77b3dd72f4af52f5f1dfd">Gaslight.Scripts.Descriptors.LevelDescriptor</a>, <a class="el" href="class_level_loader.html#ad01d1a862fc562d64c8bbf42d35cfd9f">LevelLoader</a></li>
+<li>gatewayField&#160;:&#160;<a class="el" href="class_level_loader.html#aad6e473bd113f46ade4be3b71a64bc00">LevelLoader</a></li>
+<li>GDType&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html#aec6f5d691d2b7a4b24a389cae5718d01">Gaslight.Scripts.Characters.Logic.Directive</a></li>
+<li>GeneratePatrolRoutesFromTargets()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a07b8788b4da440bd46a49cdf17bb0290">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
 <li>GenericPriorityQueue()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#afd303587075644ef210937082e9ff7a7">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a></li>
-<li>Get0orTurnNumber()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#abf08649a188eee5014aa8f6afac5200b">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>Get0orTurnNumber()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a2d05d034c0c3e1fc485cb48f381ad00e">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
 <li>Get4NeighboringTiles()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a5972175e9db78bb86426e555511d75b8">Gaslight.Scripts.Level.Level</a></li>
+<li>GetActionbarValuesFromInvoker()&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#a178aec9f770a78e695a369d78c84f80f">CharacterUIController</a></li>
 <li>GetBaseFromKey()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a542233ca5ca70abbaadee165a73bae63">Gaslight.Scripts.Level.Level</a></li>
-<li>GetBehaviorPrefab()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_behavior_registry.html#aab11963d1146a8bc43d9ce0de74b400b">Gaslight.Scripts.Character.Descriptors.BehaviorRegistry</a></li>
+<li>GetBehaviorPrefab()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_behavior_registry.html#a986282e9672bfce2f22cc6904d63ca72">Gaslight.Scripts.Characters.Descriptors.BehaviorRegistry</a></li>
 <li>GetBehaviorTarget()&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a8a24e0ce1a5a51abfaccddd6a98dfeb4">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a></li>
 <li>GetBehaviorTargetIndex()&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a44bffa83f07c743e9c5730a04c5fdeff">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a></li>
-<li>GetCharacter()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset_d_b.html#a69e60af805b0ea551f762ac9ef969ba6">Gaslight.Scripts.Character.Descriptors.CharacterAssetDB</a></li>
+<li>GetCharacter()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset_d_b.html#a27374564058579a07e2b935810b7f8fe">Gaslight.Scripts.Characters.Descriptors.CharacterAssetDB</a></li>
 <li>getCharacterDescriptorsFromPlayerPrefs&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a373baf0254769312642590688721049c">Gaslight.Scripts.Level.Level</a></li>
-<li>GetCharacterOnTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a6fd0770581790229d8c8a5634f3e8d5c">Gaslight.Scripts.Level.Level</a></li>
+<li>GetCharacterOnTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ab1a1b4487bddcbca3bfe044bf63ee9ae">Gaslight.Scripts.Level.Level</a></li>
 <li>GetCharacters()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04073a57ba063b025cc3e48a70a91cad">Gaslight.Scripts.Level.Level</a></li>
-<li>GetCharactersOfFaction()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#afb75dc3fddfec79c83b033003a6c8963">Gaslight.Scripts.Level.Level</a></li>
+<li>GetCharactersOfFaction()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a33213a4cc53478eeed4bb3eafb3f2b1e">Gaslight.Scripts.Level.Level</a></li>
 <li>GetDecoFromKey()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a3ce09b8e0853f9ab48b8f96d9a955301">Gaslight.Scripts.Level.Level</a></li>
-<li>GetDirective()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive_factory.html#a5796414c82c8c469fd4e62986b937c94">Gaslight.Scripts.Character.Logic.DirectiveFactory</a></li>
+<li>GetDirective()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive_factory.html#ac5305316de484c9449d14d0486045ba7">Gaslight.Scripts.Characters.Logic.DirectiveFactory</a></li>
 <li>GetEnumerator()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a3e0b2f2d075106d5660f5b925be9032b">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#ae454949c3914defd0858ad5172c2500a">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a3681f649187d6f96a52eb24b42aa87e5">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#afc55ed3250847d2da1b3f27264a8cbc7">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
 <li>GetExistingNode()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a77a13b377b88962bb48946e46e0e0bbe">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a></li>
-<li>GetFloatTrait()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#ab1066ec2790a622669b20047d73ca298">Gaslight.Scripts.Character.Character</a></li>
-<li>GetFromList()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset_d_b.html#a331b2fa7b18fdcddb4bf2dd5c361275a">Gaslight.Scripts.Character.Descriptors.CharacterAssetDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html#ab3384273b9efd1e8d1bbe797cd9a2651">Gaslight.Scripts.Descriptors.BaseTileDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_d_b.html#a59e7e98b6bdff8732101836e1e1f9836">Gaslight.Scripts.Descriptors.DecoTileDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html#ae6209d32c04d34844d21fb19219e5e8b">Gaslight.Scripts.Descriptors.ExtraTileDB</a></li>
-<li>GetHostileState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#aa756c08ee9143cc794dd4aaa4f99a6e3">Gaslight.Scripts.Character.Animation_Managers.AnimatedMovementComponent</a></li>
-<li>GetIcon()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_icon_d_b.html#a9eed275936470cf7a10de4a4b828fdad">Gaslight.Scripts.Character.Descriptors.CharacterIconDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#af569bf9c49fc10852f7d752317235447">Gaslight.Scripts.Character.Descriptors.DirectiveIconManager</a></li>
+<li>GetFloatTrait()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a8f60dd893a013cf7bbd854e144465797">Gaslight.Scripts.Characters.Character</a></li>
+<li>GetFromList()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset_d_b.html#ac12c36b465701e92968c0d87ced88075">Gaslight.Scripts.Characters.Descriptors.CharacterAssetDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html#ab3384273b9efd1e8d1bbe797cd9a2651">Gaslight.Scripts.Descriptors.BaseTileDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_d_b.html#a59e7e98b6bdff8732101836e1e1f9836">Gaslight.Scripts.Descriptors.DecoTileDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html#ae6209d32c04d34844d21fb19219e5e8b">Gaslight.Scripts.Descriptors.ExtraTileDB</a></li>
+<li>GetHealthbarValuesFromInvoker()&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#ac95bb206996c8713da3fb8e2f61292b9">CharacterUIController</a></li>
+<li>GetHostileState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a8dbe7483ac780fbf448618df4aa5e741">Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent</a></li>
+<li>GetIcon()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_icon_d_b.html#a9556b3b6f53d30aca918853ca8791f6b">Gaslight.Scripts.Characters.Descriptors.CharacterIconDB</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a3e399bbb650cc9728230f4ac94212ddb">Gaslight.Scripts.Characters.Descriptors.DirectiveIconManager</a></li>
 <li>GetInsightEnabledCharacters()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a91c69c73a5e2c4e778eed42d9b8f65f2">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
 <li>GetInsightOnLevel()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#ae1e2a4acf50fd6f7ff4491d1ee24fa78">Gaslight.Scripts.Descriptors.LevelDescriptorEditor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html#abc72534e4242d9b059e215b70108de11">Gaslight.Scripts.Descriptors.LevelRegistry</a></li>
+<li>GetInsightOnLevelPromise()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#aa1fcc13b74ae392de98616ad6a1e0649">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
+<li>GetInsights()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a825c17b014490147a28f093691d78f27">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
+<li>GetInsightsPromise()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a1260be7d2493a4c1e6feabe925882730">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
 <li>getLevelDescriptorsFromPlayerPrefs&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ac665cb0c47416ffb9fe4c79f81cb151f">Gaslight.Scripts.Level.Level</a></li>
 <li>GetLevelNames()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html#ae18358403be96c3a64e6d8ce43890015">Gaslight.Scripts.Descriptors.LevelRegistry</a></li>
 <li>GetLevelOrNull()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html#a2c0a802c8aabb26568ec16205968fa0f">Gaslight.Scripts.Descriptors.LevelRegistry</a></li>
 <li>GetLevels()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a7bb6a6776dd42fc125f811fd7880b1e6">Gaslight.Scripts.UI.MainMenuScript</a></li>
 <li>GetManhattanEvaluator()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adb52b45415213ed1cdaf03ffcd0cdd49">Gaslight.Scripts.Level.Level</a></li>
-<li>GetMaxTraversibleTilesInOneTurn()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a4c4e00e6d07c2fe7780cd4c36e77b1ca">Gaslight.Scripts.Character.Actor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a341c85944d8bc54eda57fa3326a37d1b">Gaslight.Scripts.Character.Character</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_prop_character.html#ab97c1aa55ea49cbba978469f6588727c">Gaslight.Scripts.Character.PropCharacter</a></li>
+<li>GetMaxTraversibleTilesInOneTurn()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a5549c05a5732a80986ba51866c0f8103">Gaslight.Scripts.Characters.Actor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#aa8146f9397ab62874756504760d93c0d">Gaslight.Scripts.Characters.Character</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_prop_character.html#a7aff3ae0fac9b63ff0d5e7e25acbbeab">Gaslight.Scripts.Characters.PropCharacter</a></li>
 <li>GetObscuringFrom()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_asset.html#aa6f1c9ba49f41bc6e6883ab221693e6f">Gaslight.Scripts.Descriptors.ExtraTileAsset</a></li>
 <li>GetPathDistance()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a04ebab7532ae96592dbbc09670bec8ea">Gaslight.Scripts.Level.Level</a></li>
 <li>GetPathDistanceAsync()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acd4ac80909e974598051b294d82b5a73">Gaslight.Scripts.Level.Level</a></li>
-<li>GetPathfindingHeuristic()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a8758c4007c412f4827758a7cc484980a">Gaslight.Scripts.Character.Character</a></li>
-<li>GetPathTowards()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a81f1c2c2637f91e12af197d579e10159">Gaslight.Scripts.Character.Actor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a7e8f46a3255aefab5471f2612b0342e6">Gaslight.Scripts.Character.Character</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_prop_character.html#ab383d069ba43ef1cf88333e42f3e96d4">Gaslight.Scripts.Character.PropCharacter</a></li>
+<li>GetPathfindingHeuristic()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#add4ecb095e7369569f69afce5bd2ed52">Gaslight.Scripts.Characters.Character</a></li>
+<li>GetPathTowards()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad">Gaslight.Scripts.Characters.Actor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#aed3c4e79ab334edfceffce3814dd7846">Gaslight.Scripts.Characters.Character</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_prop_character.html#ae220bb295a35cf073ad637976734c616">Gaslight.Scripts.Characters.PropCharacter</a></li>
 <li>GetPriority()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#ab7a996d98717c20427731ec9baffc1e1">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a></li>
 <li>GetTileFromKey()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a36d002226247bf7cf31e514cf23ce8e4">Gaslight.Scripts.Level.Level</a></li>
 <li>GetTilesWithDisplaysOff()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a62d616956dee5d818b0d2a464c5e6061">Gaslight.Scripts.Level.Level</a></li>
 <li>GetTilesWithDisplaysOn()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#abffd4a298173bdbc3f991ad5113bd301">Gaslight.Scripts.Level.Level</a></li>
-<li>GetTraversibles()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3b080a34b221775e07c0917076ad6ccc">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
+<li>GetTraversibles()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a559769543d279ff30aa2d2d1cc12505f">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
 <li>GetValidBaseTileNames()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a3da70525e61f454907943371e2523d6e">Gaslight.Scripts.Level.Level</a></li>
-<li>GetValidDirectivesForRole()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_manager.html#ae9accf2972769e3d26a19efae6ad7ed0">Gaslight.Scripts.Character.Descriptors.DirectiveManager</a></li>
-<li>getValidTraits()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#ac3e0c0a7c7d6d12c93cfd31edc008ad7">Gaslight.Scripts.Character.Character</a></li>
+<li>GetValidDirectivesForRole()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_manager.html#a7f210cb2df0e072d8a51414868b1138b">Gaslight.Scripts.Characters.Descriptors.DirectiveManager</a></li>
+<li>getValidTraits()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a70ef8281ad48718ad08caad00c3ba69f">Gaslight.Scripts.Characters.Character</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

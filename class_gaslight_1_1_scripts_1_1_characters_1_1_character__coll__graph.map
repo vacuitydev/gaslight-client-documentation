@@ -1,0 +1,8 @@
+<map id="Gaslight.Scripts.Characters.Character" name="Gaslight.Scripts.Characters.Character">
+<area shape="rect" id="node1" title=" " alt="" coords="170,1561,369,2523"/>
+<area shape="rect" id="node2" title=" " alt="" coords="59,5,168,87"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_character.html" title=" " alt="" coords="195,167,395,1128"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="61,1272,262,1433"/>
+<area shape="rect" id="node3" title=" " alt="" coords="399,5,449,87"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html" title=" " alt="" coords="286,1208,472,1497"/>
+</map>

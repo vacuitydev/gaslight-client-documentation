@@ -1,6 +1,7 @@
 <map id="Gaslight.Scripts.Admin.EnemyController" name="Gaslight.Scripts.Admin.EnemyController">
-<area shape="rect" id="node1" title=" " alt="" coords="51,1112,251,1257"/>
-<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html" title=" " alt="" coords="49,199,253,1048"/>
-<area shape="rect" id="node3" title=" " alt="" coords="5,29,115,111"/>
-<area shape="rect" id="node4" href="$struct_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller_1_1_defaults.html" title=" " alt="" coords="139,5,344,135"/>
+<area shape="rect" id="node1" title=" " alt="" coords="80,1112,280,1241"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html" title=" " alt="" coords="171,199,376,1048"/>
+<area shape="rect" id="node3" title=" " alt="" coords="33,29,143,111"/>
+<area shape="rect" id="node5" href="$class_current_turn_follower.html" title="Follows a target at a low location, used to show which enemy is moving for example." alt="" coords="5,519,147,728"/>
+<area shape="rect" id="node4" href="$struct_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller_1_1_defaults.html" title=" " alt="" coords="171,5,376,135"/>
 </map>

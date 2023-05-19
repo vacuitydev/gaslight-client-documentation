@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_func_c.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -74,15 +94,15 @@ $(function() {
 
 <h3><a id="index_c" name="index_c"></a>- c -</h3><ul>
 <li>CalculateBounds()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#af58b5bc0a0403a2faccf86f249058950">Gaslight.Scripts.Level.Level</a></li>
-<li>CalculateDimensions()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ab2512c94e7e2a4c6e1f8c36e26622a42">Gaslight.Scripts.Level.Level</a></li>
-<li>CalculateTurnAbleCharacters()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a17a32f01bc0df20a3c323bf62cb9ed6d">Gaslight.Scripts.Admin.PlayerController</a></li>
-<li>Cancel()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a6895e5e11f5a23a17bb97b5c4195517f">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>CancelDirective()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a80ce0c2c0911e7d968b9a99894460119">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
+<li>CalculateDimensions()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#aa78e2aa3c6fa6ab981c7b6b5b16cd334">Gaslight.Scripts.Descriptors.LevelLayout</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ab2512c94e7e2a4c6e1f8c36e26622a42">Gaslight.Scripts.Level.Level</a></li>
+<li>CalculateTurnAbleCharacters()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a6a07fe41759a74aa74d65ad0662e14cc">Gaslight.Scripts.Admin.PlayerController</a></li>
+<li>Cancel()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a50ca901879d55aef80476d266fef742e">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>CancelDirective()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#ad7328500cb60e43432ad25f1429c97a3">Gaslight.Scripts.Admin.Orchestrator</a></li>
 <li>CancelPlayerDirective()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a86e9f9440197de08a574212fb12c48b0">Gaslight.Scripts.Admin.PlayerController</a></li>
 <li>CascadeDown()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a04bedcf0fa2c1b98a9a90cd3d900d972">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#af3e543751af77a2d8ee09e643cb9c9c6">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ad99f80d6f81cbbdb11f099ae328f834b">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
 <li>CascadeUp()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#ade6479c19bf119b15885c369555f2b86">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a1a85d579c454a51404698eb8ab112d7d">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a7c5cc134149ddb1c6b6ca8ea1c8c33be">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
 <li>ChangeBaseTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#a712a7fdc60f2378f9bb142449a5b9d1b">Gaslight.Scripts.Level.LevelEditorUITK</a></li>
-<li>ChangeCharacterTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ae811edce6c18db18b25ef90ce6643889">Gaslight.Scripts.Level.Level</a></li>
+<li>ChangeCharacterTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a4d3b8de55084934cf277dfe26757d805">Gaslight.Scripts.Level.Level</a></li>
 <li>ChangeCharacterTo()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a0872d35fca1e421348b07a1fd0fd79e5">Gaslight.Scripts.Admin.PlayerController</a></li>
 <li>ChangeTileBase()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#aec6d9fb32e1ac3b31ac14075a38133b9">Gaslight.Scripts.Level.Level</a></li>
 <li>ChangeTileDisplayActivationState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a564782b0934e6b960d6f47b496b0076d">Gaslight.Scripts.Level.Level</a></li>
@@ -90,21 +110,29 @@ $(function() {
 <li>ChangeTileDisplayStateWithPredicate()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ad26fd52dc2142e1b6875ee51e2e45654">Gaslight.Scripts.Level.Level</a></li>
 <li>ChangeTileRotation()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a319d670b8509f2e4abecf0ec7912f5d4">Gaslight.Scripts.Level.Level</a></li>
 <li>ChangeTileSelectionColliderState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a8bf6268d79433776ef2ad93f8f926a33">Gaslight.Scripts.Level.Level</a></li>
-<li>ChaseThreshold()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a1b896a9ad64012ea41eb8c1786c8283b">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>ChaseToIdleThreshold()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a072c6762f3ff5738c8fb9ad57d81f01d">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>ChaseToInvestigateThreshold()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#ac7fd7d66444ac137cd6a6dcf2bda9f17">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>CheckMouseOverUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a71edde42b23f69c1f83a3a81d043797e">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
+<li>ChaseThreshold()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a13e3a066a3a313694ad74f3dd5044d11">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>ChaseToIdleThreshold()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a8bf15eb84f2154b3196d33d5736fa7f2">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>ChaseToInvestigateThreshold()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#ac2428403278f4b3006a25dbf9669cd92">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>CheckMouseOverUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a7fd33c22a109664eafb4e4c9a5ea29ab">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
+<li>CheckStatus()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#acd37c1b9d05a0bebaa229091fcc59b1d">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
 <li>Clear()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#ad539e6ebbce67a2a3f1470c364358787">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a997c4a2e011cac580b6785e25751d641">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html#ac58774bb61b76e6cefd18e608740bb0f">Gaslight.Scripts.Level.Pathfinding.IPriorityQueue&lt; TItem, in TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a3799db4b962fbc84e2138d67adcb4f86">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a528160e124343e448ec8ab98c918a3fc">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
+<li>ClearMessage()&#160;:&#160;<a class="el" href="class_level_loader.html#a6e030099d65dd7663866cefca2f97c0f">LevelLoader</a></li>
 <li>ColorTiles()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#ab1bc6ce83a87c0b65e2246c073114683">Gaslight.Scripts.Level.Pathfinding.AStar</a></li>
-<li>ConfirmSelection()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#acc9a7842841d9b22015b29670aded32f">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
+<li>ConfirmSelection()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#aa78123228b5678a0492a6d536923e6e7">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
 <li>Contains()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a0ebe4f943f307a15bea9babe8d06f89e">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#ad4d2db0b2a316b42173038b00c96a436">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html#abda9ede7f7605e0c3bb5f0069a877a99">Gaslight.Scripts.Level.Pathfinding.IPriorityQueue&lt; TItem, in TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a994f39c0b1842c081affdd1630b034fb">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a9d96fab0a99e95708509ffbe281d6690">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
 <li>CoordToWorld()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a124c129be5d6e5b7613284f69a42b9dc">Gaslight.Scripts.Level.Level</a></li>
+<li>CreateActionPointsbar()&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#aaa5ff38b770e12527920c0a42b93cc81">CharacterUIController</a></li>
+<li>CreateHealthbar()&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#ad045e61afe6b62b9e2a14daa8d71eff0">CharacterUIController</a></li>
 <li>CreateLevel()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a22195ad582429a3f4fd2fe3ddd3d7bf6">Gaslight.Scripts.Level.Level</a></li>
+<li>CrossfadeIn()&#160;:&#160;<a class="el" href="class_crossfade.html#afe25c0bc8f1b00c687c648a03ecda7b0">Crossfade</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

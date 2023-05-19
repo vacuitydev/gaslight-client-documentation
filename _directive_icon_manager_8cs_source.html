@@ -5,10 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Project Gaslight client: E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Character/Descriptors/DirectiveIconManager.cs Source File</title>
+<title>Project Gaslight client: E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Character/Descriptors/DirectiveIconManager.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_directive_icon_manager_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_325fa66e10368cd8400e070e16ef4b2c.html">Base1</a></li><li class="navelem"><a class="el" href="dir_bfab4cead1a831ecdc5711fea90ca339.html">Assets</a></li><li class="navelem"><a class="el" href="dir_ba3ca6dc24625fd2ddbb82a1e2b64efc.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_de7fda6d1572a00500e78c7851f26c63.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_a3da3c26946f541c7a9742e83929500a.html">Character</a></li><li class="navelem"><a class="el" href="dir_dbcca9e537ad265d867049be55b4a9a5.html">Descriptors</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">DirectiveIconManager.cs</div></div>
 </div><!--header-->
@@ -81,36 +97,40 @@ $(function() {
 <div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span><span class="keyword">using </span>System.Collections.Generic;</div>
 <div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">using </span>UnityEngine;</div>
 <div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
-<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_gaslight_1_1_scripts_1_1_character_1_1_descriptors.html">Gaslight.Scripts.Character.Descriptors</a></div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">namespace </span><a class="code hl_namespace" href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_descriptors.html">Gaslight.Scripts.Characters.Descriptors</a></div>
 <div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span>{</div>
 <div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span>    [Serializable]</div>
-<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html">    8</a></span>    <span class="keyword">public</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html">DirectiveIcon</a></div>
+<div class="line"><a id="l00008" name="l00008"></a><span class="lineno"><a class="line" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html">    8</a></span>    <span class="keyword">public</span> <span class="keyword">struct </span><a class="code hl_struct" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html">DirectiveIcon</a></div>
 <div class="line"><a id="l00009" name="l00009"></a><span class="lineno">    9</span>    {</div>
-<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#af37e33c6aeb324fa0a0d335bed4275d7">   10</a></span>        <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#af37e33c6aeb324fa0a0d335bed4275d7">name</a>;</div>
-<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#a6655ff5d52171c9195d573fafe4b22ea">   11</a></span>        <span class="keyword">public</span> Sprite <a class="code hl_variable" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#a6655ff5d52171c9195d573fafe4b22ea">icon</a>;</div>
+<div class="line"><a id="l00010" name="l00010"></a><span class="lineno"><a class="line" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#aad5ed6d8aeb637edec8663fef4acb0f8">   10</a></span>        <span class="keyword">public</span> <span class="keywordtype">string</span> <a class="code hl_variable" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#aad5ed6d8aeb637edec8663fef4acb0f8">name</a>;</div>
+<div class="line"><a id="l00011" name="l00011"></a><span class="lineno"><a class="line" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#ade260b117b180217bc7b075837b899fe">   11</a></span>        <span class="keyword">public</span> Sprite <a class="code hl_variable" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#ade260b117b180217bc7b075837b899fe">icon</a>;</div>
 <div class="line"><a id="l00012" name="l00012"></a><span class="lineno">   12</span>    }</div>
 <div class="line"><a id="l00013" name="l00013"></a><span class="lineno">   13</span>    [CreateAssetMenu(fileName = <span class="stringliteral">&quot;DirectiveIcons&quot;</span>, menuName = <span class="stringliteral">&quot;Game/DirectiveIcons&quot;</span>)]</div>
-<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html">   14</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html">DirectiveIconManager</a>:ScriptableObject</div>
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html">   14</a></span>    <span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html">DirectiveIconManager</a>:ScriptableObject</div>
 <div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span>    {</div>
-<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#adb3bad6ff9f12af517d3f9bae5f6b3f2">   16</a></span>        <span class="keyword">public</span> List&lt;DirectiveIcon&gt; <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#adb3bad6ff9f12af517d3f9bae5f6b3f2">icons</a>;</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a02db9b05d43c7e7fcee5a7889137449f">   16</a></span>        <span class="keyword">public</span> List&lt;DirectiveIcon&gt; <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a02db9b05d43c7e7fcee5a7889137449f">icons</a>;</div>
 <div class="line"><a id="l00017" name="l00017"></a><span class="lineno">   17</span> </div>
-<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#af569bf9c49fc10852f7d752317235447">   18</a></span>        <span class="keyword">public</span> Sprite <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#af569bf9c49fc10852f7d752317235447">GetIcon</a>(String name)</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a3e399bbb650cc9728230f4ac94212ddb">   18</a></span>        <span class="keyword">public</span> Sprite <a class="code hl_function" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a3e399bbb650cc9728230f4ac94212ddb">GetIcon</a>(String name)</div>
 <div class="line"><a id="l00019" name="l00019"></a><span class="lineno">   19</span>        {</div>
-<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#adb3bad6ff9f12af517d3f9bae5f6b3f2">icons</a>.Find((el) =&gt; el.name == name).icon;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno">   20</span>            <span class="keywordflow">return</span> <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a02db9b05d43c7e7fcee5a7889137449f">icons</a>.Find((el) =&gt; el.name == name).icon;</div>
 <div class="line"><a id="l00021" name="l00021"></a><span class="lineno">   21</span>        }</div>
 <div class="line"><a id="l00022" name="l00022"></a><span class="lineno">   22</span>    }</div>
 <div class="line"><a id="l00023" name="l00023"></a><span class="lineno">   23</span>}</div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html">Gaslight.Scripts.Character.Descriptors.DirectiveIconManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00014">DirectiveIconManager.cs:15</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager_html_adb3bad6ff9f12af517d3f9bae5f6b3f2"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#adb3bad6ff9f12af517d3f9bae5f6b3f2">Gaslight.Scripts.Character.Descriptors.DirectiveIconManager.icons</a></div><div class="ttdeci">List&lt; DirectiveIcon &gt; icons</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00016">DirectiveIconManager.cs:16</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager_html_af569bf9c49fc10852f7d752317235447"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#af569bf9c49fc10852f7d752317235447">Gaslight.Scripts.Character.Descriptors.DirectiveIconManager.GetIcon</a></div><div class="ttdeci">Sprite GetIcon(String name)</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00018">DirectiveIconManager.cs:18</a></div></div>
-<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_character_1_1_descriptors_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_character_1_1_descriptors.html">Gaslight.Scripts.Character.Descriptors</a></div><div class="ttdef"><b>Definition:</b> <a href="_archetypes_8cs_source.html#l00006">Archetypes.cs:7</a></div></div>
-<div class="ttc" id="astruct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_html"><div class="ttname"><a href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html">Gaslight.Scripts.Character.Descriptors.DirectiveIcon</a></div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00008">DirectiveIconManager.cs:9</a></div></div>
-<div class="ttc" id="astruct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_html_a6655ff5d52171c9195d573fafe4b22ea"><div class="ttname"><a href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#a6655ff5d52171c9195d573fafe4b22ea">Gaslight.Scripts.Character.Descriptors.DirectiveIcon.icon</a></div><div class="ttdeci">Sprite icon</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00011">DirectiveIconManager.cs:11</a></div></div>
-<div class="ttc" id="astruct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_html_af37e33c6aeb324fa0a0d335bed4275d7"><div class="ttname"><a href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#af37e33c6aeb324fa0a0d335bed4275d7">Gaslight.Scripts.Character.Descriptors.DirectiveIcon.name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00010">DirectiveIconManager.cs:10</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html">Gaslight.Scripts.Characters.Descriptors.DirectiveIconManager</a></div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00014">DirectiveIconManager.cs:15</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager_html_a02db9b05d43c7e7fcee5a7889137449f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a02db9b05d43c7e7fcee5a7889137449f">Gaslight.Scripts.Characters.Descriptors.DirectiveIconManager.icons</a></div><div class="ttdeci">List&lt; DirectiveIcon &gt; icons</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00016">DirectiveIconManager.cs:16</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager_html_a3e399bbb650cc9728230f4ac94212ddb"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a3e399bbb650cc9728230f4ac94212ddb">Gaslight.Scripts.Characters.Descriptors.DirectiveIconManager.GetIcon</a></div><div class="ttdeci">Sprite GetIcon(String name)</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00018">DirectiveIconManager.cs:18</a></div></div>
+<div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_characters_1_1_descriptors.html">Gaslight.Scripts.Characters.Descriptors</a></div><div class="ttdef"><b>Definition:</b> <a href="_archetypes_8cs_source.html#l00006">Archetypes.cs:7</a></div></div>
+<div class="ttc" id="astruct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_html"><div class="ttname"><a href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html">Gaslight.Scripts.Characters.Descriptors.DirectiveIcon</a></div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00008">DirectiveIconManager.cs:9</a></div></div>
+<div class="ttc" id="astruct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_html_aad5ed6d8aeb637edec8663fef4acb0f8"><div class="ttname"><a href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#aad5ed6d8aeb637edec8663fef4acb0f8">Gaslight.Scripts.Characters.Descriptors.DirectiveIcon.name</a></div><div class="ttdeci">string name</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00010">DirectiveIconManager.cs:10</a></div></div>
+<div class="ttc" id="astruct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_html_ade260b117b180217bc7b075837b899fe"><div class="ttname"><a href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#ade260b117b180217bc7b075837b899fe">Gaslight.Scripts.Characters.Descriptors.DirectiveIcon.icon</a></div><div class="ttdeci">Sprite icon</div><div class="ttdef"><b>Definition:</b> <a href="_directive_icon_manager_8cs_source.html#l00011">DirectiveIconManager.cs:11</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_99a507484538e03c86c178d22aac377d.html">Project Gaslight</a></li><li class="navelem"><a class="el" href="dir_a3bfe71b69d2bd7581bb3d797d376742.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a7926aa14f900de934600ccac0b17245.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_50e1f117bdc07c8e8a101912bcc269da.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_127947e3453e010d225e0154283822ea.html">Character</a></li><li class="navelem"><a class="el" href="dir_bc2bc40427987ef5e4e62a79afcefab5.html">Descriptors</a></li><li class="navelem"><a class="el" href="_directive_icon_manager_8cs.html">DirectiveIconManager.cs</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

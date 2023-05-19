@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_vars_i.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -73,38 +93,43 @@ $(function() {
 &#160;
 
 <h3><a id="index_i" name="index_i"></a>- i -</h3><ul>
-<li>icon&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a595f9dd007a3d5b11bbdec67c2fae12f">Gaslight.Scripts.Character.Character</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_icon.html#aa301247518859117982ccbb49a601290">Gaslight.Scripts.Character.Descriptors.CharacterIcon</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html#a6655ff5d52171c9195d573fafe4b22ea">Gaslight.Scripts.Character.Descriptors.DirectiveIcon</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abfb4c68274a127aca0d3bc1e04b1e0bc">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
+<li>icon&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#afc8a35e8d251f17a329e5fe8667bf9b5">Gaslight.Scripts.Characters.Character</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_icon.html#aea65ebd6ee507812381a7356981e9bc2">Gaslight.Scripts.Characters.Descriptors.CharacterIcon</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html#ade260b117b180217bc7b075837b899fe">Gaslight.Scripts.Characters.Descriptors.DirectiveIcon</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abfb4c68274a127aca0d3bc1e04b1e0bc">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
 <li>iconName&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#ade579d48e49f540d7cea0a241c5d0f69">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a></li>
-<li>icons&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#adb3bad6ff9f12af517d3f9bae5f6b3f2">Gaslight.Scripts.Character.Descriptors.DirectiveIconManager</a></li>
+<li>icons&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a02db9b05d43c7e7fcee5a7889137449f">Gaslight.Scripts.Characters.Descriptors.DirectiveIconManager</a></li>
 <li>id&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_1_1_levels_prev.html#a3de44a0a638ab72729187489486c6a3e">Gaslight.Scripts.UI.MainMenuScript.LevelsPrev</a></li>
-<li>index&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_try_move_directive.html#a93026dac09308258e988b5c6ddf3a480">Gaslight.Scripts.Character.Logic.TryMoveDirective</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a8a3e5a0bf6d039d0ea950443fc7e67a5">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_descriptor.html#a5e63ed690dbc200884b3ae7bfff8aa5a">Gaslight.Scripts.Descriptors.ExtraDescriptor</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html#af00f5c80c66e2c716fa6cbfe7892e5f6">Gaslight.Scripts.Descriptors.TileDescriptor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html#a54a118c4f5e96f9229e89762d47b7ff3">Gaslight.Scripts.Level.TileDisplay</a></li>
+<li>ImageColorActive&#160;:&#160;<a class="el" href="class_current_turn_follower.html#a3670d9854e311e9e78943749b54a238a">CurrentTurnFollower</a></li>
+<li>ImageColorInactive&#160;:&#160;<a class="el" href="class_current_turn_follower.html#adcfccf3039097d09464ba75a402481d6">CurrentTurnFollower</a></li>
+<li>index&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_try_move_directive.html#a8063e9441b10bfd173c71f718acc6400">Gaslight.Scripts.Characters.Logic.TryMoveDirective</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a8a3e5a0bf6d039d0ea950443fc7e67a5">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_descriptor.html#a5e63ed690dbc200884b3ae7bfff8aa5a">Gaslight.Scripts.Descriptors.ExtraDescriptor</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html#af00f5c80c66e2c716fa6cbfe7892e5f6">Gaslight.Scripts.Descriptors.TileDescriptor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html#a54a118c4f5e96f9229e89762d47b7ff3">Gaslight.Scripts.Level.TileDisplay</a></li>
 <li>INITIAL_QUEUE_SIZE&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a57da997a2b92d6b1404bd0c9960c468a">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a></li>
 <li>insightEnabled&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a9ba8187323d48abf356d0bf49c31f05c">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a></li>
 <li>insightResponse&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#ae466a8f00e90599900be0d8855a8dc85">Gaslight.Scripts.Descriptors.LevelDescriptorEditor</a></li>
 <li>InsightServerURL&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_start_menu.html#a2aa748f9fede56dc4f2349e59160e28e">Gaslight.Scripts.UI.StartMenu</a></li>
 <li>insightsLevel&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a1e5f46070bfe5bfd354fa306e804f8ae">Gaslight.Scripts.Descriptors.LevelDescriptorEditor</a></li>
 <li>instance&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a3a43a2e19adc9bd9dc23769f03d87522">Gaslight.Scripts.Level.Level</a></li>
-<li>investigate_decay_per_turn&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#ad90887123a7b5bc88876ab0d4a138030">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>investigate_threshold&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a4142ccd2de99de780f41335f838d45f2">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>Invoker&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_attack_component.html#ac2d3339802d42799707d9b9dd3827365">Gaslight.Scripts.Character.Animation_Managers.AnimatedAttackComponent</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab13352eae76d172892c5e18980e9d7ab">Gaslight.Scripts.Character.Logic.Behaviors.Behavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html#a59fdb97c0870c009df6910b2fd79d82c">Gaslight.Scripts.Character.Logic.Directive</a></li>
+<li>investigate_decay_per_turn&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a07ddaabdf05b1c799cca84d775613ba6">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>investigate_threshold&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#aa92310c2c7000bd5c2ac05ab2b12de2b">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>Invoker&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#a1d2cf7b191901f3568583412134679a0">CharacterUIController</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_attack_component.html#ad6574f7b5315914f38897a8e47ac2517">Gaslight.Scripts.Characters.Animation_Managers.AnimatedAttackComponent</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a24e0b3d6092b4c35997384c4b872631b">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html#acda8e0357dfdac37b31964e0904564d5">Gaslight.Scripts.Characters.Logic.Directive</a></li>
 <li>isACharacterHighlighted&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a58823a34b0e6deab305fa02c433265a0">Gaslight.Scripts.Level.Level</a></li>
 <li>isACharacterSelected&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a1fa69b56c8d8a3c55e8a6dd31022f7ca">Gaslight.Scripts.Level.Level</a></li>
 <li>isATileSelected&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#afe9f7f92ecfeddcd851ad8b862b2f57b">Gaslight.Scripts.Level.Level</a></li>
 <li>isCharactersConsistent&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_sync_status.html#adbfa34bafbc87e22fc0d2ce320b2303f">Gaslight.Scripts.Descriptors.LevelSyncStatus</a></li>
-<li>isInputRequested&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a7c097991872fdfbcae8dbc3283d5c6d0">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
+<li>isInputRequested&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a91438746a7c905d51693ccef2b712d4b">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
 <li>isLayoutConsistent&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_sync_status.html#a8b55a94cdd97a5e01e892e7a37b9bacf">Gaslight.Scripts.Descriptors.LevelSyncStatus</a></li>
-<li>isMouseOverUI&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a07c4cdeb549b1a934505a0c90358b44d">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
+<li>isMouseOverUI&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a3bea2ac23d47da3870070e8b756fef3c">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
 <li>isMoveRequested&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#aa89098e179e4dad72e671c1ed6abf4dc">Gaslight.Scripts.Admin.PlayerController</a></li>
-<li>isMoving&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_movement_component.html#abfaab3317c7c6ae86f8e1eb47ae71720">Gaslight.Scripts.Character.Animation_Managers.MovementComponent</a></li>
+<li>isMoving&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_movement_component.html#a4880c40ee4b2c486b2248f044ed762d9">Gaslight.Scripts.Characters.Animation_Managers.MovementComponent</a></li>
 <li>isPlayerChanged&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a6682871dce3b55bec5393bd51c501c45">Gaslight.Scripts.Admin.PlayerController</a></li>
 <li>isPresent&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_sync_status.html#a303a701d5e51aee9fa609b1dab348ba4">Gaslight.Scripts.Descriptors.LevelSyncStatus</a></li>
-<li>isSelected&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#afe55a05e1dd6b50d46ca1ed4fde222ce">Gaslight.Scripts.Character.Character</a></li>
+<li>isSelected&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a40d2c4c1e3d403151f76d6fb268e517e">Gaslight.Scripts.Characters.Character</a></li>
 <li>IterationsPerFrame&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a2eec8599ff737983603c56ebe70e683f">Gaslight.Scripts.Level.Pathfinding.AStar</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Descriptors</a></li><li class="navelem"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html">CharacterLevelDescriptor</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="summary">
 <a href="#pub-methods">Public Member Functions</a> &#124;
@@ -86,12 +102,10 @@ Collaboration diagram for Gaslight.Scripts.Descriptors.CharacterLevelDescriptor:
 <div class="dyncontent">
 <div class="center"><img src="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor__coll__graph.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_coll__map" alt="Collaboration graph"/></div>
 <map name="a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_coll__map" id="a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_coll__map">
-<area shape="rect" title=" " alt="" coords="68,1193,256,1451"/>
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html" title=" " alt="" coords="5,560,194,673"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="416,136,615,1097"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="320,1177,498,1467"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="547,1241,748,1403"/>
-<area shape="rect" title=" " alt="" coords="542,5,652,87"/>
+<area shape="rect" title=" " alt="" coords="80,199,269,440"/>
+<area shape="rect" title=" " alt="" coords="5,21,56,103"/>
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html" title=" " alt="" coords="80,5,269,119"/>
+<area shape="rect" title=" " alt="" coords="292,21,377,103"/>
 </map>
 </div>
 <table class="memberdecls">
@@ -118,7 +132,7 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a9985d87876228d24cfdf608b0071b9f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8281696f257965c7f8f39258f9c5aff6"><td class="memItemLeft" align="right" valign="top"><a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a088d920b44a8aafd10f51857c03b3904">Level.Level.ELevelDirection</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a8281696f257965c7f8f39258f9c5aff6">facing</a></td></tr>
 <tr class="separator:a8281696f257965c7f8f39258f9c5aff6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab953777d840a1ece51894f05dcc851c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_character.html#a842bc44c568dce993c917c7cebb864ff">EFaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#ab953777d840a1ece51894f05dcc851c7">faction</a></td></tr>
+<tr class="memitem:ab953777d840a1ece51894f05dcc851c7"><td class="memItemLeft" align="right" valign="top"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_characters.html#a71ea6c53a440249628e973fb97febb8f">EFaction</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#ab953777d840a1ece51894f05dcc851c7">faction</a></td></tr>
 <tr class="separator:ab953777d840a1ece51894f05dcc851c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a42051cc68de4c7d73731c707d90f2d7c"><td class="memItemLeft" align="right" valign="top">string&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a42051cc68de4c7d73731c707d90f2d7c">behavior</a></td></tr>
 <tr class="separator:a42051cc68de4c7d73731c707d90f2d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,10 +140,10 @@ Public Attributes</h2></td></tr>
 <tr class="separator:a905c6af07b56be46b3119f672afbdcff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba8187323d48abf356d0bf49c31f05c"><td class="memItemLeft" align="right" valign="top">bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a9ba8187323d48abf356d0bf49c31f05c">insightEnabled</a></td></tr>
 <tr class="separator:a9ba8187323d48abf356d0bf49c31f05c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6a3f84f4513390f8d39d5bf772a7ce5f"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_float_trait.html">Character.Character.NamedFloatTrait</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a6a3f84f4513390f8d39d5bf772a7ce5f">FloatTraitOverrides</a></td></tr>
-<tr class="separator:a6a3f84f4513390f8d39d5bf772a7ce5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4f55932a0bc193480fb29d6e6503f848"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_string_trait.html">Character.Character.NamedStringTrait</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a4f55932a0bc193480fb29d6e6503f848">StringTraitOverrides</a></td></tr>
-<tr class="separator:a4f55932a0bc193480fb29d6e6503f848"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d31faa13480b968e47cae2bf31a3072"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_float_trait.html">Characters.Character.NamedFloatTrait</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a1d31faa13480b968e47cae2bf31a3072">FloatTraitOverrides</a></td></tr>
+<tr class="separator:a1d31faa13480b968e47cae2bf31a3072"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8639cf90c0e8cbdf5eaed3407e29ba16"><td class="memItemLeft" align="right" valign="top"><a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_string_trait.html">Characters.Character.NamedStringTrait</a>[]&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a8639cf90c0e8cbdf5eaed3407e29ba16">StringTraitOverrides</a></td></tr>
+<tr class="separator:a8639cf90c0e8cbdf5eaed3407e29ba16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock">
@@ -328,7 +342,7 @@ Here is the caller graph for this function:</div>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_character.html#a842bc44c568dce993c917c7cebb864ff">EFaction</a> Gaslight.Scripts.Descriptors.CharacterLevelDescriptor.faction</td>
+          <td class="memname"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_characters.html#a71ea6c53a440249628e973fb97febb8f">EFaction</a> Gaslight.Scripts.Descriptors.CharacterLevelDescriptor.faction</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -337,14 +351,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a6a3f84f4513390f8d39d5bf772a7ce5f" name="a6a3f84f4513390f8d39d5bf772a7ce5f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6a3f84f4513390f8d39d5bf772a7ce5f">&#9670;&#160;</a></span>FloatTraitOverrides</h2>
+<a id="a1d31faa13480b968e47cae2bf31a3072" name="a1d31faa13480b968e47cae2bf31a3072"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d31faa13480b968e47cae2bf31a3072">&#9670;&#160;</a></span>FloatTraitOverrides</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_float_trait.html">Character.Character.NamedFloatTrait</a> [] Gaslight.Scripts.Descriptors.CharacterLevelDescriptor.FloatTraitOverrides</td>
+          <td class="memname"><a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_float_trait.html">Characters.Character.NamedFloatTrait</a> [] Gaslight.Scripts.Descriptors.CharacterLevelDescriptor.FloatTraitOverrides</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -417,14 +431,14 @@ Here is the caller graph for this function:</div>
 
 </div>
 </div>
-<a id="a4f55932a0bc193480fb29d6e6503f848" name="a4f55932a0bc193480fb29d6e6503f848"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4f55932a0bc193480fb29d6e6503f848">&#9670;&#160;</a></span>StringTraitOverrides</h2>
+<a id="a8639cf90c0e8cbdf5eaed3407e29ba16" name="a8639cf90c0e8cbdf5eaed3407e29ba16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8639cf90c0e8cbdf5eaed3407e29ba16">&#9670;&#160;</a></span>StringTraitOverrides</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_string_trait.html">Character.Character.NamedStringTrait</a> [] Gaslight.Scripts.Descriptors.CharacterLevelDescriptor.StringTraitOverrides</td>
+          <td class="memname"><a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_string_trait.html">Characters.Character.NamedStringTrait</a> [] Gaslight.Scripts.Descriptors.CharacterLevelDescriptor.StringTraitOverrides</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -434,12 +448,16 @@ Here is the caller graph for this function:</div>
 </div>
 </div>
 <hr/>The documentation for this struct was generated from the following file:<ul>
-<li>E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Descriptors/<a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a></li>
+<li>E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Descriptors/<a class="el" href="_layout_descriptor_8cs_source.html">LayoutDescriptor.cs</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_descriptors.html">Descriptors</a></li><li class="navelem"><a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html">CharacterLevelDescriptor</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

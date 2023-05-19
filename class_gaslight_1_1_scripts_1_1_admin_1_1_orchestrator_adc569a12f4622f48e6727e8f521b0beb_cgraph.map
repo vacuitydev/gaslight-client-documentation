@@ -1,0 +1,11 @@
+<map id="Gaslight.Scripts.Admin.Orchestrator.EnemyTurn" name="Gaslight.Scripts.Admin.Orchestrator.EnemyTurn">
+<area shape="rect" id="node1" title=" " alt="" coords="5,115,241,157"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html#a6ecf7db940452415b4de02a4d0cb7b8a" title=" " alt="" coords="306,48,507,91"/>
+<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a5226a94934a230ada9f46394f5da5b80" title=" " alt="" coords="289,115,524,157"/>
+<area shape="rect" id="node9" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a4d87bb6ef520e049d614e0cb447ddd60" title=" " alt="" coords="289,181,524,224"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html#a13234cc6dcf3c5dc7ab751c14e4072b9" title=" " alt="" coords="572,48,772,91"/>
+<area shape="rect" id="node4" href="$class_current_turn_follower.html#a95f782d6bd23ac8fba80b99e9af2b402" title="Change color to active color." alt="" coords="829,5,1016,32"/>
+<area shape="rect" id="node5" href="$class_current_turn_follower.html#a45a8a1392ef6f5761a31b56d076d7db2" title="Change color to passive color." alt="" coords="822,56,1023,83"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a6d81a6197642a78bdb5f94b1bf6d17ff" title=" " alt="" coords="820,107,1025,149"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a70f4cd3022617964c204c98e2c65191f" title=" " alt="" coords="1073,107,1277,149"/>
+</map>

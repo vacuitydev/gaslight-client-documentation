@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_h.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -74,8 +94,8 @@ $(function() {
 
 <h3><a id="index_h" name="index_h"></a>- h -</h3><ul>
 <li>HandleAllowOrbitInput()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#ae425fbc9281909e0f8dd3f57c32ec65e">Gaslight.Scripts.Admin.CameraController</a></li>
-<li>HandleCharacterTileChange()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html#ab6d79221f2305bb180a55df4e056aa10">Gaslight.Scripts.Character.Logic.Behaviors.Behavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a7c55e8421eaf15a9179cd0a44c349902">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_passive_behavior.html#a637b44f4a59edd82b0951142c008eae1">Gaslight.Scripts.Character.Logic.Behaviors.PassiveBehavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_pathfinding_test_behavior.html#a2c49a622a4483220939e7f99e3119797">Gaslight.Scripts.Character.Logic.Behaviors.PathfindingTestBehavior</a></li>
-<li>HandleChaseTrigger()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#af5735440f8d214e506d1cd9b0b590c4f">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>HandleCharacterTileChange()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html#a33657e39b7645d4b9a0b17ee4cd60f08">Gaslight.Scripts.Characters.Logic.Behaviors.Behavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a6b11bff2f2a7826f81745293664d754d">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_passive_behavior.html#ab262923441caea2cf0f71bb68805a66f">Gaslight.Scripts.Characters.Logic.Behaviors.PassiveBehavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_pathfinding_test_behavior.html#aa075a1524805da6d9a70e746fd0340cb">Gaslight.Scripts.Characters.Logic.Behaviors.PathfindingTestBehavior</a></li>
+<li>HandleChaseTrigger()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a398551f7cecbca17b984f5f7c8015458">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
 <li>HandleMouseDelta()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a4f697654c3556ae5416a276f7d703e8b">Gaslight.Scripts.Admin.CameraController</a></li>
 <li>HandleMouseOrbit()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a6063df266b6be2d305ff6037ef0986e4">Gaslight.Scripts.Admin.CameraController</a></li>
 <li>HandleMouseZoom()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#ade94e8a30fd5fd02cdb21556d2cc45a3">Gaslight.Scripts.Admin.CameraController</a></li>
@@ -83,27 +103,31 @@ $(function() {
 <li>HandlePanInput()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#ab3897060d21122f9deb05e8606001f61">Gaslight.Scripts.Admin.CameraController</a></li>
 <li>HandlePlayerCharacterChangeButtonState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a9986c83aa8f3bd027dfbd9dd621c55c3">Gaslight.Scripts.Admin.PlayerController</a></li>
 <li>HandleState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a4157cd23229d6560234f2448da5a075f">Gaslight.Scripts.UI.MainMenuScript</a></li>
-<li>HandleTransitionMeshes()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_prop_character.html#aa996ca36c25571aa7f914a38959843f1">Gaslight.Scripts.Character.PropCharacter</a></li>
+<li>HandleTransitionMeshes()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_prop_character.html#a2582986b45cb565d3648adf8d7fbe382">Gaslight.Scripts.Characters.PropCharacter</a></li>
 <li>HandleZoom()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#aacb8fc635ba9547a46615a08e25e737e">Gaslight.Scripts.Admin.CameraController</a></li>
 <li>HasHigherOrEqualPriority()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#aee7339902d8e50af60ca3f4e58abd00d">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a></li>
 <li>HasHigherPriority()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a6dd90bfdfc97ed9b59391ebafccd1d92">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#a7e8200ce1a34679e36b645e461072753">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ae8971be5abfc4d7a444bf100d5504d3a">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
 <li>HasValidLocationInDirection()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adfba9b11889e2ce67ab3900de3a92415">Gaslight.Scripts.Level.Level</a></li>
-<li>health&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a15bf915c3331177aabef6d71c31126ff">Gaslight.Scripts.Character.Character</a></li>
-<li>HealthChanged&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a66fb322091c8e066ef901e282d738a61">Gaslight.Scripts.Character.Character</a></li>
+<li>health&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#a11c8d68e02cade972d8c4c4c15ea53f1">CharacterUIController</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a1cd0b71030e2f08651f428818b991cba">Gaslight.Scripts.Characters.Character</a></li>
+<li>HealthBarLayoutGroup&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#ae77c1c84ae64fd3a2f761c6ee1a51859">CharacterUIController</a></li>
+<li>HealthChanged&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a0df9fb60826cf3bc6d9b069dc491a9d0">Gaslight.Scripts.Characters.Character</a></li>
 <li>Height()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3f44d00cdb3e0d97c9dadeacd4f6a536">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
-<li>height&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_put_request.html#a21311883d6e9293906fe36af37d9aab1">Gaslight.Scripts.Descriptors.LevelDescriptorEditor.LevelPutRequest</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a2a97090023db44dab1216501651580c8">Gaslight.Scripts.Level.Level</a></li>
+<li>height&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#a5317f6647b604c40a4ea05caee9462c9">Gaslight.Scripts.Descriptors.LevelLayout</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_put_request.html#a9f12d65e36d68d2d74e93b406b80ebe7">Gaslight.Scripts.Descriptors.LevelPutRequest</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a2a97090023db44dab1216501651580c8">Gaslight.Scripts.Level.Level</a></li>
 <li>heightOffset&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_asset.html#a1837aa2d324b7441be87c9b42afcdccb">Gaslight.Scripts.Descriptors.BaseTileAsset</a></li>
-<li>HideEnemyTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a2049f6b9384e7e77004340fdbc0ab562">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>HidePlayerTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#adf9123e4a0105a271c5ac0f7bc438fcf">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>highlightedCharacter&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a2e8a8f9d6602b2795dea33e726a1c676">Gaslight.Scripts.Level.Level</a></li>
-<li>highlightedTileIndex&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a4acf972de6b8049dfb65db3524a0e2ed">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
-<li>HighlightTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#ae5b9d9872ed7d68f9bed2f8b55e012ac">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
-<li>hitTileCoord&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a0e0f16c758247d0c9a9095b4939ba8ba">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
+<li>HideEnemyTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a5226a94934a230ada9f46394f5da5b80">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>HidePlayerTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a52e93c32a671b0426a873ae646483f53">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>highlightedCharacter&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#acb42bd27d425f9946b745323016db111">Gaslight.Scripts.Level.Level</a></li>
+<li>highlightedTileIndex&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#af7090fbcb93afaf083b011f646b88a95">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
+<li>HighlightTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a80c5f5b483629fab5d6ecc7608df73e4">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
+<li>hitTileCoord&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a26c1b999cdc5b2b1cfb90ac4ff361e05">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

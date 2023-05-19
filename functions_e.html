@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_e.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -75,25 +95,31 @@ $(function() {
 <h3><a id="index_e" name="index_e"></a>- e -</h3><ul>
 <li>EdgeThreshold&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a57e498b45f3afe1459d4cd26a21f5387">Gaslight.Scripts.Admin.CameraController</a></li>
 <li>ELevelDirection&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a088d920b44a8aafd10f51857c03b3904">Gaslight.Scripts.Level.Level</a></li>
-<li>EndVisualize()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#a3fffd152cbf11c1a23697ed1deeb9537">Gaslight.Scripts.Character.Logic.AttackDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html#aff79aa42215654ef9cbab61e1df17b09">Gaslight.Scripts.Character.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_forego_directive.html#a8d80b63a061e8fd33d3d5d37e4c96d8b">Gaslight.Scripts.Character.Logic.ForegoDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_try_move_directive.html#a2f255db5da536244a9d4c8feeda268da">Gaslight.Scripts.Character.Logic.TryMoveDirective</a></li>
+<li>EndVisualize()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#a7d304dbc711f86ba605e1291346b57c6">Gaslight.Scripts.Characters.Logic.AttackDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html#a06ce84223b10f93ab5d5a9040f725e47">Gaslight.Scripts.Characters.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_forego_directive.html#a565fdc566231dc6d1d4d1c684896c2a0">Gaslight.Scripts.Characters.Logic.ForegoDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_try_move_directive.html#a6f638f478b5db5b71bb359036098da7d">Gaslight.Scripts.Characters.Logic.TryMoveDirective</a></li>
 <li>EnemyController()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html#aaa1141ccee0659c6fc2d5bacd1a9f8cb">Gaslight.Scripts.Admin.EnemyController</a></li>
-<li>enemyController&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#acf5a76135535aa6df0c1c4599f01944b">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>EnemyTurn()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a0acfb3c28f37511a4678199e09f9d9c9">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
+<li>enemyController&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a45686867cf7468c96f588f80eaa079da">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>EnemyTurn()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#adc569a12f4622f48e6727e8f521b0beb">Gaslight.Scripts.Admin.Orchestrator</a></li>
 <li>Enqueue()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html#a24ffc3b8514f17de2a090eb9ea5c9c67">Gaslight.Scripts.Level.Pathfinding.FastPriorityQueue&lt; T &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html#ab9604896e94bcce390dadbce29beade1">Gaslight.Scripts.Level.Pathfinding.GenericPriorityQueue&lt; TItem, TPriority &gt;</a>, <a class="el" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html#a53088fdb7f15ae1ff186bdbb9a12a853">Gaslight.Scripts.Level.Pathfinding.IPriorityQueue&lt; TItem, in TPriority &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a397da0921da3a30ed41b1ab4a0dad2f4">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#ac3ae05776e79959be350901a327d2725">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
 <li>EnqueueNoLockOrCache()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#aed8bc9645b7c237bda8a385d419e4856">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a></li>
 <li>EnqueueWithoutDuplicates()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#abacbe1b7fb2d9e855d9417e61435c306">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a></li>
-<li>ErrorOnDuplicate()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_manager.html#afc330e3bac038cea0071d5e0172b2c09">Gaslight.Scripts.Character.Descriptors.DirectiveManager</a></li>
+<li>ErrorOnDuplicate()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_manager.html#a3c3a680b416c5cf6cf0121fa5d513efe">Gaslight.Scripts.Characters.Descriptors.DirectiveManager</a></li>
 <li>ErrorOnDuplicateCharacters()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a7434b173acc7087bdf364dfaa1c52e6a">Gaslight.Scripts.Level.Level</a></li>
-<li>ErrorOnDuplicateTraits()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a0582bbf3d9db4ffb5968bf084516c424">Gaslight.Scripts.Character.Character</a></li>
+<li>ErrorOnDuplicateTraits()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#ad655aa04a904f4cbce94911f82f7ccd0">Gaslight.Scripts.Characters.Character</a></li>
+<li>eventBy&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_admin_1_1_game_event.html#ae45b29cea13eff6a7b90720db4533405">Gaslight.Scripts.Admin.GameEvent</a></li>
+<li>eventName&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_admin_1_1_game_event.html#a8a78f5d66266436443c4e69e34138a4b">Gaslight.Scripts.Admin.GameEvent</a></li>
+<li>eventOn&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_admin_1_1_game_event.html#a9790eaf873112ec5a1efca2b4c225ca8">Gaslight.Scripts.Admin.GameEvent</a></li>
 <li>Execute()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html#a6ecf7db940452415b4de02a4d0cb7b8a">Gaslight.Scripts.Admin.EnemyController</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a5d5e057d2c39ba15f7fd22f096b07670">Gaslight.Scripts.Admin.PlayerController</a></li>
-<li>ExecuteBehaviors()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html#a5978285415b5125185b6b05df58829b3">Gaslight.Scripts.Admin.EnemyController</a></li>
-<li>extras&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abcbc65451b870bc01a9aa393f4faf4b0">Gaslight.Scripts.Descriptors.LevelDescriptor</a>, <a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#a70f72b267c04299525251d99f0d688f2">Gaslight.Scripts.Descriptors.LevelLayout</a></li>
+<li>ExecuteBehaviors()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html#a13234cc6dcf3c5dc7ab751c14e4072b9">Gaslight.Scripts.Admin.EnemyController</a></li>
+<li>extras&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#abcbc65451b870bc01a9aa393f4faf4b0">Gaslight.Scripts.Descriptors.LevelDescriptor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html#a70f72b267c04299525251d99f0d688f2">Gaslight.Scripts.Descriptors.LevelLayout</a></li>
 <li>extraTileAssets&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html#a265c5517e8194935504c94807fd6be8f">Gaslight.Scripts.Descriptors.ExtraTileDB</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="namespace_gaslight.html">Gaslight</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts.html">Scripts</a></li><li class="navelem"><a class="el" href="namespace_gaslight_1_1_scripts_1_1_admin.html">Admin</a></li><li class="navelem"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">PlayerController</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">Gaslight.Scripts.Admin.PlayerController Member List</div></div>
 </div><!--header-->
@@ -88,12 +104,12 @@ $(function() {
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#aab7565013e828f26cdc679e2ace60585">_moveDisplayPrefab</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#ae186e289a66fb2ea542c478f8a768cd4">_playerCharacterIconTemplate</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a2be2e59d07855c5603294a2b290fef9e">_playerControllerUI</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#abe2967fb85bb4e1fcdc8060c3fc4581b">_players</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#afa3539c79d24174ea077aa2b7c021b53">_selector</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a155b5e84dab0032030c742b8c49f509b">_players</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a36b2f451c8fb7e0a4e2ea7ad5d364d80">_selector</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#ae74fa3ba6d224bfca40c4621108d508f">acceptInput</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a51c40eb2b22ae7872f80242f7c95e5fe">AcceptPlayerInput</a>(InputAction.CallbackContext ctx)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a9b8a922a2e20012f86478caf337d791e">block</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a17a32f01bc0df20a3c323bf62cb9ed6d">CalculateTurnAbleCharacters</a>(List&lt; Character.Character &gt; players)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a6a07fe41759a74aa74d65ad0662e14cc">CalculateTurnAbleCharacters</a>(List&lt; Characters.Character &gt; players)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a86e9f9440197de08a574212fb12c48b0">CancelPlayerDirective</a>()</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a0872d35fca1e421348b07a1fd0fd79e5">ChangeCharacterTo</a>(int index)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#af224971c1e6b81d13fced527369e40c7">currentlyExecutingMove</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
@@ -104,14 +120,17 @@ $(function() {
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#aa89098e179e4dad72e671c1ed6abf4dc">isMoveRequested</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a6682871dce3b55bec5393bd51c501c45">isPlayerChanged</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
   <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a15c39536cd019aac0ec40dfcaeac828c">lockMoveSelection</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a66bde68f118549307a573658ff421407">PerformMove</a>(Character.Character character, String name, CancellationToken ct)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#ad08e2fa397ed31d8f74d7db1eaef4395">PlayerController</a>(DirectiveManager manager, DirectiveIconManager directiveIcon, CameraController cam, VisualElement playerControllerUI, VisualTreeAsset moveDisplayPrefab, VisualTreeAsset playerCharacterIconTemplate, SelectUnderMouse selector, bool skipPlayerTurn)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
+  <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a09d5047c33b4a6530540364a644f87d8">PerformMove</a>(Characters.Character character, String name, CancellationToken ct)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a9b4027c953fad6dc3e25922e5d41bebc">PlayerController</a>(DirectiveManager manager, DirectiveIconManager directiveIcon, CameraController cam, VisualElement playerControllerUI, VisualTreeAsset moveDisplayPrefab, VisualTreeAsset playerCharacterIconTemplate, SelectUnderCursor selector)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"></td></tr>
   <tr class="even"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a643c76327e3a1d016b20bd25ea0ce7bf">requestPlayerChange</a></td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
-  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a53fb34afdd81f968b8bb88fc2ddb50ab">SwitchPlayerCharacter</a>(List&lt; Character.Character &gt; players)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
+  <tr class="odd"><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#aa775ba9dc97e220699b45333443c9fa2">SwitchPlayerCharacter</a>(List&lt; Characters.Character &gt; players)</td><td class="entry"><a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html">Gaslight.Scripts.Admin.PlayerController</a></td><td class="entry"><span class="mlabel">private</span></td></tr>
 </table></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

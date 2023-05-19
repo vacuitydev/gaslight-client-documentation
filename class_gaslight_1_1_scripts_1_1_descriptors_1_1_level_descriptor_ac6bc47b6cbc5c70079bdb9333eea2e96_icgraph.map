@@ -1,8 +1,11 @@
 <map id="Gaslight.Scripts.Descriptors.LevelDescriptor.Width" name="Gaslight.Scripts.Descriptors.LevelDescriptor.Width">
-<area shape="rect" id="node1" title=" " alt="" coords="1135,43,1323,85"/>
-<area shape="rect" id="node2" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_put_request.html#af481cbd087b8d44bfe9c767bad9260c6" title=" " alt="" coords="588,5,836,64"/>
-<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3b080a34b221775e07c0917076ad6ccc" title=" " alt="" coords="884,72,1087,115"/>
-<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a64ba8c2c12ec55f41b27aa9e801c9cbc" title=" " alt="" coords="5,55,245,97"/>
-<area shape="rect" id="node5" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_check_request.html#a840c15e5a3ddd1d49d2ba9e7cd6f096e" title=" " alt="" coords="606,88,819,147"/>
-<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a01acd0a58e9bf4a15ab739249d1aa223" title=" " alt="" coords="293,80,540,139"/>
+<area shape="rect" id="node1" title=" " alt="" coords="1391,40,1579,83"/>
+<area shape="rect" id="node2" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_put_request.html#a38041dd2c4422583a22e68a9d06dc917" title=" " alt="" coords="844,11,1084,53"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a559769543d279ff30aa2d2d1cc12505f" title=" " alt="" coords="1141,69,1343,112"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a78c9f62f07f8fea09b484fc5e89ae1fa" title=" " alt="" coords="322,5,511,48"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a64ba8c2c12ec55f41b27aa9e801c9cbc" title=" " alt="" coords="5,43,245,85"/>
+<area shape="rect" id="node6" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_check_request.html#ad59ce539a8570b38845a603948bc05e2" title=" " alt="" coords="835,79,1093,121"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#acd37c1b9d05a0bebaa229091fcc59b1d" title=" " alt="" coords="594,79,782,121"/>
+<area shape="rect" id="node9" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#addcaab938bbed05d664074c3a29e8fac" title=" " alt="" coords="588,145,787,188"/>
+<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor.html#a01acd0a58e9bf4a15ab739249d1aa223" title=" " alt="" coords="293,72,540,131"/>
 </map>

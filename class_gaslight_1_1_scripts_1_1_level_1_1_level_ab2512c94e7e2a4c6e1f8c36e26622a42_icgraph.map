@@ -1,10 +1,9 @@
 <map id="Gaslight.Scripts.Level.Level.CalculateDimensions" name="Gaslight.Scripts.Level.Level.CalculateDimensions">
-<area shape="rect" id="node1" title=" " alt="" coords="470,139,654,181"/>
-<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a22195ad582429a3f4fd2fe3ddd3d7bf6" title=" " alt="" coords="238,72,422,115"/>
+<area shape="rect" id="node1" title=" " alt="" coords="470,76,654,119"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a22195ad582429a3f4fd2fe3ddd3d7bf6" title=" " alt="" coords="238,17,422,60"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a9399e44e57ed6624473ab3ff435a5a40" title=" " alt="" coords="5,72,190,115"/>
 <area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a66d052b1c795165359f495acd9d4c2a0" title=" " alt="" coords="238,139,422,181"/>
-<area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a9399e44e57ed6624473ab3ff435a5a40" title=" " alt="" coords="238,205,422,248"/>
-<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#aec6a68f71fdf16549f859707bd210a2f" title=" " alt="" coords="5,5,190,48"/>
-<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a15ae3ab3fd35d38299138fedf78d947e" title=" " alt="" coords="7,72,188,115"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html#a15ae3ab3fd35d38299138fedf78d947e" title=" " alt="" coords="7,5,188,48"/>
 <area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a65f392627eb7b0660cb8573d355aaaa2" title=" " alt="" coords="5,139,190,181"/>
 <area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a8901375bd8da858e3c9c165cca7d41e3" title=" " alt="" coords="5,205,190,248"/>
 </map>

@@ -1,0 +1,6 @@
+<map id="Gaslight.Scripts.Characters.Character.GetPathfindingHeuristic" name="Gaslight.Scripts.Characters.Character.GetPathfindingHeuristic">
+<area shape="rect" id="node1" title=" " alt="" coords="537,51,754,93"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a0a7ca935d7e4d5b67c92fd33c6ff4b1f" title="Performs per turn detection actions; Including decay, chase or retargeting." alt="" coords="239,5,489,64"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a3af74ccc550cb40ced1c3ebabd4cf1ad" title=" " alt="" coords="271,88,457,131"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#abba59f6d35948dd52e9b4945c9feb19c" title=" " alt="" coords="5,88,191,131"/>
+</map>

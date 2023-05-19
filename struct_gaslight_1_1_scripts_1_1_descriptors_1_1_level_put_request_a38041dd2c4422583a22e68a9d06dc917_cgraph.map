@@ -1,0 +1,9 @@
+<map id="Gaslight.Scripts.Descriptors.LevelPutRequest.FromLevelDescriptor" name="Gaslight.Scripts.Descriptors.LevelPutRequest.FromLevelDescriptor">
+<area shape="rect" id="node1" title=" " alt="" coords="5,117,246,160"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a91c69c73a5e2c4e778eed42d9b8f65f2" title=" " alt="" coords="294,5,513,64"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a559769543d279ff30aa2d2d1cc12505f" title=" " alt="" coords="302,88,505,131"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#a3f44d00cdb3e0d97c9dadeacd4f6a536" title=" " alt="" coords="561,143,749,185"/>
+<area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#ac6bc47b6cbc5c70079bdb9333eea2e96" title=" " alt="" coords="561,209,749,252"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html#ab3384273b9efd1e8d1bbe797cd9a2651" title=" " alt="" coords="561,9,749,52"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html#ae6209d32c04d34844d21fb19219e5e8b" title=" " alt="" coords="561,76,749,119"/>
+</map>

@@ -5,10 +5,14 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>Project Gaslight client: E:/UnityProjects/Base1/Assets/Gaslight/Scripts/Level/Pathfinding/AStar.cs Source File</title>
+<title>Project Gaslight client: E:/UnityProjects/Project Gaslight/Assets/Gaslight/Scripts/Level/Pathfinding/AStar.cs Source File</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -47,6 +51,23 @@ $(function() {
 /* @license-end */
 </script>
 <div id="main-nav"></div>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('_a_star_8cs_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -68,11 +89,6 @@ $(function() {
 </div>
 </div>
 
-<div id="nav-path" class="navpath">
-  <ul>
-<li class="navelem"><a class="el" href="dir_325fa66e10368cd8400e070e16ef4b2c.html">Base1</a></li><li class="navelem"><a class="el" href="dir_bfab4cead1a831ecdc5711fea90ca339.html">Assets</a></li><li class="navelem"><a class="el" href="dir_ba3ca6dc24625fd2ddbb82a1e2b64efc.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_de7fda6d1572a00500e78c7851f26c63.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_48c1932c7c797741bfde19984474baf0.html">Level</a></li><li class="navelem"><a class="el" href="dir_c05812e90598095319edbbf76f70fa81.html">Pathfinding</a></li>  </ul>
-</div>
-</div><!-- top -->
 <div class="header">
   <div class="headertitle"><div class="title">AStar.cs</div></div>
 </div><!--header-->
@@ -285,7 +301,7 @@ $(function() {
 <div class="line"><a id="l00206" name="l00206"></a><span class="lineno">  206</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a106df656f1a738aedad68b2b85c53365">PathFound</a> = <span class="keyword">false</span>;</div>
 <div class="line"><a id="l00207" name="l00207"></a><span class="lineno">  207</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a7da9cf90d0328f00612939072ee52584">PathLocs</a>.Reverse();</div>
 <div class="line"><a id="l00208" name="l00208"></a><span class="lineno">  208</span>                <a class="code hl_variable" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a0391bb569d6ea17e8edb6582e4233a25">Path</a>.Reverse();</div>
-<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                <a class="code hl_typedef" href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a>.Break();</div>
+<div class="line"><a id="l00209" name="l00209"></a><span class="lineno">  209</span>                <span class="comment">// Debug.Break();</span></div>
 <div class="line"><a id="l00210" name="l00210"></a><span class="lineno">  210</span>                <span class="keywordflow">return</span> <span class="keyword">true</span>;</div>
 <div class="line"><a id="l00211" name="l00211"></a><span class="lineno">  211</span>            }</div>
 <div class="line"><a id="l00212" name="l00212"></a><span class="lineno">  212</span>            <span class="keywordflow">return</span> <span class="keyword">false</span>;</div>
@@ -298,20 +314,20 @@ $(function() {
 <div class="line"><a id="l00219" name="l00219"></a><span class="lineno">  219</span> </div>
 <div class="line"><a id="l00220" name="l00220"></a><span class="lineno">  220</span>    }</div>
 <div class="line"><a id="l00221" name="l00221"></a><span class="lineno">  221</span>}</div>
-<div class="ttc" id="a_actor_8cs_html_a58859d93c30e635814dc980ed86e3f84"><div class="ttname"><a href="_actor_8cs.html#a58859d93c30e635814dc980ed86e3f84">$</a></div><div class="ttdeci">$</div><div class="ttdef"><b>Definition:</b> <a href="_actor_8cs_source.html#l00081">Actor.cs:81</a></div></div>
-<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00006">Directive.cs:6</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html">Gaslight.Scripts.Level.Level</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00038">Level.cs:39</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a088d920b44a8aafd10f51857c03b3904"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a088d920b44a8aafd10f51857c03b3904">Gaslight.Scripts.Level.Level.ELevelDirection</a></div><div class="ttdeci">ELevelDirection</div><div class="ttdoc">The rotation between consecutive directions is 90 degrees. This will be easier in the long run But wh...</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01391">Level.cs:1392</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a1ce14c2b9595341aba9263258f181236"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a1ce14c2b9595341aba9263258f181236">Gaslight.Scripts.Level.Level.IsTileOccupied</a></div><div class="ttdeci">bool IsTileOccupied(int index)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01248">Level.cs:1248</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a2e2efea876da22fbcaeb3049a6b264ff"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a2e2efea876da22fbcaeb3049a6b264ff">Gaslight.Scripts.Level.Level.ManhattanDistance</a></div><div class="ttdeci">int ManhattanDistance(int a, int b)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01341">Level.cs:1341</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a36d002226247bf7cf31e514cf23ce8e4"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a36d002226247bf7cf31e514cf23ce8e4">Gaslight.Scripts.Level.Level.GetTileFromKey</a></div><div class="ttdeci">Tile GetTileFromKey(int key)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01178">Level.cs:1178</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a3a43a2e19adc9bd9dc23769f03d87522"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a3a43a2e19adc9bd9dc23769f03d87522">Gaslight.Scripts.Level.Level.instance</a></div><div class="ttdeci">static Level instance</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00053">Level.cs:53</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a4ba189a2c36e60e464522ddb22a49a2d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a4ba189a2c36e60e464522ddb22a49a2d">Gaslight.Scripts.Level.Level.tileTraversible</a></div><div class="ttdeci">bool[] tileTraversible</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00070">Level.cs:70</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a564782b0934e6b960d6f47b496b0076d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a564782b0934e6b960d6f47b496b0076d">Gaslight.Scripts.Level.Level.ChangeTileDisplayActivationState</a></div><div class="ttdeci">void ChangeTileDisplayActivationState(int[] locations, bool newState)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01117">Level.cs:1117</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a7023ad9cfc01a104109c3343d2b5e3c7"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a7023ad9cfc01a104109c3343d2b5e3c7">Gaslight.Scripts.Level.Level.ResetTileDisplayColor</a></div><div class="ttdeci">void ResetTileDisplayColor()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01099">Level.cs:1099</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a9037d6a14f43ae2ed5ef4a3e3114c14d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a9037d6a14f43ae2ed5ef4a3e3114c14d">Gaslight.Scripts.Level.Level.DirectionOntoLocation</a></div><div class="ttdeci">int DirectionOntoLocation(int loc, ELevelDirection direction)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01485">Level.cs:1485</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_adddfbe88e67a0a13f5a89431efdccb7f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adddfbe88e67a0a13f5a89431efdccb7f">Gaslight.Scripts.Level.Level.ChangeTileDisplayColor</a></div><div class="ttdeci">void ChangeTileDisplayColor(int[] locations, Color newColor)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01066">Level.cs:1066</a></div></div>
-<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_adfba9b11889e2ce67ab3900de3a92415"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adfba9b11889e2ce67ab3900de3a92415">Gaslight.Scripts.Level.Level.HasValidLocationInDirection</a></div><div class="ttdeci">bool HasValidLocationInDirection(int loc, ELevelDirection direction)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01527">Level.cs:1527</a></div></div>
+<div class="ttc" id="a_actor_8cs_html_a58859d93c30e635814dc980ed86e3f84"><div class="ttname"><a href="_actor_8cs.html#a58859d93c30e635814dc980ed86e3f84">$</a></div><div class="ttdeci">$</div><div class="ttdef"><b>Definition:</b> <a href="_actor_8cs_source.html#l00093">Actor.cs:93</a></div></div>
+<div class="ttc" id="a_directive_8cs_html_a0100be52d45f14348918ea69ec09f959"><div class="ttname"><a href="_directive_8cs.html#a0100be52d45f14348918ea69ec09f959">Debug</a></div><div class="ttdeci">UnityEngine.Debug Debug</div><div class="ttdef"><b>Definition:</b> <a href="_directive_8cs_source.html#l00007">Directive.cs:7</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html">Gaslight.Scripts.Level.Level</a></div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00039">Level.cs:40</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a088d920b44a8aafd10f51857c03b3904"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a088d920b44a8aafd10f51857c03b3904">Gaslight.Scripts.Level.Level.ELevelDirection</a></div><div class="ttdeci">ELevelDirection</div><div class="ttdoc">The rotation between consecutive directions is 90 degrees. This will be easier in the long run But wh...</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01408">Level.cs:1409</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a1ce14c2b9595341aba9263258f181236"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a1ce14c2b9595341aba9263258f181236">Gaslight.Scripts.Level.Level.IsTileOccupied</a></div><div class="ttdeci">bool IsTileOccupied(int index)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01269">Level.cs:1269</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a2e2efea876da22fbcaeb3049a6b264ff"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a2e2efea876da22fbcaeb3049a6b264ff">Gaslight.Scripts.Level.Level.ManhattanDistance</a></div><div class="ttdeci">int ManhattanDistance(int a, int b)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01362">Level.cs:1362</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a36d002226247bf7cf31e514cf23ce8e4"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a36d002226247bf7cf31e514cf23ce8e4">Gaslight.Scripts.Level.Level.GetTileFromKey</a></div><div class="ttdeci">Tile GetTileFromKey(int key)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01215">Level.cs:1215</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a3a43a2e19adc9bd9dc23769f03d87522"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a3a43a2e19adc9bd9dc23769f03d87522">Gaslight.Scripts.Level.Level.instance</a></div><div class="ttdeci">static Level instance</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00057">Level.cs:57</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a4ba189a2c36e60e464522ddb22a49a2d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a4ba189a2c36e60e464522ddb22a49a2d">Gaslight.Scripts.Level.Level.tileTraversible</a></div><div class="ttdeci">bool[] tileTraversible</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l00074">Level.cs:74</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a564782b0934e6b960d6f47b496b0076d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a564782b0934e6b960d6f47b496b0076d">Gaslight.Scripts.Level.Level.ChangeTileDisplayActivationState</a></div><div class="ttdeci">void ChangeTileDisplayActivationState(int[] locations, bool newState)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01154">Level.cs:1154</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a7023ad9cfc01a104109c3343d2b5e3c7"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a7023ad9cfc01a104109c3343d2b5e3c7">Gaslight.Scripts.Level.Level.ResetTileDisplayColor</a></div><div class="ttdeci">void ResetTileDisplayColor()</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01136">Level.cs:1136</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_a9037d6a14f43ae2ed5ef4a3e3114c14d"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a9037d6a14f43ae2ed5ef4a3e3114c14d">Gaslight.Scripts.Level.Level.DirectionOntoLocation</a></div><div class="ttdeci">int DirectionOntoLocation(int loc, ELevelDirection direction)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01502">Level.cs:1502</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_adddfbe88e67a0a13f5a89431efdccb7f"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adddfbe88e67a0a13f5a89431efdccb7f">Gaslight.Scripts.Level.Level.ChangeTileDisplayColor</a></div><div class="ttdeci">void ChangeTileDisplayColor(int[] locations, Color newColor)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01103">Level.cs:1103</a></div></div>
+<div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_level_html_adfba9b11889e2ce67ab3900de3a92415"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#adfba9b11889e2ce67ab3900de3a92415">Gaslight.Scripts.Level.Level.HasValidLocationInDirection</a></div><div class="ttdeci">bool HasValidLocationInDirection(int loc, ELevelDirection direction)</div><div class="ttdef"><b>Definition:</b> <a href="_level_8cs_source.html#l01544">Level.cs:1544</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html">Gaslight.Scripts.Level.Pathfinding.AStar</a></div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00016">AStar.cs:17</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a0391bb569d6ea17e8edb6582e4233a25"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a0391bb569d6ea17e8edb6582e4233a25">Gaslight.Scripts.Level.Pathfinding.AStar.Path</a></div><div class="ttdeci">List&lt; Node &gt; Path</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00030">AStar.cs:30</a></div></div>
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star_html_a083f967e98a14b9b827050589639a11e"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a083f967e98a14b9b827050589639a11e">Gaslight.Scripts.Level.Pathfinding.AStar.FindPath</a></div><div class="ttdeci">async Task&lt;(bool, int[] path)&gt; FindPath(int Start, int Target, Func&lt; Node, int,(bool, float)&gt; evaluator, bool debug=false)</div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00038">AStar.cs:38</a></div></div>
@@ -340,9 +356,13 @@ $(function() {
 <div class="ttc" id="aclass_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue_html"><div class="ttname"><a href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue</a></div><div class="ttdoc">A simplified priority queue implementation. Is stable, auto-resizes, and thread-safe,...</div><div class="ttdef"><b>Definition:</b> <a href="_simple_priority_queue_8cs_source.html#l00568">SimplePriorityQueue.cs:569</a></div></div>
 <div class="ttc" id="anamespace_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_html"><div class="ttname"><a href="namespace_gaslight_1_1_scripts_1_1_level_1_1_pathfinding.html">Gaslight.Scripts.Level.Pathfinding</a></div><div class="ttdef"><b>Definition:</b> <a href="_a_star_8cs_source.html#l00013">AStar.cs:14</a></div></div>
 </div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_99a507484538e03c86c178d22aac377d.html">Project Gaslight</a></li><li class="navelem"><a class="el" href="dir_a3bfe71b69d2bd7581bb3d797d376742.html">Assets</a></li><li class="navelem"><a class="el" href="dir_a7926aa14f900de934600ccac0b17245.html">Gaslight</a></li><li class="navelem"><a class="el" href="dir_50e1f117bdc07c8e8a101912bcc269da.html">Scripts</a></li><li class="navelem"><a class="el" href="dir_0142efb425e47239f48ca0e852a9fd02.html">Level</a></li><li class="navelem"><a class="el" href="dir_0ad7f4d03faf00320e86e2be9b3d4c7d.html">Pathfinding</a></li><li class="navelem"><a class="el" href="_a_star_8cs.html">AStar.cs</a></li>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

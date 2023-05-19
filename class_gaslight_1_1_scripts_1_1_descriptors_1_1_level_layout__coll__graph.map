@@ -1,0 +1,12 @@
+<map id="Gaslight.Scripts.Descriptors.LevelLayout" name="Gaslight.Scripts.Descriptors.LevelLayout">
+<area shape="rect" id="node1" title=" " alt="" coords="323,681,511,795"/>
+<area shape="rect" id="node2" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_row_descriptor.html" title=" " alt="" coords="111,448,299,545"/>
+<area shape="rect" id="node3" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html" title=" " alt="" coords="111,191,299,288"/>
+<area shape="rect" id="node4" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_descriptor.html" title=" " alt="" coords="5,5,194,119"/>
+<area shape="rect" id="node5" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_decoration_descriptor.html" title=" " alt="" coords="217,5,406,119"/>
+<area shape="rect" id="node6" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_descriptor.html" title=" " alt="" coords="323,440,511,553"/>
+<area shape="rect" id="node7" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html" title=" " alt="" coords="535,376,723,617"/>
+<area shape="rect" id="node8" title=" " alt="" coords="460,199,510,280"/>
+<area shape="rect" id="node9" href="$struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html" title=" " alt="" coords="535,183,723,296"/>
+<area shape="rect" id="node10" title=" " alt="" coords="747,199,831,280"/>
+</map>

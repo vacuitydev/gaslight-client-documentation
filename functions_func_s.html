@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_func_s.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -73,11 +93,10 @@ $(function() {
 &#160;
 
 <h3><a id="index_s" name="index_s"></a>- s -</h3><ul>
-<li>Select()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a519fec49441ca607b011ebdce6424f6a">Gaslight.Scripts.Character.Character</a></li>
-<li>SelectCharacter()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a505df259c5e37edd45736d8e0f542a47">Gaslight.Scripts.Level.Level</a></li>
-<li>SelectHighlightedTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a6d40567c42c0e577689b2d47f40e2db3">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
-<li>SelectTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#adf5b5717ce71df96321b64ca42da7664">Gaslight.Scripts.Admin.SelectUnderMouse</a></li>
-<li>SetActionPoints()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a7b67e93f048b04886f975fa1ead83dcf">Gaslight.Scripts.Character.Character</a></li>
+<li>Select()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#ac97fbd71cddf77787f7069106c0691e0">Gaslight.Scripts.Characters.Character</a></li>
+<li>SelectHighlightedTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a89ef7fa85880547f5ade7acbf1c1653a">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
+<li>SelectTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a49e0357ac71bd3cac78ad033f5739b6e">Gaslight.Scripts.Admin.SelectUnderCursor</a></li>
+<li>SetActionPoints()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a681b1070208bec304aa5222b40de4ad4">Gaslight.Scripts.Characters.Character</a></li>
 <li>SetAndSpawnCharacters()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a92a795d8ae683a3dcd9f62e08cf8fa64">Gaslight.Scripts.Level.Level</a></li>
 <li>SetBaseTile()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#a92e372e60791e270ed8f855e2eb9af9e">Gaslight.Scripts.Level.LevelEditorUITK</a></li>
 <li>SetBehaviorTarget()&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html#a6133fd3d4e2c4c52c8fd03360e1070c7">Gaslight.Scripts.Descriptors.CharacterLevelDescriptor</a></li>
@@ -85,17 +104,18 @@ $(function() {
 <li>SetColor()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_texture2_d_extensions.html#a128b7d3821c4af6e895414a2d5a8f897">Gaslight.Scripts.Descriptors.Texture2DExtensions</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html#a69300923009c8a189701e8bade6c5b16">Gaslight.Scripts.Level.TileDisplay</a></li>
 <li>SetDecoTiles()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#a64525ac35a193e7b2ce859f683f9791c">Gaslight.Scripts.Level.LevelEditorUITK</a></li>
 <li>SetDocument()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a4aa56300101868a29e0e7c63027169cb">Gaslight.Scripts.UI.MainMenuScript</a></li>
-<li>SetFloatTrait()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#aac4b0c86da44f9309df0b66138c55abc">Gaslight.Scripts.Character.Character</a></li>
+<li>SetFloatTrait()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#ab9d6160984bb0ce03e64e74cbf86eb54">Gaslight.Scripts.Characters.Character</a></li>
 <li>SetFocusTarget()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#aa37b8e0e13d784965ac28c23e21a4064">Gaslight.Scripts.Admin.CameraController</a></li>
-<li>SetHealth()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#a1ed8a6cc067dbe5da5ff603635f24966">Gaslight.Scripts.Character.Character</a></li>
-<li>SetHostileState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#ab716596250d55a9282336021de5c376d">Gaslight.Scripts.Character.Animation_Managers.AnimatedMovementComponent</a></li>
-<li>SetInvoker()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html#a96fd5c2260e04692d5f3cc66199ca7e2">Gaslight.Scripts.Character.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_try_move_directive.html#aaca0493fe9c696bdafd30c6b351cf9fb">Gaslight.Scripts.Character.Logic.TryMoveDirective</a></li>
+<li>SetHealth()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a7118a67d0a182d70e556144c3a7df5d9">Gaslight.Scripts.Characters.Character</a></li>
+<li>SetHostileState()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a6edc9abd314dc4231ffb95e0ca01bfee">Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent</a></li>
+<li>SetInvoker()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html#abf208e6afe1850fb229a39928852d24e">Gaslight.Scripts.Characters.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_try_move_directive.html#a64d4b22f675968f9538438a814cf8f6f">Gaslight.Scripts.Characters.Logic.TryMoveDirective</a></li>
 <li>SetLevelDefaults()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html#ac0df50e4c7a334efcd5ea891abd37076">Gaslight.Scripts.Descriptors.LevelRegistry</a></li>
+<li>SetMessage()&#160;:&#160;<a class="el" href="class_level_loader.html#a613c9f4d9ca51f472e03c3a00590e04a">LevelLoader</a></li>
 <li>SetSelectedTileLabel()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#acc7d43e49e34fb8389d1a21c077abfd4">Gaslight.Scripts.Level.LevelEditorUITK</a></li>
-<li>SetStringTrait()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#ad6e68cd3eca1f679ced53cfab8fe5534">Gaslight.Scripts.Character.Character</a></li>
+<li>SetStringTrait()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a757e9be22269f0acde2d7a66f6d6a798">Gaslight.Scripts.Characters.Character</a></li>
 <li>shill1()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#a7376b1c66a4bf92a2128bf977b361252">Gaslight.Scripts.Level.LevelEditorUITK</a></li>
-<li>ShowEnemyTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a7e81051add405234103fc2e3a9541f5a">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>ShowPlayerTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a632469bbda59e0f7654a4eed9bc50e4e">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
+<li>ShowEnemyTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a4d87bb6ef520e049d614e0cb447ddd60">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>ShowPlayerTurnUI()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a4e4b29e8041de53c682261c6b1724a99">Gaslight.Scripts.Admin.Orchestrator</a></li>
 <li>SimpleNode()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue_1_1_simple_node.html#a65b7bddb878072f6b2fc3469645968f0">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;.SimpleNode</a></li>
 <li>SimplePriorityQueue()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html#a361ab0b222dce84974a3efeab13696e3">Gaslight.Scripts.Level.Pathfinding.SimplePriorityQueue&lt; TItem &gt;</a></li>
 <li>SpawnBaseAt()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a48d59999d1239abc5f46642a4f483127">Gaslight.Scripts.Level.Level</a></li>
@@ -103,16 +123,21 @@ $(function() {
 <li>SpawnExtras()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a256e0dde5ecea8d3cdfa42709192b4ca">Gaslight.Scripts.Level.Level</a></li>
 <li>SpawnTileDisplayAt()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#ad0ec62091fbd74c0b2a6f7d8908d21de">Gaslight.Scripts.Level.Level</a></li>
 <li>StablePriorityQueue()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html#a441e2fcc85a03761cd0abe591871b332">Gaslight.Scripts.Level.Pathfinding.StablePriorityQueue&lt; T &gt;</a></li>
-<li>Start()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a4aa62a31f1f89e30a03f06583afb0760">Gaslight.Scripts.Admin.CameraController</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html#a1561b021e0cda3efc3939a886785a3d8">Gaslight.Scripts.Character.Actor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_attack_component.html#a997d2b1c90b45e893fe2b35f75a37d58">Gaslight.Scripts.Character.Animation_Managers.AnimatedAttackComponent</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html#afdff8634bd09a08f3057d80bab4e98a6">Gaslight.Scripts.Character.Character</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a4292cf8418159f3a07e16d9d81261804">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a9399e44e57ed6624473ab3ff435a5a40">Gaslight.Scripts.Level.Level</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#a7ebceb01fcc00d1f4d7b45aac28818b8">Gaslight.Scripts.Level.LevelEditorUITK</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a09f54a45579c8076ed0cfcb29ce4d5d4">Gaslight.Scripts.UI.MainMenuScript</a></li>
-<li>StartMoving()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#abff785b810e83a833d4330d60eecca1a">Gaslight.Scripts.Character.Animation_Managers.AnimatedMovementComponent</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_movement_component.html#a57b4756719e13508b345fb14cd17d0fb">Gaslight.Scripts.Character.Animation_Managers.MovementComponent</a></li>
-<li>StepCondition()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html#af228c9bc84e1a87e54068516892f60fd">Gaslight.Scripts.Character.Logic.AttackDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html#a116db09f7bef45ac57f02ade6af3cc81">Gaslight.Scripts.Character.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_forego_directive.html#abb6527321ae5e1b2506cc1aa89dc1eef">Gaslight.Scripts.Character.Logic.ForegoDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_try_move_directive.html#af4cac50fc7200b4206dfb91ce9478f19">Gaslight.Scripts.Character.Logic.TryMoveDirective</a></li>
+<li>Start()&#160;:&#160;<a class="el" href="class_character_u_i_controller.html#ad1cb8b905e683070f8764d77b29b89f4">CharacterUIController</a>, <a class="el" href="class_crossfade.html#a499878587c189d6ace685406d56fef9f">Crossfade</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a4aa62a31f1f89e30a03f06583afb0760">Gaslight.Scripts.Admin.CameraController</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html#a6d25c168727119ba5fff0259940f2774">Gaslight.Scripts.Characters.Actor</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_attack_component.html#a29a337f87dfc3e8a925c3a5cbb5c593c">Gaslight.Scripts.Characters.Animation_Managers.AnimatedAttackComponent</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#a5ed694a407e682ff1940760a86a77342">Gaslight.Scripts.Characters.Character</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#af459425da51c086221794393e88a6edd">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a9399e44e57ed6624473ab3ff435a5a40">Gaslight.Scripts.Level.Level</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html#a7ebceb01fcc00d1f4d7b45aac28818b8">Gaslight.Scripts.Level.LevelEditorUITK</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html#a09f54a45579c8076ed0cfcb29ce4d5d4">Gaslight.Scripts.UI.MainMenuScript</a>, <a class="el" href="class_level_loader.html#a16f15e5753edaf90cd5f05377d546e45">LevelLoader</a></li>
+<li>StartLoadingLevel()&#160;:&#160;<a class="el" href="class_level_loader.html#a5f195bfde9bfcd886b947063885d5367">LevelLoader</a></li>
+<li>StartMoving()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a01e3e5e583ec640c721a65c922d18be9">Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_movement_component.html#ae2146d77276fa48b867a856e5c47c71e">Gaslight.Scripts.Characters.Animation_Managers.MovementComponent</a></li>
+<li>StatusPromise()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor.html#addcaab938bbed05d664074c3a29e8fac">Gaslight.Scripts.Descriptors.LevelDescriptor</a></li>
+<li>StepCondition()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html#ad201e433b69434b4007d3f04d3ba1b97">Gaslight.Scripts.Characters.Logic.AttackDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html#a98245507a09b16fdaf3934b2237db109">Gaslight.Scripts.Characters.Logic.Directive</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_forego_directive.html#ad772f5a2725b4e7548dfea0b99ebab51">Gaslight.Scripts.Characters.Logic.ForegoDirective</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_try_move_directive.html#a418c4c68e1df63c1392fa76dd2836332">Gaslight.Scripts.Characters.Logic.TryMoveDirective</a></li>
 <li>StepsBetween()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#a37218c867c29ea0bcd2e2afce718d850">Gaslight.Scripts.Level.Level</a></li>
-<li>SwitchPlayerCharacter()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a53fb34afdd81f968b8bb88fc2ddb50ab">Gaslight.Scripts.Admin.PlayerController</a></li>
+<li>SwitchPlayerCharacter()&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#aa775ba9dc97e220699b45333443c9fa2">Gaslight.Scripts.Admin.PlayerController</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

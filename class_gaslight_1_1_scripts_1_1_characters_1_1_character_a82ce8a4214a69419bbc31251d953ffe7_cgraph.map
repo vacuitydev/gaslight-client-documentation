@@ -1,0 +1,4 @@
+<map id="Gaslight.Scripts.Characters.Character.Face" name="Gaslight.Scripts.Characters.Character.Face">
+<area shape="rect" id="node1" title=" " alt="" coords="5,13,191,56"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_movement_component.html#a4e5726fdbd6a86c34fcf5cacf63d795a" title="From start tile, face end tile, rotate smoothly." alt="" coords="239,5,515,64"/>
+</map>

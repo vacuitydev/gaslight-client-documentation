@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('functions_vars_p.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -73,27 +93,32 @@ $(function() {
 &#160;
 
 <h3><a id="index_p" name="index_p"></a>- p -</h3><ul>
-<li>path&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html#a7ade317d4580ecdaf06d97cf8bc7d261">Gaslight.Scripts.Character.Animation_Managers.AnimatedMovementComponent</a></li>
+<li>path&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html#a9a298aaed4f0ed4cf026f596972cb1cd">Gaslight.Scripts.Characters.Animation_Managers.AnimatedMovementComponent</a></li>
 <li>Path&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a0391bb569d6ea17e8edb6582e4233a25">Gaslight.Scripts.Level.Pathfinding.AStar</a></li>
 <li>pathFinder&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html#aece43675a6960e1cc3fc296ce32e0a54">Gaslight.Scripts.Level.Level</a></li>
 <li>PathFound&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a106df656f1a738aedad68b2b85c53365">Gaslight.Scripts.Level.Pathfinding.AStar</a></li>
 <li>PathLocs&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html#a7da9cf90d0328f00612939072ee52584">Gaslight.Scripts.Level.Pathfinding.AStar</a></li>
 <li>patrol_path&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_1_1_patrol_insight.html#a9c39ed3be943b09dfc713cfb308f1d6b">Gaslight.Scripts.Descriptors.LevelDescriptor.PatrolInsight</a></li>
-<li>patrolDirection&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a69299459b19f2f3ee3d38a56f72f9f50">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>patrolInsights&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_1_1_insight_response.html#aa5b64523494827d610bf4307038f7f1a">Gaslight.Scripts.Descriptors.LevelDescriptor.InsightResponse</a></li>
-<li>patrolStops&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a6c11e83a1bdba9c25629d4e759e6ebb9">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
-<li>patrolStopsIndex&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#af91af6f9eb23103f775135efe7c0ed78">Gaslight.Scripts.Character.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>patrolDirection&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a8b68e64174163d7c5fb829762940469f">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>patrols&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_1_1_insight_response.html#a5f1903689d034dfb041a60312abb4223">Gaslight.Scripts.Descriptors.LevelDescriptor.InsightResponse</a></li>
+<li>patrolStops&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a0daa112cbf544eb20c31f5b6bc8f222c">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>patrolStopsIndex&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html#a8e0964c9f30a4e9eda8cd35f9ea40f21">Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior</a></li>
+<li>pitch&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_audio_1_1_sound_descriptor.html#a520b81714caa0f1cdf01c373ccf678fe">Gaslight.Scripts.Admin.Audio.SoundDescriptor</a></li>
 <li>player&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a71542d74af53a58bb2c7c77caa17d445">Gaslight.Scripts.Admin.CameraController</a></li>
-<li>playerController&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a8c3a5dc0682d668ffa09f9815230052f">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
-<li>playerTurn&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html#a094ccf8b78faf033ebab7378cecf161e">Gaslight.Scripts.Admin.OrchestratorWithControllers</a></li>
+<li>playerController&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#a1e2ba15f8816baccdb1c234f2b1796d7">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>playerTurn&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html#ab72155a96f4af1967bb7832156fa789b">Gaslight.Scripts.Admin.Orchestrator</a></li>
+<li>playOnAwake&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_admin_1_1_audio_1_1_sound_descriptor.html#a7bdaee06f1b65ec074dc3f627b8c6d9f">Gaslight.Scripts.Admin.Audio.SoundDescriptor</a></li>
 <li>position&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller_1_1_defaults.html#ad494f252ab61e8fb58acb1423fbace13">Gaslight.Scripts.Admin.CameraController.Defaults</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_node.html#adc0365046fc4d30aace8a084a81300b1">Gaslight.Scripts.Level.Pathfinding.Node</a></li>
-<li>prefab&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_behavior_field.html#a5ee56e225e3d14ca1d90180a7de4965a">Gaslight.Scripts.Character.Descriptors.BehaviorField</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_asset.html#a24d1213b1a71acda749cb99aa04b9408">Gaslight.Scripts.Descriptors.ExtraTileAsset</a></li>
+<li>prefab&#160;:&#160;<a class="el" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_behavior_field.html#aa9b94df175d48c488c415eef09dcfb7a">Gaslight.Scripts.Characters.Descriptors.BehaviorField</a>, <a class="el" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_asset.html#a24d1213b1a71acda749cb99aa04b9408">Gaslight.Scripts.Descriptors.ExtraTileAsset</a></li>
 <li>PrevNode&#160;:&#160;<a class="el" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_node.html#ac7ada2a2e2171f6c7f851330e3bf9890">Gaslight.Scripts.Level.Pathfinding.Node</a></li>
 </ul>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

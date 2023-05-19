@@ -1,0 +1,5 @@
+<map id="Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior.AddDetectionActionPerTurn" name="Gaslight.Scripts.Characters.Logic.Behaviors.DefaultEnemyBehavior.AddDetectionActionPerTurn">
+<area shape="rect" id="node1" title="Performs per turn detection actions; Including decay, chase or retargeting." alt="" coords="5,43,256,101"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#aa8146f9397ab62874756504760d93c0d" title=" " alt="" coords="305,5,520,64"/>
+<area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_character.html#add4ecb095e7369569f69afce5bd2ed52" title=" " alt="" coords="304,88,521,131"/>
+</map>

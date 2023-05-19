@@ -1,0 +1,7 @@
+<map id="LevelLoader.Start" name="LevelLoader.Start">
+<area shape="rect" id="node1" title=" " alt="" coords="5,47,127,73"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html#ae18358403be96c3a64e6d8ce43890015" title=" " alt="" coords="175,5,368,48"/>
+<area shape="rect" id="node3" href="$class_level_loader.html#a5f195bfde9bfcd886b947063885d5367" title=" " alt="" coords="188,72,355,115"/>
+<area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_registry.html#a2c0a802c8aabb26568ec16205968fa0f" title=" " alt="" coords="416,43,604,85"/>
+<area shape="rect" id="node5" href="$class_level_loader.html#a613c9f4d9ca51f472e03c3a00590e04a" title=" " alt="" coords="427,109,593,136"/>
+</map>

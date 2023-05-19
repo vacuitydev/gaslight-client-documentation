@@ -9,6 +9,10 @@
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
 <link href="search/search.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="search/searchdata.js"></script>
 <script type="text/javascript" src="search/search.js"></script>
@@ -48,6 +52,22 @@ $(function() {
 </script>
 <div id="main-nav"></div>
 </div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(document).ready(function(){initNavTree('hierarchy.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
 <!-- window showing the filter options -->
 <div id="MSearchSelectWindow"
      onmouseover="return searchBox.OnSearchSelectShow()"
@@ -85,220 +105,230 @@ $(function() {
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_inspector.html" title=" " alt="" coords="113,205,293,248"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_1.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_camera_controller_8_defaults" alt=""/>
+<tr><td><img src="inherit_graph_1.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_audio_8_sound_descriptor" alt=""/>
+<map name="a_gaslight_8_scripts_8_admin_8_audio_8_sound_descriptor" id="a_gaslight_8_scripts_8_admin_8_audio_8_sound_descriptor">
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_audio_1_1_sound_descriptor.html" title=" " alt="" coords="5,5,202,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_2.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_camera_controller_8_defaults" alt=""/>
 <map name="a_gaslight_8_scripts_8_admin_8_camera_controller_8_defaults" id="a_gaslight_8_scripts_8_admin_8_camera_controller_8_defaults">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller_1_1_defaults.html" title=" " alt="" coords="5,5,210,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_2.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_enemy_controller" alt=""/>
+<tr><td><img src="inherit_graph_3.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_enemy_controller" alt=""/>
 <map name="a_gaslight_8_scripts_8_admin_8_enemy_controller" id="a_gaslight_8_scripts_8_admin_8_enemy_controller">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_enemy_controller.html" title=" " alt="" coords="5,5,206,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_3.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_player_controller" alt=""/>
+<tr><td><img src="inherit_graph_4.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_game_event" alt=""/>
+<map name="a_gaslight_8_scripts_8_admin_8_game_event" id="a_gaslight_8_scripts_8_admin_8_game_event">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_admin_1_1_game_event.html" title=" " alt="" coords="5,5,200,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_5.png" border="0" usemap="#a_gaslight_8_scripts_8_admin_8_player_controller" alt=""/>
 <map name="a_gaslight_8_scripts_8_admin_8_player_controller" id="a_gaslight_8_scripts_8_admin_8_player_controller">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html" title=" " alt="" coords="5,5,202,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_4.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_animation___managers_8_utility" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_animation___managers_8_utility" id="a_gaslight_8_scripts_8_character_8_animation___managers_8_utility">
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_utility.html" title=" " alt="" coords="5,5,186,48"/>
+<tr><td><img src="inherit_graph_6.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_animation___managers_8_utility" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_animation___managers_8_utility" id="a_gaslight_8_scripts_8_characters_8_animation___managers_8_utility">
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_utility.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_5.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_character_8_named_float_trait" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_character_8_named_float_trait" id="a_gaslight_8_scripts_8_character_8_character_8_named_float_trait">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_float_trait.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_7.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_character_8_named_float_trait" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_character_8_named_float_trait" id="a_gaslight_8_scripts_8_characters_8_character_8_named_float_trait">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_float_trait.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_6.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_character_8_named_string_trait" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_character_8_named_string_trait" id="a_gaslight_8_scripts_8_character_8_character_8_named_string_trait">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_character_1_1_named_string_trait.html" title=" " alt="" coords="5,5,187,48"/>
+<tr><td><img src="inherit_graph_8.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_character_8_named_string_trait" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_character_8_named_string_trait" id="a_gaslight_8_scripts_8_characters_8_character_8_named_string_trait">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_character_1_1_named_string_trait.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_7.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_descriptors_8_archetype_descriptor" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_descriptors_8_archetype_descriptor" id="a_gaslight_8_scripts_8_character_8_descriptors_8_archetype_descriptor">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_archetype_descriptor.html" title=" " alt="" coords="5,5,215,48"/>
+<tr><td><img src="inherit_graph_9.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_descriptors_8_archetype_descriptor" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_descriptors_8_archetype_descriptor" id="a_gaslight_8_scripts_8_characters_8_descriptors_8_archetype_descriptor">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_archetype_descriptor.html" title=" " alt="" coords="5,5,215,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_8.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_descriptors_8_behavior_field" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_descriptors_8_behavior_field" id="a_gaslight_8_scripts_8_character_8_descriptors_8_behavior_field">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_behavior_field.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_10.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_descriptors_8_behavior_field" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_descriptors_8_behavior_field" id="a_gaslight_8_scripts_8_characters_8_descriptors_8_behavior_field">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_behavior_field.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_9.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_descriptors_8_character_asset" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_descriptors_8_character_asset" id="a_gaslight_8_scripts_8_character_8_descriptors_8_character_asset">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset.html" title=" " alt="" coords="5,5,187,48"/>
+<tr><td><img src="inherit_graph_11.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_descriptors_8_character_asset" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_descriptors_8_character_asset" id="a_gaslight_8_scripts_8_characters_8_descriptors_8_character_asset">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_10.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_descriptors_8_character_icon" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_descriptors_8_character_icon" id="a_gaslight_8_scripts_8_character_8_descriptors_8_character_icon">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_icon.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_12.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_descriptors_8_character_icon" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_descriptors_8_character_icon" id="a_gaslight_8_scripts_8_characters_8_descriptors_8_character_icon">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_icon.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_11.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_descriptors_8_directive_icon" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_descriptors_8_directive_icon" id="a_gaslight_8_scripts_8_character_8_descriptors_8_directive_icon">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_13.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_descriptors_8_directive_icon" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_descriptors_8_directive_icon" id="a_gaslight_8_scripts_8_characters_8_descriptors_8_directive_icon">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_12.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_descriptors_8_role_directive" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_descriptors_8_role_directive" id="a_gaslight_8_scripts_8_character_8_descriptors_8_role_directive">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_role_directive.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_14.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_descriptors_8_role_directive" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_descriptors_8_role_directive" id="a_gaslight_8_scripts_8_characters_8_descriptors_8_role_directive">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_role_directive.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_13.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_logic_8_behaviors_8_b_t_helpers" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_logic_8_behaviors_8_b_t_helpers" id="a_gaslight_8_scripts_8_character_8_logic_8_behaviors_8_b_t_helpers">
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_b_t_helpers.html" title="Utility classes to support BT actions." alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_15.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_logic_8_behaviors_8_b_t_helpers" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_logic_8_behaviors_8_b_t_helpers" id="a_gaslight_8_scripts_8_characters_8_logic_8_behaviors_8_b_t_helpers">
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_b_t_helpers.html" title="Utility classes to support BT actions." alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_14.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_logic_8_behaviors_8_default_enemy_behavior_8_detection_struct" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_logic_8_behaviors_8_default_enemy_behavior_8_detection_struct" id="a_gaslight_8_scripts_8_character_8_logic_8_behaviors_8_default_enemy_behavior_8_detection_struct">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior_1_1_detection_struct.html" title=" " alt="" coords="5,5,256,64"/>
+<tr><td><img src="inherit_graph_16.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_logic_8_behaviors_8_default_enemy_behavior_8_detection_struct" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_logic_8_behaviors_8_default_enemy_behavior_8_detection_struct" id="a_gaslight_8_scripts_8_characters_8_logic_8_behaviors_8_default_enemy_behavior_8_detection_struct">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior_1_1_detection_struct.html" title=" " alt="" coords="5,5,256,64"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_15.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_logic_8_directive" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_logic_8_directive" id="a_gaslight_8_scripts_8_character_8_logic_8_directive">
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive.html" title=" " alt="" coords="5,72,184,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_attack_directive.html" title=" " alt="" coords="232,5,410,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_forego_directive.html" title=" " alt="" coords="232,72,410,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_try_move_directive.html" title=" " alt="" coords="232,139,410,181"/>
+<tr><td><img src="inherit_graph_17.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_logic_8_directive" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_logic_8_directive" id="a_gaslight_8_scripts_8_characters_8_logic_8_directive">
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive.html" title=" " alt="" coords="5,72,191,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_attack_directive.html" title=" " alt="" coords="239,5,424,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_forego_directive.html" title=" " alt="" coords="239,72,424,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_try_move_directive.html" title=" " alt="" coords="239,139,424,181"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_16.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_logic_8_directive_factory" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_logic_8_directive_factory" id="a_gaslight_8_scripts_8_character_8_logic_8_directive_factory">
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive_factory.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_18.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_logic_8_directive_factory" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_logic_8_directive_factory" id="a_gaslight_8_scripts_8_characters_8_logic_8_directive_factory">
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive_factory.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_17.png" border="0" usemap="#a_gaslight_8_scripts_8_character_8_logic_8_directive_target" alt=""/>
-<map name="a_gaslight_8_scripts_8_character_8_logic_8_directive_target" id="a_gaslight_8_scripts_8_character_8_logic_8_directive_target">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive_target.html" title=" " alt="" coords="5,5,184,48"/>
+<tr><td><img src="inherit_graph_19.png" border="0" usemap="#a_gaslight_8_scripts_8_characters_8_logic_8_directive_target" alt=""/>
+<map name="a_gaslight_8_scripts_8_characters_8_logic_8_directive_target" id="a_gaslight_8_scripts_8_characters_8_logic_8_directive_target">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive_target.html" title=" " alt="" coords="5,5,191,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_18.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_base_tile_asset" alt=""/>
+<tr><td><img src="inherit_graph_20.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_base_tile_asset" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_base_tile_asset" id="a_gaslight_8_scripts_8_descriptors_8_base_tile_asset">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_asset.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_19.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_base_tile_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_21.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_base_tile_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_base_tile_descriptor" id="a_gaslight_8_scripts_8_descriptors_8_base_tile_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_descriptor.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_20.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_behavior_target" alt=""/>
+<tr><td><img src="inherit_graph_22.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_behavior_target" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_behavior_target" id="a_gaslight_8_scripts_8_descriptors_8_behavior_target">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_behavior_target.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_21.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_23.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor" id="a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_22.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_array" alt=""/>
+<tr><td><img src="inherit_graph_24.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_array" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_array" id="a_gaslight_8_scripts_8_descriptors_8_character_level_descriptor_array">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_character_level_descriptor_array.html" title=" " alt="" coords="5,5,202,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_23.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_decoration_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_25.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_decoration_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_decoration_descriptor" id="a_gaslight_8_scripts_8_descriptors_8_decoration_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_decoration_descriptor.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_24.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_deco_tile_asset" alt=""/>
+<tr><td><img src="inherit_graph_26.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_deco_tile_asset" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_deco_tile_asset" id="a_gaslight_8_scripts_8_descriptors_8_deco_tile_asset">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_asset.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_25.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_extra_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_27.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_extra_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_extra_descriptor" id="a_gaslight_8_scripts_8_descriptors_8_extra_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_descriptor.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_26.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_extra_tile_asset" alt=""/>
+<tr><td><img src="inherit_graph_28.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_extra_tile_asset" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_extra_tile_asset" id="a_gaslight_8_scripts_8_descriptors_8_extra_tile_asset">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_asset.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_27.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_insight_response" alt=""/>
-<map name="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_insight_response" id="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_insight_response">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_1_1_insight_response.html" title=" " alt="" coords="5,5,215,48"/>
+<tr><td><img src="inherit_graph_29.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_check_request" alt=""/>
+<map name="a_gaslight_8_scripts_8_descriptors_8_level_check_request" id="a_gaslight_8_scripts_8_descriptors_8_level_check_request">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_check_request.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_28.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_patrol_insight" alt=""/>
+<tr><td><img src="inherit_graph_30.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_insight_response" alt=""/>
+<map name="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_insight_response" id="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_insight_response">
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_1_1_insight_response.html" title=" " alt="" coords="5,5,215,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_31.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_patrol_insight" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_patrol_insight" id="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_8_patrol_insight">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_1_1_patrol_insight.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_29.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_descriptor_editor_8_level_check_request" alt=""/>
-<map name="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_editor_8_level_check_request" id="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_editor_8_level_check_request">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_check_request.html" title=" " alt="" coords="5,5,219,64"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_30.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_descriptor_editor_8_level_put_request" alt=""/>
-<map name="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_editor_8_level_put_request" id="a_gaslight_8_scripts_8_descriptors_8_level_descriptor_editor_8_level_put_request">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_descriptor_editor_1_1_level_put_request.html" title=" " alt="" coords="5,5,250,48"/>
-</map>
-</td></tr>
-<tr><td><img src="inherit_graph_31.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_layout" alt=""/>
+<tr><td><img src="inherit_graph_32.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_layout" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_level_layout" id="a_gaslight_8_scripts_8_descriptors_8_level_layout">
-<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html" title=" " alt="" coords="5,5,194,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_layout.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_32.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_sync_status" alt=""/>
+<tr><td><img src="inherit_graph_33.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_put_request" alt=""/>
+<map name="a_gaslight_8_scripts_8_descriptors_8_level_put_request" id="a_gaslight_8_scripts_8_descriptors_8_level_put_request">
+<area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_level_put_request.html" title=" " alt="" coords="5,5,194,48"/>
+</map>
+</td></tr>
+<tr><td><img src="inherit_graph_34.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_level_sync_status" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_level_sync_status" id="a_gaslight_8_scripts_8_descriptors_8_level_sync_status">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_level_sync_status.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_33.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_row_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_35.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_row_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_row_descriptor" id="a_gaslight_8_scripts_8_descriptors_8_row_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_row_descriptor.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_34.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_texture2_d_extensions" alt=""/>
+<tr><td><img src="inherit_graph_36.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_texture2_d_extensions" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_texture2_d_extensions" id="a_gaslight_8_scripts_8_descriptors_8_texture2_d_extensions">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_texture2_d_extensions.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_35.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_tile_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_37.png" border="0" usemap="#a_gaslight_8_scripts_8_descriptors_8_tile_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_descriptors_8_tile_descriptor" id="a_gaslight_8_scripts_8_descriptors_8_tile_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_descriptors_1_1_tile_descriptor.html" title=" " alt="" coords="5,5,194,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_36.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_a_star" alt=""/>
+<tr><td><img src="inherit_graph_38.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_a_star" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_a_star" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_a_star">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_a_star.html" title=" " alt="" coords="5,5,225,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_37.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_fast_priority_queue_node" alt=""/>
+<tr><td><img src="inherit_graph_39.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_fast_priority_queue_node" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_fast_priority_queue_node" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_fast_priority_queue_node">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue_node.html" title=" " alt="" coords="5,5,225,48"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue_node.html" title=" " alt="" coords="273,5,492,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_38.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_8_simple_node_00_01_t_priority_01_4" alt=""/>
+<tr><td><img src="inherit_graph_40.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_8_simple_node_00_01_t_priority_01_4" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_8_simple_node_00_01_t_priority_01_4" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_8_simple_node_00_01_t_priority_01_4">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html" title=" " alt="" coords="5,5,291,80"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_39.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_node_3_01_t_priority_01_4" alt=""/>
+<tr><td><img src="inherit_graph_41.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_node_3_01_t_priority_01_4" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_node_3_01_t_priority_01_4" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_generic_priority_queue_node_3_01_t_priority_01_4">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue_node.html" title=" " alt="" coords="5,13,253,56"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue_1_1_simple_node.html" title=" " alt="" coords="301,5,520,64"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_40.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_00_01float_01_4" alt=""/>
+<tr><td><img src="inherit_graph_42.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_00_01float_01_4" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_00_01float_01_4" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_00_01float_01_4">
 <area shape="rect" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_fixed_size_priority_queue.html" title=" " alt="" coords="5,39,230,81"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_fast_priority_queue.html" title="An implementation of a min&#45;Priority Queue using a heap. Has O(1) .Contains()! See https://github...." alt="" coords="278,5,497,48"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_stable_priority_queue.html" title="A copy of FastPriorityQueue which is also stable &#45; that is, when two nodes are enqueued with the same..." alt="" coords="278,72,497,115"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_41.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_item_00_01_t_priority_01_4" alt=""/>
+<tr><td><img src="inherit_graph_43.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_item_00_01_t_priority_01_4" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_item_00_01_t_priority_01_4" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_i_fixed_size_priority_queue_3_01_t_item_00_01_t_priority_01_4">
 <area shape="rect" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_fixed_size_priority_queue.html" title=" " alt="" coords="5,5,225,64"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_generic_priority_queue.html" title="A copy of StablePriorityQueue which also has generic priority&#45;type." alt="" coords="273,5,492,64"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_42.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_i_priority_queue_3_01_t_item_00_01_t_priority_01_4" alt=""/>
+<tr><td><img src="inherit_graph_44.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_i_priority_queue_3_01_t_item_00_01_t_priority_01_4" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_i_priority_queue_3_01_t_item_00_01_t_priority_01_4" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_i_priority_queue_3_01_t_item_00_01_t_priority_01_4">
 <area shape="rect" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html" title=" " alt="" coords="10,17,229,60"/>
 <area shape="rect" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_fixed_size_priority_queue.html" title="A helper&#45;interface only needed to make writing unit tests a bit easier (hence the &#39;internal&#39; access m..." alt="" coords="282,5,501,64"/>
@@ -306,69 +336,75 @@ $(function() {
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html" title=" " alt="" coords="5,88,234,131"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_43.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_node" alt=""/>
+<tr><td><img src="inherit_graph_45.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_node" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_node" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_node">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_node.html" title=" " alt="" coords="5,5,255,32"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_44.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_node_01_4" alt=""/>
+<tr><td><img src="inherit_graph_46.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_node_01_4" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_node_01_4" id="a_gaslight_8_scripts_8_level_8_pathfinding_8_simple_priority_queue_3_01_gaslight_8_scripts_8_level_8_pathfinding_8_node_01_4">
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_simple_priority_queue.html" title=" " alt="" coords="5,5,255,64"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_45.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_runtime_level_char_descriptor" alt=""/>
+<tr><td><img src="inherit_graph_47.png" border="0" usemap="#a_gaslight_8_scripts_8_level_8_runtime_level_char_descriptor" alt=""/>
 <map name="a_gaslight_8_scripts_8_level_8_runtime_level_char_descriptor" id="a_gaslight_8_scripts_8_level_8_runtime_level_char_descriptor">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_level_1_1_runtime_level_char_descriptor.html" title=" " alt="" coords="5,5,205,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_46.png" border="0" usemap="#a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_prev" alt=""/>
+<tr><td><img src="inherit_graph_48.png" border="0" usemap="#a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_prev" alt=""/>
 <map name="a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_prev" id="a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_prev">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_1_1_levels_prev.html" title=" " alt="" coords="5,5,168,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_47.png" border="0" usemap="#a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_schema" alt=""/>
+<tr><td><img src="inherit_graph_49.png" border="0" usemap="#a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_schema" alt=""/>
 <map name="a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_schema" id="a_gaslight_8_scripts_8_u_i_8_main_menu_script_8_levels_schema">
 <area shape="rect" href="struct_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script_1_1_levels_schema.html" title=" " alt="" coords="5,5,181,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_48.png" border="0" usemap="#a_i_enumerable" alt=""/>
+<tr><td><img src="inherit_graph_50.png" border="0" usemap="#a_i_enumerable" alt=""/>
 <map name="a_i_enumerable" id="a_i_enumerable">
 <area shape="rect" title=" " alt="" coords="5,13,99,40"/>
 <area shape="rect" href="interface_gaslight_1_1_scripts_1_1_level_1_1_pathfinding_1_1_i_priority_queue.html" title="The IPriorityQueue interface. This is mainly here for purists, and in case I decide to add more imple..." alt="" coords="147,5,376,48"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_49.png" border="0" usemap="#a_mono_behaviour" alt=""/>
+<tr><td><img src="inherit_graph_51.png" border="0" usemap="#a_mono_behaviour" alt=""/>
 <map name="a_mono_behaviour" id="a_mono_behaviour">
-<area shape="rect" title=" " alt="" coords="5,396,115,423"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html" title=" " alt="" coords="197,5,401,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator_with_controllers.html" title=" " alt="" coords="183,72,415,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html" title=" " alt="" coords="201,139,397,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_attack_component.html" title=" " alt="" coords="179,205,419,264"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_movement_component.html" title="A movement component deals completely with the overall movement aspect of a character It must play an..." alt="" coords="163,288,435,331"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_character.html" title=" " alt="" coords="210,355,388,397"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="210,421,388,464"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html" title=" " alt="" coords="209,488,389,515"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html" title=" " alt="" coords="209,539,389,581"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html" title=" " alt="" coords="213,605,385,648"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html" title=" " alt="" coords="218,672,380,715"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_start_menu.html" title=" " alt="" coords="202,739,396,765"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_animation___managers_1_1_animated_movement_component.html" title=" " alt="" coords="483,205,744,264"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_actor.html" title=" " alt="" coords="525,288,703,331"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_prop_character.html" title=" " alt="" coords="525,355,703,397"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html" title="Handles most functionality required by an enemy combatant in a turn based game. Can integrate the fol..." alt="" coords="491,421,737,464"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_passive_behavior.html" title=" " alt="" coords="509,488,719,531"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_behaviors_1_1_pathfinding_test_behavior.html" title=" " alt="" coords="511,555,716,613"/>
+<area shape="rect" title=" " alt="" coords="5,512,115,539"/>
+<area shape="rect" href="class_actor_raycast_setter.html" title=" " alt="" coords="231,5,367,32"/>
+<area shape="rect" href="class_character_u_i_controller.html" title=" " alt="" coords="227,56,371,83"/>
+<area shape="rect" href="class_crossfade.html" title=" " alt="" coords="259,107,339,133"/>
+<area shape="rect" href="class_current_turn_follower.html" title="Follows a target at a low location, used to show which enemy is moving for example." alt="" coords="231,157,367,184"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_audio_1_1_audio_manager.html" title=" " alt="" coords="201,208,397,251"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html" title=" " alt="" coords="197,275,401,317"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_orchestrator.html" title=" " alt="" coords="183,341,415,368"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html" title=" " alt="" coords="201,392,397,435"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_attack_component.html" title=" " alt="" coords="179,459,419,517"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_movement_component.html" title="A movement component deals completely with the overall movement aspect of a character It must play an..." alt="" coords="163,541,435,584"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_character.html" title=" " alt="" coords="206,608,392,651"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_behavior.html" title="Behaviors are composed by characters (Invokers) and execute on turns corresponding to that character...." alt="" coords="206,675,392,717"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level.html" title=" " alt="" coords="209,741,389,768"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_level_editor_u_i_t_k.html" title=" " alt="" coords="209,792,389,835"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_level_1_1_tile_display.html" title=" " alt="" coords="213,859,385,901"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_main_menu_script.html" title=" " alt="" coords="218,925,380,968"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_u_i_1_1_start_menu.html" title=" " alt="" coords="202,992,396,1019"/>
+<area shape="rect" href="class_level_loader.html" title=" " alt="" coords="254,1043,344,1069"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_animation___managers_1_1_animated_movement_component.html" title=" " alt="" coords="483,459,744,517"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_actor.html" title=" " alt="" coords="521,541,706,584"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_prop_character.html" title=" " alt="" coords="521,608,706,651"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_default_enemy_behavior.html" title="Handles most functionality required by an enemy combatant in a turn based game. Can integrate the fol..." alt="" coords="491,675,737,717"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_passive_behavior.html" title=" " alt="" coords="509,741,719,784"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_behaviors_1_1_pathfinding_test_behavior.html" title=" " alt="" coords="511,808,716,867"/>
 </map>
 </td></tr>
-<tr><td><img src="inherit_graph_50.png" border="0" usemap="#a_scriptable_object" alt=""/>
+<tr><td><img src="inherit_graph_52.png" border="0" usemap="#a_scriptable_object" alt=""/>
 <map name="a_scriptable_object" id="a_scriptable_object">
 <area shape="rect" title=" " alt="" coords="5,413,123,440"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_archetypes.html" title=" " alt="" coords="189,5,367,48"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_behavior_registry.html" title=" " alt="" coords="184,72,372,115"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_asset_d_b.html" title=" " alt="" coords="178,139,378,181"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_character_icon_d_b.html" title=" " alt="" coords="183,205,373,248"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html" title=" " alt="" coords="171,272,385,315"/>
-<area shape="rect" href="class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_manager.html" title=" " alt="" coords="183,339,373,381"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_archetypes.html" title=" " alt="" coords="185,5,371,48"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_behavior_registry.html" title=" " alt="" coords="184,72,372,115"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_asset_d_b.html" title=" " alt="" coords="178,139,378,181"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_character_icon_d_b.html" title=" " alt="" coords="183,205,373,248"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html" title=" " alt="" coords="171,272,385,315"/>
+<area shape="rect" href="class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_manager.html" title=" " alt="" coords="183,339,373,381"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_base_tile_d_b.html" title=" " alt="" coords="184,405,372,448"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_deco_tile_d_b.html" title=" " alt="" coords="184,472,372,515"/>
 <area shape="rect" href="class_gaslight_1_1_scripts_1_1_descriptors_1_1_extra_tile_d_b.html" title=" " alt="" coords="184,539,372,581"/>
@@ -380,9 +416,12 @@ $(function() {
 </td></tr>
 </table>
 </div><!-- contents -->
+</div><!-- doc-content -->
 <!-- start footer part -->
-<hr class="footer"/><address class="footer"><small>
-Generated by&#160;<a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6
-</small></address>
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="footer">Generated by <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.9.6 </li>
+  </ul>
+</div>
 </body>
 </html>

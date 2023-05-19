@@ -1,18 +1,18 @@
 <map id="Gaslight.Scripts.Admin.PlayerController.Execute" name="Gaslight.Scripts.Admin.PlayerController.Execute">
 <area shape="rect" id="node1" title=" " alt="" coords="5,379,202,421"/>
-<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a17a32f01bc0df20a3c323bf62cb9ed6d" title=" " alt="" coords="516,493,764,536"/>
+<area shape="rect" id="node2" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a6a07fe41759a74aa74d65ad0662e14cc" title=" " alt="" coords="516,493,764,536"/>
 <area shape="rect" id="node3" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a86e9f9440197de08a574212fb12c48b0" title=" " alt="" coords="256,72,462,115"/>
 <area shape="rect" id="node4" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a0872d35fca1e421348b07a1fd0fd79e5" title=" " alt="" coords="261,139,457,181"/>
-<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_icon_manager.html#af569bf9c49fc10852f7d752317235447" title=" " alt="" coords="250,205,468,264"/>
-<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_character_1_1_descriptors_1_1_directive_manager.html#ae9accf2972769e3d26a19efae6ad7ed0" title=" " alt="" coords="251,288,467,347"/>
+<area shape="rect" id="node5" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_icon_manager.html#a3e399bbb650cc9728230f4ac94212ddb" title=" " alt="" coords="250,205,468,264"/>
+<area shape="rect" id="node6" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_descriptors_1_1_directive_manager.html#a7f210cb2df0e072d8a51414868b1138b" title=" " alt="" coords="251,288,467,347"/>
 <area shape="rect" id="node7" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a9986c83aa8f3bd027dfbd9dd621c55c3" title=" " alt="" coords="252,371,466,429"/>
 <area shape="rect" id="node8" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#a70f4cd3022617964c204c98e2c65191f" title=" " alt="" coords="257,453,461,496"/>
-<area shape="rect" id="node9" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a66bde68f118549307a573658ff421407" title=" " alt="" coords="261,637,457,680"/>
+<area shape="rect" id="node9" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a09d5047c33b4a6530540364a644f87d8" title=" " alt="" coords="261,637,457,680"/>
 <area shape="rect" id="node14" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#aa37b8e0e13d784965ac28c23e21a4064" title=" " alt="" coords="257,571,461,613"/>
-<area shape="rect" id="node15" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#a53fb34afdd81f968b8bb88fc2ddb50ab" title=" " alt="" coords="253,5,465,48"/>
+<area shape="rect" id="node15" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_player_controller.html#aa775ba9dc97e220699b45333443c9fa2" title=" " alt="" coords="253,5,465,48"/>
 <area shape="rect" id="node16" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_camera_controller.html#aeca0a6c1c55803f471845239b5495ef0" title=" " alt="" coords="257,704,461,747"/>
-<area shape="rect" id="node10" href="$class_gaslight_1_1_scripts_1_1_character_1_1_logic_1_1_directive_factory.html#a5796414c82c8c469fd4e62986b937c94" title=" " alt="" coords="529,656,752,699"/>
-<area shape="rect" id="node11" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#adf5b5717ce71df96321b64ca42da7664" title=" " alt="" coords="542,589,738,632"/>
-<area shape="rect" id="node12" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a71edde42b23f69c1f83a3a81d043797e" title=" " alt="" coords="812,556,1025,599"/>
-<area shape="rect" id="node13" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_mouse.html#a46819179b54e579c694883d492e9cdd5" title=" " alt="" coords="820,623,1017,665"/>
+<area shape="rect" id="node10" href="$class_gaslight_1_1_scripts_1_1_characters_1_1_logic_1_1_directive_factory.html#ac5305316de484c9449d14d0486045ba7" title=" " alt="" coords="529,656,752,699"/>
+<area shape="rect" id="node11" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a49e0357ac71bd3cac78ad033f5739b6e" title=" " alt="" coords="542,589,738,632"/>
+<area shape="rect" id="node12" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a7fd33c22a109664eafb4e4c9a5ea29ab" title=" " alt="" coords="812,556,1024,599"/>
+<area shape="rect" id="node13" href="$class_gaslight_1_1_scripts_1_1_admin_1_1_select_under_cursor.html#a40f7cac0157f2a987277ec153cf84447" title=" " alt="" coords="820,623,1016,665"/>
 </map>
